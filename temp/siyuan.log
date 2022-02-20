@@ -115,3 +115,34 @@ I 2022/02/20 17:24:05 index.go:204: rebuilt database for notebook [2021080818011
 I 2022/02/20 17:24:05 index.go:214: resolving refs...
 I 2022/02/20 17:24:05 index.go:354: resolved refs [57]
 I 2022/02/20 17:32:42 conf.go:355: exited kernel
+I 2022/02/20 17:35:30 working.go:93: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/02/20 17:35:30 runtime.go:32: kernel is booting:
+    * ver [1.8.2]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [C:\Users\28718\Documents\siyuan-note, data 7.4 MB]
+I 2022/02/20 17:35:30 conf.go:263: local serve path [http://192.168.0.108:6806]
+I 2022/02/20 17:35:30 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/02/20 17:35:30 conf.go:479: pre-init database size [1.1 MB]
+I 2022/02/20 17:35:30 index.go:132: use existing database for box [20220220120604-ofs56wm]
+I 2022/02/20 17:35:30 index.go:132: use existing database for box [20210808180117-czj9bvb]
+I 2022/02/20 17:35:30 index.go:214: resolving refs...
+I 2022/02/20 17:35:30 index.go:354: resolved refs [57]
+I 2022/02/20 17:35:30 conf.go:500: post-init database size [1.1 MB], tree stat [count=48, size=996 kB]
+I 2022/02/20 17:35:30 working.go:133: kernel booted
+I 2022/02/20 17:39:21 conf.go:355: exited kernel
