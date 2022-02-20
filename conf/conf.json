@@ -8,12 +8,13 @@
     "lightThemes": [
       "daylight",
       "Knowledge Brain",
+      "notion-theme",
       "Rem Craft",
       "Tsundoku Light"
     ],
     "themeDark": "midnight",
-    "themeLight": "Rem Craft",
-    "themeVer": "0.2.2",
+    "themeLight": "Knowledge Brain",
+    "themeVer": "1.1.3",
     "icons": [
       "ant",
       "material",
@@ -22,7 +23,7 @@
     "icon": "notion-icon",
     "iconVer": "1.8.0",
     "nativeEmoji": false,
-    "codeBlockThemeLight": "a11y-light",
+    "codeBlockThemeLight": "xcode",
     "codeBlockThemeDark": "nord",
     "lang": "zh_CN",
     "customCSS": false,
@@ -73,14 +74,14 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [],
-    "virtualBlockRef": true,
+    "virtualBlockRef": false,
     "virtualBlockRefExclude": "",
     "blockRefDynamicAnchorTextMaxLen": 64,
     "plantUMLServePath": "https://www.plantuml.com/plantuml/svg/~1"
   },
   "export": {
     "paragraphBeginningSpace": true,
-    "addTitle": true,
+    "addTitle": false,
     "blockRefMode": 4,
     "blockEmbedMode": 1,
     "blockRefTextLeft": "",
@@ -183,7 +184,7 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "389px",
+    "size": "326px",
     "type": "left"
   },
   {
@@ -193,12 +194,12 @@
   {
     "active": true,
     "children": {
-  "blockId": "20220220135144-g7j48jl",
+  "blockId": "20220220195125-rpsf24e",
   "instance": "Editor"
 },
     "instance": "Tab",
     "pin": false,
-    "title": "计算机网络"
+    "title": "数据库"
   }
 ],
     "height": "",
@@ -266,7 +267,7 @@
       "show": true,
       "size": {
   "height": 0,
-  "width": 389
+  "width": 326
 },
       "type": "file"
     },
@@ -397,7 +398,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 48
+    "docCount": 50
   },
   "api": {
     "token": "5siplr7126vmoyeq"
