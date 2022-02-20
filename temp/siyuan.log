@@ -1,0 +1,117 @@
+I 2022/02/20 11:55:31 working.go:93: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/02/20 11:55:31 runtime.go:32: kernel is booting:
+    * ver [1.8.2]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [C:\Users\28718\Documents\markdown, data 20 kB]
+D 2022/02/20 11:55:31 conf.go:110: initialized language [zh_CN] based on device locale
+I 2022/02/20 11:55:31 conf.go:263: local serve path [http://192.168.0.108:6806]
+I 2022/02/20 11:55:31 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/02/20 11:55:31 database.go:72: reinitialized database [C:\Users\28718\Documents\markdown\temp\siyuan.db]
+I 2022/02/20 11:55:31 conf.go:479: pre-init database size [4.1 kB]
+I 2022/02/20 11:55:31 index.go:214: resolving refs...
+I 2022/02/20 11:55:31 index.go:354: resolved refs [0]
+I 2022/02/20 11:55:31 conf.go:500: post-init database size [4.1 kB], tree stat [count=0, size=0 B]
+I 2022/02/20 11:55:31 working.go:133: kernel booted
+I 2022/02/20 11:59:29 index.go:204: rebuilt database for notebook [20210808180117-czj9bvb] in [0.17s], tree stat [count=47, size=996 kB]
+I 2022/02/20 11:59:29 index.go:214: resolving refs...
+I 2022/02/20 11:59:29 index.go:354: resolved refs [57]
+I 2022/02/20 12:06:04 index.go:204: rebuilt database for notebook [20220220120604-ofs56wm] in [0.00s], tree stat [count=0, size=0 B]
+I 2022/02/20 12:06:04 index.go:214: resolving refs...
+I 2022/02/20 12:06:04 index.go:354: resolved refs [0]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\blockquote-20210512170136-ls06uyh.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\blockquote-20210512170136-ls06uyh.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\code-block-20210512170024-qgn18hs.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\code-block-20210512170024-qgn18hs.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\custom-icon1-20210512172117-vn3htl4.png] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\custom-icon1-20210512172117-vn3htl4.png]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\custom-icon2-20210512172130-tsbpd4f.png] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\custom-icon2-20210512172130-tsbpd4f.png]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\custom-theme1-20210512172221-x541iq1.png] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\custom-theme1-20210512172221-x541iq1.png]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\custom-theme2-20210512172239-pcnzes0.png] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\custom-theme2-20210512172239-pcnzes0.png]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\doc-20210512170149-zsm2gsu.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\doc-20210512170149-zsm2gsu.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\heading-20210512170006-7ugwxnm.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\heading-20210512170006-7ugwxnm.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\image-20220119231125-qt2ooye.png] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\image-20220119231125-qt2ooye.png]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\list-item-20210512170630-gqje0vb.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\list-item-20210512170630-gqje0vb.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\math-block-20210512170015-9v28ii5.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\math-block-20210512170015-9v28ii5.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\ordered-list-20210512170847-z5581gd.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\ordered-list-20210512170847-z5581gd.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\paragraph-20210512165953-ag1nib4.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\paragraph-20210512165953-ag1nib4.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\record1623120470117-20210608104750-2thv5m5.wav] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\record1623120470117-20210608104750-2thv5m5.wav]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\siyuan-128-20210604092205-djd749a.png] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\siyuan-128-20210604092205-djd749a.png]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\super-block-20210512170142-uewen14.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\super-block-20210512170142-uewen14.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\table-20210512170035-432ty41.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\table-20210512170035-432ty41.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\task-list-20210512170054-a0a7p2u.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\task-list-20210512170054-a0a7p2u.svg]
+I 2022/02/20 12:14:54 assets.go:346: copied unused asset from [C:\Users\28718\Documents\markdown\data\assets\unordered-list-20210512170043-8dzzwai.svg] to [C:\Users\28718\Documents\markdown\data\assets\.siyuan\history\2022-02-20-121454-delete\assets\unordered-list-20210512170043-8dzzwai.svg]
+I 2022/02/20 14:46:43 working.go:93: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/02/20 14:46:43 runtime.go:32: kernel is booting:
+    * ver [1.8.2]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [C:\Users\28718\Documents\markdown, data 4.8 MB]
+I 2022/02/20 14:46:44 conf.go:263: local serve path [http://192.168.0.108:6806]
+I 2022/02/20 14:46:44 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/02/20 14:46:44 conf.go:479: pre-init database size [1.2 MB]
+I 2022/02/20 14:46:44 index.go:132: use existing database for box [20220220120604-ofs56wm]
+I 2022/02/20 14:46:44 index.go:214: resolving refs...
+I 2022/02/20 14:46:44 index.go:354: resolved refs [0]
+I 2022/02/20 14:46:44 conf.go:500: post-init database size [1.2 MB], tree stat [count=1, size=351 B]
+I 2022/02/20 14:46:44 working.go:133: kernel booted
+I 2022/02/20 17:19:26 working.go:93: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/02/20 17:19:27 runtime.go:32: kernel is booting:
+    * ver [1.8.2]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [C:\Program Files\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [C:\Users\28718\Documents\markdown, data 4.8 MB]
+I 2022/02/20 17:19:27 conf.go:263: local serve path [http://192.168.0.108:6806]
+I 2022/02/20 17:19:27 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/02/20 17:19:27 conf.go:479: pre-init database size [1.2 MB]
+I 2022/02/20 17:19:27 index.go:204: rebuilt database for notebook [20220220120604-ofs56wm] in [0.00s], tree stat [count=1, size=357 B]
+I 2022/02/20 17:19:27 index.go:214: resolving refs...
+I 2022/02/20 17:19:27 index.go:354: resolved refs [0]
+I 2022/02/20 17:19:27 conf.go:500: post-init database size [1.2 MB], tree stat [count=1, size=357 B]
+I 2022/02/20 17:19:27 working.go:133: kernel booted
+I 2022/02/20 17:24:05 index.go:204: rebuilt database for notebook [20210808180117-czj9bvb] in [0.15s], tree stat [count=47, size=996 kB]
+I 2022/02/20 17:24:05 index.go:214: resolving refs...
+I 2022/02/20 17:24:05 index.go:354: resolved refs [57]
+I 2022/02/20 17:32:42 conf.go:355: exited kernel
