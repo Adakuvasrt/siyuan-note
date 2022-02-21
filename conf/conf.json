@@ -148,7 +148,7 @@
   },
   "uiLayout": {
     "bottom": [],
-    "hideDock": true,
+    "hideDock": false,
     "layout": {
   "children": [
   {
@@ -184,7 +184,7 @@
 ],
     "direction": "tb",
     "instance": "Layout",
-    "size": "326px",
+    "size": "340px",
     "type": "left"
   },
   {
@@ -194,12 +194,12 @@
   {
     "active": true,
     "children": {
-  "blockId": "20220220195125-rpsf24e",
+  "blockId": "20220221122103-luefbdd",
   "instance": "Editor"
 },
     "instance": "Tab",
     "pin": false,
-    "title": "数据库"
+    "title": "操作系统"
   }
 ],
     "height": "",
@@ -266,8 +266,8 @@
     {
       "show": true,
       "size": {
-  "height": 0,
-  "width": 326
+  "height": 512,
+  "width": 340
 },
       "type": "file"
     },
@@ -275,7 +275,7 @@
       "show": false,
       "size": {
   "height": 0,
-  "width": 240
+  "width": 326
 },
       "type": "outline"
     }
@@ -285,7 +285,7 @@
       "show": false,
       "size": {
   "height": 0,
-  "width": 240
+  "width": 340
 },
       "type": "bookmark"
     },
@@ -398,7 +398,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 50
+    "docCount": 51
   },
   "api": {
     "token": "5siplr7126vmoyeq"

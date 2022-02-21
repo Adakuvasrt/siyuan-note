@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220220135144-g7j48jl",
 		"title": "计算机网络",
-		"updated": "20220221142640"
+		"updated": "20220221142440"
 	},
 	"Children": [
 		{
@@ -2263,84 +2263,10 @@
 		},
 		{
 			"ID": "20220221142440-lbcnov2",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220221142440-lbcnov2",
-				"updated": "20220221142549"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "RIP算法"
-				}
-			]
-		},
-		{
-			"ID": "20220221142549-9b9qajd",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220221142549-9b9qajd",
-				"updated": "20220221142551"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "..."
-				}
-			]
-		},
-		{
-			"ID": "20220221142551-gitknpd",
-			"Type": "NodeHeading",
-			"HeadingLevel": 3,
-			"Properties": {
-				"id": "20220221142551-gitknpd",
-				"updated": "20220221142625"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "划分子网"
-				}
-			]
-		},
-		{
-			"ID": "20220221142626-wyprsua",
-			"Type": "NodeHeading",
-			"HeadingLevel": 3,
-			"Properties": {
-				"id": "20220221142626-wyprsua",
-				"updated": "20220221142631"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "ARP协议"
-				}
-			]
-		},
-		{
-			"ID": "20220221142633-4ivte27",
-			"Type": "NodeHeading",
-			"HeadingLevel": 3,
-			"Properties": {
-				"id": "20220221142633-4ivte27",
-				"updated": "20220221142638"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "NAT"
-				}
-			]
-		},
-		{
-			"ID": "20220221142640-8mgavym",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220221142640-8mgavym",
-				"updated": "20220221142640"
+				"updated": "20220221142440"
 			}
 		}
 	]

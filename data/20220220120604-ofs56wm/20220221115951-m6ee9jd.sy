@@ -1,0 +1,19 @@
+{
+	"ID": "20220221115951-m6ee9jd",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220221115951-m6ee9jd",
+		"title": "Go",
+		"updated": "20220221115955"
+	},
+	"Children": [
+		{
+			"ID": "20220221115951-up056zk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220221115951-up056zk",
+				"updated": "20220221115951"
+			}
+		}
+	]
+}
