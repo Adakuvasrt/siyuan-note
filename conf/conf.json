@@ -8,13 +8,12 @@
     "lightThemes": [
       "daylight",
       "Knowledge Brain",
-      "notion-theme",
       "Rem Craft",
       "Tsundoku Light"
     ],
     "themeDark": "midnight",
     "themeLight": "Knowledge Brain",
-    "themeVer": "1.1.3",
+    "themeVer": "1.2.0",
     "icons": [
       "ant",
       "material",
@@ -27,7 +26,7 @@
     "codeBlockThemeDark": "nord",
     "lang": "zh_CN",
     "customCSS": false,
-    "themeJS": false,
+    "themeJS": true,
     "closeButtonBehavior": 0,
     "closeKernelWhenExitingUI": true
   },
@@ -57,7 +56,7 @@
     "createDocNameTemplate": "",
     "maxListCount": 512,
     "allowCreateDeeper": false,
-    "sort": 6
+    "sort": 3
   },
   "tag": {
     "sort": 4
@@ -148,7 +147,7 @@
   },
   "uiLayout": {
     "bottom": [],
-    "hideDock": false,
+    "hideDock": true,
     "layout": {
   "children": [
   {
@@ -194,12 +193,21 @@
   {
     "active": true,
     "children": {
-  "blockId": "20220221122103-luefbdd",
+  "blockId": "20220417094856-4ucv8i0",
   "instance": "Editor"
 },
     "instance": "Tab",
     "pin": false,
-    "title": "操作系统"
+    "title": "Plan"
+  },
+  {
+    "children": {
+  "blockId": "20220415153927-tz9ga7e",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "pin": false,
+    "title": "Java"
   }
 ],
     "height": "",
@@ -275,7 +283,7 @@
       "show": false,
       "size": {
   "height": 0,
-  "width": 326
+  "width": 322
 },
       "type": "outline"
     }
@@ -331,19 +339,18 @@
 ],
     "top": []
   },
-  "userData": "",
+  "userData": "d716d5d6812229ac440f08261821941aae58b173cbc2600c61906ca0e967b4d7f5976ad51f37ba2883e558823851c4e22a95450cd43fe555e255b1910b5e8ff6a0b81d159838e08fc204429e8b2d3cd6287db6d1fcd9754b6867aa005f95203956c0ad5fb3182b2fe08fada3cc2df3a0923bec4ccd6575c4d003b4f62c327de9b2a3c3352d16ab30e9756a1a832143ddd46ce5b3608af160af04f898adbd156b0ab1538b2bb1c1a4e70dd3172f8d3d636edbabf91d836b12f473de300e6b231992102d8c8ada74ad46a7ff93cb76e75796d3e57c8952cb98e568395ba2a56c2ae2c75d9bb15a8a6f9eed047f4f033dfd08c21181f7ae4517a41cff013073e89c6608b6c9638e1b02b99cedf73412d24bbb5225fe79f212e487750c2a62b5d8d1a6267cdfd465d3358dff8877ec20d0710e660175a1b36317a3eb915c85940b13a6e5af213936b8c7cce821e308efe649f5f26d813bcbd30749c9ade76eb9aa1d3706aa7852d7350b0d5ac4e827f15de55e1193baf96d62d8eb0310e91d6a120ad4c13988ffc640fb2946927c5d276bb4a0a1c6c6e7b3e3802abaece6ec48342803a15bc5861e30314707e37826b25575a5f65cc8a3d47ad539f8ce267d4c7ebfff205fc19847fcaa5cf8af29319cf9b26cf0287f79eef6853cd36efd3d933a11db3e88618a0f0a5093ef3b2e3bcfd23ee8a4ff6f25c6c6eb79e276f74416566da8b89e1256c401f7b652de0d77c79a358d5f29600a7a2942465fb0ab9650f97039d4f2e64cfdbf70268e558a69cf5d15ca30a47ec1fc48be8daba9f84b538fa3d6781a41c89ed4bbc016bbc3f1c5a402994346f864cd5f44d032bef400d78732525271eca84103800b3500b2f2cd551e492b31c29bcf09a813267724b375ecdd2c0386d65a4935a86aa9820b5da4e6629ec2a5b724ddd0bcc91a7226d124f605688e3872d1ab35cad63ab2768cfe3f8eec8908e53ea6eb7c545239004edab599bc050b17764bce11c10c3347d7da53924548a5a26d4863b92d89901ab8e4113bb3278acf7df44f41313d475e8262c73a2cdc2679030d5a12d5ea9cac5121b22c7d1d623792b1c3b3a47918f10f67b5bcca002c7dd328883cf1cc2a276f689013a49b20d8286967378e809865ffba9d979101823d62a40402401c2b62db2adb81a5fa6460e761db26cdba21c688f7079852fb1495bf86ac861579220892d9a114b1011f1c34b30cb7a22d55060394f7016b6282263b58f5c7e9cc10b20e8a09000fc747fb63423733b25155a8783a46b5136a4d8a245a2c32fc68a75a59cc47c2214ffbf54f3cef9a876007ee320c444e866697deb20b2b69f6813c3b5caf4d9fab46bb99d5d296876cbea83e82f7d86b001aa49880f28eb972120dac38b37df2093b9b304038755b3d732bd4c842706e7d629b58d4c1fa1c14b85b99c38f477f3041dee87510c832dcfaffd9173e28e445cc344ddd307bd4688509571d214527e087837869ec00294759725517f911419493c3dd47c47cb471f6b6202fb57459964d90f101bf5459de99682cc8dd2cd7505a7be237c596194909beca89453f6dccdeeee474d339f76bbb40eac397b79ecfeaab225c3de0dccdd23c093f42740b3832f55cf0ea311853446aa630f1f63acf1b2ef35745ded995ca61605016e87b9740b057c14cc21d0781833d0dedee8bd05eccdc768685a96b0e71e2ce4ec368eb1bfa164bd8aacbb24c2775c7d7f8afd9fedb182fdf9a4d554108096b2256e805a8a6489388b7fce43df0736453553b8a63c4a0512090c8e04082f99c3d96c68bac356df55b13359331e277ed51d356a77731c8d705982a8f3526840b8b89bbc6b3e746b4736ba989837e5cfa4c07e8b0323027c5432577b8df1933a9681190ae419d7680427a4915958196be743004d71542e4508d75fd3e8a2afe5c96082af1dc4c59bc60c806cbb12799b0a852d6bc8faf3dcde7f1adcb0e514cf82983eeecb6d8597c0f1c04ab191074e0617ffb29ec753431512467377bfeb2a7e2deefa2f4a49313cbf850da0ac71d2c05b3bf6ee67df48e189ec0ea3a4d2a18b8b7bcd8370deb92c3f0b53b042445c25a4512821a66cdbd11d7f8282339c6530a80a48a70953c488a2b000cb8658b29cbd97fa9007433c9f2692d3b0749be74669e4b2b6f6c7b41bc6b4f353794fb197a4e745854deddcad0b3125752f03ffb9617bf43300939b83b50c1956bd462727bf345b918d249a41a128565c8fb0336892521bffb1e2a6f40b0a6bb5f5700b78a7500f3b28bfde81addd6cb9bad196066247d3ede19ed46a3404ecbdf19c9d210f23e5a8e501c9d75e006265eadc9331ab14b6b6c4dd3d1fbde766d1411a1700d0607ed65a023603a3b1f3fb803931e970584de39dd22886e7ef4e672ae668863f00170bc9cc867a3eb5a0f8d3338384b11064258131d98df1d7f67f75675ed64aedc8428a1e9cfc7976262d0088fb37417b68c40d215fe06fadce36c027daebdacb0bfe18fa8aae30b32626f33962b27c76522777fe43a575cf91622e10aeabd659794a69896e69d48ab03d1ecdc95dd54bc88b5f37ba7dacf0e7a4df526abbe0f058037b49328a23855e188ee30652a7fa98c81bedec139a3a5f3195a5368c826bf77fb1d25a55fb352552a120af1c014d789795cd49fb680623621031d6d9b787bf375b771107ab1b86bb7f11184fb47957e847d3e158b46d095e91f3d94a09eb6e3ef9b7b911d7949b61ed2dabd89918f36b4bb9ae22d94da46d129aa14f5cb6e3d7354085e80c9251736898b305a94a1ff551b10c673ffe3c051d02552722a2a368be1f452a727277d56f102e7f499d6045790ce36d2d491f15f40de2b471dafe76608fcc5566ef4ffd623a2b17ecc563a4510e0249a9d6db3b0f43aaa57d4a6230bfca9d113e9b4c57d427e6e54b131c121b106e7fa7903b979ff693d3a527e675df36cd10cd7b7fb29066b08fe4c30afeefbb2f5271cba09b370ee3f65184bf1dca16bf7760b4d664d99dd5d9da2f3a3e49e39730ba01075a0848c12a861ebefadb9494ba73e0e933e7d989bb0791aa04343cd1844f22a1eb1869d46aea63ef2ea0e1e61bf9d43afa4c78a91227eb572fdc4de416f7d7ead891d809693b7fa075ca5086674d45f93bfd3c3c3da421f4bcb9bbed35adc3aa2804540fc31805b",
   "account": {
     "displayTitle": true,
     "displayVIP": true
   },
   "readonly": false,
-  "localServeURL": "http://192.168.0.108:6806",
+  "localServeURL": "http://192.168.1.106:6806",
   "accessAuthCode": "",
   "e2eePasswd": "",
   "e2eePasswdMode": 0,
-  "checkUpdate": 0,
   "system": {
-    "kernelVersion": "1.8.2",
+    "kernelVersion": "1.9.4",
     "os": "windows",
     "container": "std",
     "isInsider": false,
@@ -357,7 +364,8 @@
       "scheme": "",
       "host": "",
       "port": ""
-    }
+    },
+    "uploadErrLog": false
   },
   "keymap": {
     
@@ -383,6 +391,7 @@
     "blockquote": false,
     "superBlock": false,
     "paragraph": true,
+    "htmlBlock": false,
     "limit": 64,
     "caseSensitive": false,
     "name": true,
@@ -398,7 +407,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 51
+    "docCount": 6
   },
   "api": {
     "token": "5siplr7126vmoyeq"

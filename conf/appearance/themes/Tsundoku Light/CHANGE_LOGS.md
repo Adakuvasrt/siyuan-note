@@ -1,3 +1,43 @@
+## v1.1.7 /2022-03-24
+- 🐛 调整列表下引述块小竖线
+- 💄 f:table取消背景色
+- 💄 列表h1居左
+- ✨ 尝试给h2标题加上border-bottom
+- 🐛 fix 新建文档按钮鼠标悬停时的阴影衬底不对称
+- ✨ 参考Dark+ 添加f:scroll，如果表格和代码高度过高，将产生滚动条。（目前只适用于块属性，文档属性等我有需求了再加）
+
+## v1.1.6/2022-03-18
+* :bug:修复标签页白边问题
+* :sparkles:无序列表自定义层级样式
+* :sparkles: 有序列表自定义层级样式
+* :memo: 列表自定义层级主要参考了siyuan-notion主题，目前的样式如果有序和无序列表混着用，会各自继承之前的层级而不是重新开始，不知道这种设计好不好得适用一段时间
+
+## v1.1.5/2022-03-17
+- :bug: h3标题折叠跳动
+- :bento: change qq qun svg
+- :bento: [link icon]update default link icon 
+- :bug: 包含ncbi 关键词的link都会被解析为ncbi网站
+
+## v1.1.4/2022-03-14
+- :bug: 修复代码块新样式在引述块中的padding问题
+- :sparkles: 语雀提示区块的表格样式匹配
+
+
+## v1.1.3/2022-03-10
+- :lipstick: 完善代码块样式
+- :lipstick: 完善引述块样式
+
+## v1.1.2/2022-03-09
+- :lipstick: 再次修改引述块样式
+- :sparkles: 参考Zhang light主题，添加自定义属性 f:table,可将列表转化为表格
+
+## v1.1.1/2022-03-05
+- :sparkles: 自定义有序列表层级样式
+- :bug: 取消主题自定义的标题折叠小三角样式
+- :sparkles: 页签钉住增加宽度
+- :lipstick:取消页签动画
+
+
 ## v1.1.0/2022-02-18
 - :memo: [docs]添加行内备注信息
 - :sparkles: [feature] win10emoji替换为win11emoji

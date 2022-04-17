@@ -1,0 +1,650 @@
+{
+	"ID": "20220417094856-4ucv8i0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220417094856-4ucv8i0",
+		"title": "Plan",
+		"updated": "20220417102133"
+	},
+	"Children": [
+		{
+			"ID": "20220417094856-nbclt0u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220417094856-nbclt0u",
+				"updated": "20220417095917"
+			}
+		},
+		{
+			"ID": "20220417095919-x4uzh4g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220417095919-x4uzh4g",
+				"updated": "20220417100340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于工作"
+				}
+			]
+		},
+		{
+			"ID": "20220417100753-gyudljn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220417100753-gyudljn",
+				"updated": "20220417100801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "找工作方向"
+				}
+			]
+		},
+		{
+			"ID": "20220417101502-p5ye43z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220417101502-p5ye43z",
+				"updated": "20220417101516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要学习的知识点"
+				}
+			]
+		},
+		{
+			"ID": "20220417100811-ka0hdue",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220417100811-ka0hdue",
+				"updated": "20220417100840"
+			},
+			"Children": [
+				{
+					"ID": "20220417100840-rz7emgq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417100840-rz7emgq"
+					},
+					"Children": [
+						{
+							"ID": "20220417100840-oxejk8b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417100840-oxejk8b"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "语言Java和Go"
+								}
+							]
+						},
+						{
+							"ID": "20220417100850-kehkr76",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220417100850-kehkr76"
+							},
+							"Children": [
+								{
+									"ID": "20220417100849-rtdg04d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220417100849-rtdg04d"
+									},
+									"Children": [
+										{
+											"ID": "20220417100849-5r82i8q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220417100849-5r82i8q",
+												"updated": "20220417101309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Java: Spring JVM 并发 反射 数据结构的实现 Netty"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220417100928-gaaf3g1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220417100928-gaaf3g1"
+									},
+									"Children": [
+										{
+											"ID": "20220417100928-g51ck6h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220417100928-g51ck6h",
+												"updated": "20220417101007"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "GO GMP GC 并发 设计与实现 "
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101016-5j9mfsv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101016-5j9mfsv"
+					},
+					"Children": [
+						{
+							"ID": "20220417101016-x8i7cft",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101016-x8i7cft",
+								"updated": "20220417101029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库 MySQL Redis MongoDB"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101034-45pjyra",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101034-45pjyra"
+					},
+					"Children": [
+						{
+							"ID": "20220417101034-4ko03tk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101034-4ko03tk",
+								"updated": "20220417101040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "算法刷题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101055-p3hszlx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101055-p3hszlx"
+					},
+					"Children": [
+						{
+							"ID": "20220417101055-qhkb3cz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101055-qhkb3cz",
+								"updated": "20220417101056"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "八股"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101048-0x2kv9c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101048-0x2kv9c"
+					},
+					"Children": [
+						{
+							"ID": "20220417101048-ot1nm5d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101048-ot1nm5d",
+								"updated": "20220417101051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目"
+								}
+							]
+						},
+						{
+							"ID": "20220417101203-40djoay",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220417101203-40djoay"
+							},
+							"Children": [
+								{
+									"ID": "20220417101203-nvfukbu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220417101203-nvfukbu"
+									},
+									"Children": [
+										{
+											"ID": "20220417101203-gfpdgef",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220417101203-gfpdgef",
+												"updated": "20220417101243"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Java:谷粒商城 rpc实现 "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220417101218-9el7nn1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220417101218-9el7nn1"
+									},
+									"Children": [
+										{
+											"ID": "20220417101218-jpaz1jz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220417101218-jpaz1jz",
+												"updated": "20220417101250"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Go: K8s二开 raft实现 kv数据库"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220417101521-1mpx1fd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220417101521-1mpx1fd",
+				"updated": "20220417101526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "具体课程"
+				}
+			]
+		},
+		{
+			"ID": "20220417101527-biqx548",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220417101527-biqx548",
+				"updated": "20220417102133"
+			},
+			"Children": [
+				{
+					"ID": "20220417101529-w2hmpdi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101529-w2hmpdi",
+						"updated": "20220417102110"
+					},
+					"Children": [
+						{
+							"ID": "20220417101529-3aqa826",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101529-3aqa826",
+								"updated": "20220417102110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "M 6.824: "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://www.bilibili.com/video/BV1x7411M7Sf"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.bilibili.com/video/BV1x7411M7Sf"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101537-phcvl14",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101537-phcvl14",
+						"updated": "20220417102004"
+					},
+					"Children": [
+						{
+							"ID": "20220417101537-gcqyp29",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101537-gcqyp29",
+								"updated": "20220417102004"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "谷粒商城: "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://www.bilibili.com/video/BV1np4y1C7Yf"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.bilibili.com/video/BV1np4y1C7Yf"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101546-q4zzo2z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101546-q4zzo2z",
+						"updated": "20220417102114"
+					},
+					"Children": [
+						{
+							"ID": "20220417101546-g7hzuq5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101546-g7hzuq5",
+								"updated": "20220417102114"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GO并发编程实战: 书"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101554-ysvwanu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101554-ysvwanu",
+						"updated": "20220417102129"
+					},
+					"Children": [
+						{
+							"ID": "20220417101554-odqcn0i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101554-odqcn0i",
+								"updated": "20220417102129"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GO设计与实现: "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Go 语言设计与实现 | Go 语言设计与实现 (draveness.me)"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://draveness.me/golang/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220417101558-zal8d04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220417101558-zal8d04",
+						"updated": "20220417102133"
+					},
+					"Children": [
+						{
+							"ID": "20220417101558-j1urz98",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220417101558-j1urz98",
+								"updated": "20220417102133"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "深入理解Java虚拟机: "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220417100802-ek85gxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220417100802-ek85gxq",
+				"updated": "20220417100802"
+			}
+		},
+		{
+			"ID": "20220417100803-hxhuf27",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220417100803-hxhuf27",
+				"updated": "20220417100808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "考编方向"
+				}
+			]
+		},
+		{
+			"ID": "20220417100341-qckhlto",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220417100341-qckhlto",
+				"updated": "20220417100341"
+			}
+		},
+		{
+			"ID": "20220417100342-cilovi8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220417100342-cilovi8",
+				"updated": "20220417100350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于学习"
+				}
+			]
+		},
+		{
+			"ID": "20220417100350-ilgzci0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220417100350-ilgzci0",
+				"updated": "20220417100350"
+			}
+		},
+		{
+			"ID": "20220417100351-z2lbi3j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220417100351-z2lbi3j",
+				"updated": "20220417100401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关于..."
+				}
+			]
+		}
+	]
+}

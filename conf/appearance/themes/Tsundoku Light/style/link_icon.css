@@ -602,9 +602,9 @@
     content: "";
     background-image: url('../src/social-douban.svg');
 }
-.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="ncbi"]:not(:empty)::before,
-.protyle-wysiwyg [data-node-id] a[href *="ncbi"]::before,
-.b3-typography a[href *="ncbi"]::before{
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="ncbi.nlm.nih.gov"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="ncbi.nlm.nih.gov"]::before,
+.b3-typography a[href *="ncbi.nlm.nih.gov"]::before{
     content: "";
     background-image: url('../src/ncbi.svg');
 }
@@ -868,5 +868,33 @@
 .b3-typography a[href *="qun.qq.com"]::before{
 
     content: "";
-    background-image: url('../src/qunqq.ico');
+    background-image: url('../src/QQ.svg');
+}
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="pythonav.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="pythonav.com"]::before,
+.b3-typography a[href *="pythonav.com"]::before{
+
+    content: "";
+    background-image: url('../src/pythonav.png');
+}
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="pypi.org"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="pypi.org"]::before,
+.b3-typography a[href *="pypi.org"]::before{
+
+    content: "";
+    background-image: url('../src/pypi.ico');
+}
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="electronjs.org"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="electronjs.org"]::before,
+.b3-typography a[href *="electronjs.org"]::before{
+
+    content: "";
+    background-image: url('../src/electronjs.ico');
+}
+.protyle-wysiwyg [data-node-id] span[data-type='a'][data-href *="biostars.org"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="biostars.org"]::before,
+.b3-typography a[href *="biostars.org"]::before{
+
+    content: "";
+    background-image: url('../src/biostars.ico');
 }
