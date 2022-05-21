@@ -1,0 +1,35 @@
+{
+	"ID": "20220501170816-l2wuakk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f93d",
+		"id": "20220501170816-l2wuakk",
+		"title": "Go进阶训练营",
+		"updated": "20220501171356"
+	},
+	"Children": [
+		{
+			"ID": "20220501170816-5rt8zta",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220501170816-5rt8zta",
+				"updated": "20220501171354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微服务概览与治理"
+				}
+			]
+		},
+		{
+			"ID": "20220501171356-n5gygqy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220501171356-n5gygqy",
+				"updated": "20220501171356"
+			}
+		}
+	]
+}

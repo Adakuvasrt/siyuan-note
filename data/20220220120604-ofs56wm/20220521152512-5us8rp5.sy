@@ -1,0 +1,20 @@
+{
+	"ID": "20220521152512-5us8rp5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f3c4-200d-2642-fe0f",
+		"id": "20220521152512-5us8rp5",
+		"title": "Kubernetes",
+		"updated": "20220521152512"
+	},
+	"Children": [
+		{
+			"ID": "20220521152512-e0fx2g5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521152512-e0fx2g5",
+				"updated": "20220521152512"
+			}
+		}
+	]
+}

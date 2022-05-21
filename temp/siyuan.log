@@ -917,3 +917,178 @@ I 2022/04/17 14:56:34 index.go:189: resolving refs...
 I 2022/04/17 14:56:34 index.go:316: resolved refs [1]
 I 2022/04/17 14:56:34 conf.go:512: post-init database size [590 kB], tree stat [count=6, size=427 kB]
 I 2022/04/17 14:56:34 working.go:133: kernel booted
+I 2022/04/18 09:38:52 working.go:93: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/04/18 09:38:52 runtime.go:32: kernel is booting:
+    * ver [1.9.1]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/tmp/.mount_siyuanDO2v5R/resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211218]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 17 MB]
+I 2022/04/18 09:38:52 conf.go:262: local serve path [http://192.168.1.113:6806]
+I 2022/04/18 09:38:52 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/04/18 09:38:52 conf.go:478: pre-init database size [590 kB]
+I 2022/04/18 09:38:52 index.go:131: use existing database for box [20220220120604-ofs56wm]
+I 2022/04/18 09:38:52 index.go:213: resolving refs...
+I 2022/04/18 09:38:52 index.go:352: resolved refs [1]
+I 2022/04/18 09:38:52 conf.go:502: post-init database size [590 kB], tree stat [count=6, size=427 kB]
+I 2022/04/18 09:38:52 working.go:133: kernel booted
+I 2022/04/18 10:01:11 conf.go:354: exited kernel
+I 2022/04/30 16:50:03 working.go:86: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/04/30 16:50:03 runtime.go:33: kernel is booting:
+    * ver [2.0.3]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220420]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 18 MB]
+I 2022/04/30 16:50:03 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/04/30 16:50:03 database.go:72: reinitialized database [/home/cyx/Documents/siyuan-note/temp/siyuan.db]
+I 2022/04/30 16:50:03 conf.go:487: pre-init database size [4.1 kB]
+I 2022/04/30 16:50:03 index.go:181: rebuilt database for notebook [20220220120604-ofs56wm] in [0.21s], tree stat [count=6, size=427 kB]
+I 2022/04/30 16:50:03 index.go:191: resolving refs...
+I 2022/04/30 16:50:03 index.go:318: resolved refs [1]
+I 2022/04/30 16:50:03 conf.go:511: post-init database size [2.7 MB], tree stat [count=6, size=427 kB]
+I 2022/04/30 16:50:03 working.go:122: kernel booted
+I 2022/04/30 16:50:03 assets.go:729: added file watcher [/home/cyx/Documents/siyuan-note/data/assets]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/blockquote-20210512170136-ls06uyh.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/blockquote-20210512170136-ls06uyh.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/code-block-20210512170024-qgn18hs.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/code-block-20210512170024-qgn18hs.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/custom-icon1-20210512172117-vn3htl4.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/custom-icon1-20210512172117-vn3htl4.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/custom-icon2-20210512172130-tsbpd4f.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/custom-icon2-20210512172130-tsbpd4f.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/custom-theme1-20210512172221-x541iq1.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/custom-theme1-20210512172221-x541iq1.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/custom-theme2-20210512172239-pcnzes0.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/custom-theme2-20210512172239-pcnzes0.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/doc-20210512170149-zsm2gsu.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/doc-20210512170149-zsm2gsu.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/heading-20210512170006-7ugwxnm.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/heading-20210512170006-7ugwxnm.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/image-20220119231125-qt2ooye.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/image-20220119231125-qt2ooye.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/image-20220328153906-w3u73d3.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/image-20220328153906-w3u73d3.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/image-20220328183114-jk0x2wi.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/image-20220328183114-jk0x2wi.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/image-20220402105106-se9xngo.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/image-20220402105106-se9xngo.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/list-item-20210512170630-gqje0vb.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/list-item-20210512170630-gqje0vb.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/math-block-20210512170015-9v28ii5.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/math-block-20210512170015-9v28ii5.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/ordered-list-20210512170847-z5581gd.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/ordered-list-20210512170847-z5581gd.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/paragraph-20210512165953-ag1nib4.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/paragraph-20210512165953-ag1nib4.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/record1623120470117-20210608104750-2thv5m5.wav] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/record1623120470117-20210608104750-2thv5m5.wav]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/siyuan-128-20210604092205-djd749a.png] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/siyuan-128-20210604092205-djd749a.png]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/super-block-20210512170142-uewen14.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/super-block-20210512170142-uewen14.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/table-20210512170035-432ty41.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/table-20210512170035-432ty41.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/task-list-20210512170054-a0a7p2u.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/task-list-20210512170054-a0a7p2u.svg]
+I 2022/04/30 16:53:02 assets.go:365: copied unused asset from [/home/cyx/Documents/siyuan-note/data/assets/unordered-list-20210512170043-8dzzwai.svg] to [/home/cyx/Documents/siyuan-note/data/assets/.siyuan/history/2022-04-30-165302-delete/assets/unordered-list-20210512170043-8dzzwai.svg]
+E 2022/04/30 16:54:25 package.go:112: write file [/home/cyx/Documents/siyuan-note/conf/appearance/themes/Rem Craft] failed: zip: not a valid zip file
+I 2022/05/01 17:08:02 working.go:86: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/01 17:08:02 runtime.go:33: kernel is booting:
+    * ver [2.0.3]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220420]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 18 MB]
+I 2022/05/01 17:08:02 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/01 17:08:02 conf.go:487: pre-init database size [2.7 MB]
+I 2022/05/01 17:08:02 index.go:181: rebuilt database for notebook [20220220120604-ofs56wm] in [0.21s], tree stat [count=6, size=427 kB]
+I 2022/05/01 17:08:02 index.go:191: resolving refs...
+I 2022/05/01 17:08:02 index.go:318: resolved refs [1]
+I 2022/05/01 17:08:02 conf.go:511: post-init database size [3.6 MB], tree stat [count=6, size=427 kB]
+I 2022/05/01 17:08:02 working.go:122: kernel booted
+I 2022/05/01 17:08:02 assets.go:729: added file watcher [/home/cyx/Documents/siyuan-note/data/assets]
+I 2022/05/21 15:07:10 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/21 15:07:10 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 18 MB]
+I 2022/05/21 15:07:10 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/21 15:07:11 database.go:72: reinitialized database [/home/cyx/Documents/siyuan-note/temp/siyuan.db]
+I 2022/05/21 15:07:11 conf.go:461: pre-init database size [4.1 kB]
+I 2022/05/21 15:07:11 index.go:181: rebuilt database for notebook [20220220120604-ofs56wm] in [0.16s], tree stat [count=7, size=428 kB]
+I 2022/05/21 15:07:11 index.go:318: resolved refs [1] in [11ms]
+I 2022/05/21 15:07:11 conf.go:485: post-init database size [2.7 MB], tree stat [count=7, size=428 kB]
+I 2022/05/21 15:07:11 working.go:126: kernel booted
+E 2022/05/21 15:11:05 package.go:129: write file [/home/cyx/Documents/siyuan-note/conf/appearance/themes/Knowledge Brain] failed: zip: not a valid zip file
+I 2022/05/21 15:11:24 working.go:301: port [6806] is opened, try to check version of running kernel
+I 2022/05/21 15:11:24 working.go:324: version of the running kernel is the same as this boot [2.0.11], exit this boot
+W 2022/05/21 15:12:11 sync.go:61: sync has been locked
+W 2022/05/21 15:12:41 sync.go:61: sync has been locked
+W 2022/05/21 15:12:43 sync.go:61: sync has been locked
+I 2022/05/21 15:12:49 conf.go:337: exited kernel
+I 2022/05/21 15:12:54 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/21 15:12:54 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 18 MB]
+I 2022/05/21 15:12:54 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/21 15:12:54 conf.go:461: pre-init database size [2.7 MB]
+I 2022/05/21 15:12:54 index.go:318: resolved refs [1] in [9ms]
+I 2022/05/21 15:12:54 conf.go:485: post-init database size [2.7 MB], tree stat [count=7, size=428 kB]
+I 2022/05/21 15:12:54 working.go:126: kernel booted
+E 2022/05/21 15:17:39 package.go:129: write file [/home/cyx/Documents/siyuan-note/conf/appearance/themes/Tsundoku Light] failed: zip: not a valid zip file
+E 2022/05/21 15:17:45 tree.go:74: load tree [20220220120604-ofs56wm/20220501170816-l2wuakk.sy] failed: file does not exist
