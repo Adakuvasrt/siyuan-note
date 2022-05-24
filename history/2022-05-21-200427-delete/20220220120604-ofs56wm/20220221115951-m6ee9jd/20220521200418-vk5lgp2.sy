@@ -1,0 +1,19 @@
+{
+	"ID": "20220521200418-vk5lgp2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220521200418-vk5lgp2",
+		"title": "新文档",
+		"updated": "20220521200418"
+	},
+	"Children": [
+		{
+			"ID": "20220521200418-c4q30v8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521200418-c4q30v8",
+				"updated": "20220521200418"
+			}
+		}
+	]
+}

@@ -1092,3 +1092,169 @@ I 2022/05/21 15:12:54 conf.go:485: post-init database size [2.7 MB], tree stat [
 I 2022/05/21 15:12:54 working.go:126: kernel booted
 E 2022/05/21 15:17:39 package.go:129: write file [/home/cyx/Documents/siyuan-note/conf/appearance/themes/Tsundoku Light] failed: zip: not a valid zip file
 E 2022/05/21 15:17:45 tree.go:74: load tree [20220220120604-ofs56wm/20220501170816-l2wuakk.sy] failed: file does not exist
+I 2022/05/22 09:18:11 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/22 09:18:11 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 10 MB]
+I 2022/05/22 09:18:11 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/22 09:18:11 conf.go:461: pre-init database size [3.2 MB]
+I 2022/05/22 09:18:11 index.go:181: rebuilt database for notebook [20220220120604-ofs56wm] in [0.25s], tree stat [count=6, size=467 kB]
+I 2022/05/22 09:18:11 index.go:318: resolved refs [1] in [9ms]
+I 2022/05/22 09:18:11 conf.go:485: post-init database size [3.8 MB], tree stat [count=6, size=467 kB]
+I 2022/05/22 09:18:11 working.go:126: kernel booted
+I 2022/05/23 07:07:40 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/23 07:07:40 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 8.9 MB]
+I 2022/05/23 07:07:40 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/23 07:07:40 conf.go:461: pre-init database size [4.3 MB]
+I 2022/05/23 07:07:40 index.go:318: resolved refs [1] in [26ms]
+I 2022/05/23 07:07:40 conf.go:485: post-init database size [4.3 MB], tree stat [count=6, size=503 kB]
+I 2022/05/23 07:07:40 working.go:126: kernel booted
+E 2022/05/23 09:40:45 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": dial tcp: lookup siyuan-sync.b3logfile.com: Temporary failure in name resolution
+E 2022/05/23 11:10:57 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52496->198.18.0.20:443: read: connection reset by peer
+I 2022/05/23 11:20:26 conf.go:337: exited kernel
+I 2022/05/23 11:20:29 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/23 11:20:29 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 11 MB]
+I 2022/05/23 11:20:29 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/23 11:20:29 conf.go:461: pre-init database size [6.0 MB]
+I 2022/05/23 11:20:29 index.go:318: resolved refs [1] in [8ms]
+I 2022/05/23 11:20:29 conf.go:485: post-init database size [6.0 MB], tree stat [count=7, size=782 kB]
+I 2022/05/23 11:20:29 working.go:126: kernel booted
+E 2022/05/23 12:23:33 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52504->198.18.0.20:443: read: connection reset by peer
+E 2022/05/23 12:53:33 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52508->198.18.0.20:443: read: connection reset by peer
+E 2022/05/23 13:23:33 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52512->198.18.0.20:443: read: connection reset by peer
+E 2022/05/23 13:53:32 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52516->198.18.0.20:443: read: connection reset by peer
+E 2022/05/23 15:53:32 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52528->198.18.0.20:443: read: connection reset by peer
+E 2022/05/23 16:23:32 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": read tcp 198.18.0.1:52532->198.18.0.20:443: read: connection reset by peer
+I 2022/05/23 18:33:48 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/23 18:33:49 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 11 MB]
+I 2022/05/23 18:33:49 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/23 18:33:49 conf.go:461: pre-init database size [6.0 MB]
+I 2022/05/23 18:33:49 index.go:318: resolved refs [1] in [37ms]
+I 2022/05/23 18:33:49 conf.go:485: post-init database size [6.0 MB], tree stat [count=7, size=782 kB]
+I 2022/05/23 18:33:49 working.go:126: kernel booted
+I 2022/05/23 20:52:09 process.go:35: received os signal [terminated], exit kernel process now
+I 2022/05/24 14:48:34 working.go:90: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/24 14:48:34 runtime.go:33: kernel is booting:
+    * ver [2.0.11]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 11 MB]
+I 2022/05/24 14:48:34 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/24 14:48:34 conf.go:461: pre-init database size [6.0 MB]
+I 2022/05/24 14:48:34 index.go:318: resolved refs [1] in [41ms]
+I 2022/05/24 14:48:34 conf.go:485: post-init database size [6.0 MB], tree stat [count=7, size=789 kB]
+I 2022/05/24 14:48:34 working.go:126: kernel booted
+I 2022/05/24 16:07:18 process.go:35: received os signal [terminated], exit kernel process now
+I 2022/05/24 16:08:47 working.go:89: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/24 16:08:47 runtime.go:34: kernel is booting:
+    * ver [2.0.12]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 11 MB]
+I 2022/05/24 16:08:47 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/24 16:08:47 conf.go:499: database size [6.0 MB], block count [1808]
+I 2022/05/24 16:08:47 working.go:125: kernel booted
