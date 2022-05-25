@@ -6,7 +6,7 @@
 		"id": "20220523095552-mx9iu4j",
 		"title": "raft-中文翻译",
 		"type": "doc",
-		"updated": "20220524171326"
+		"updated": "20220524164620"
 	},
 	"Children": [
 		{
@@ -10872,14 +10872,6 @@
 					}
 				}
 			]
-		},
-		{
-			"ID": "20220524171326-pm8ph9s",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220524171326-pm8ph9s",
-				"updated": "20220524171326"
-			}
 		}
 	]
 }

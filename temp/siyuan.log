@@ -1258,3 +1258,28 @@ I 2022/05/24 16:08:47 runtime.go:34: kernel is booting:
 I 2022/05/24 16:08:47 serve.go:68: kernel is booting [http://127.0.0.1:6806]
 I 2022/05/24 16:08:47 conf.go:499: database size [6.0 MB], block count [1808]
 I 2022/05/24 16:08:47 working.go:125: kernel booted
+I 2022/05/25 08:20:03 working.go:89: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/05/25 08:20:03 runtime.go:34: kernel is booting:
+    * ver [2.0.12]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [/usr/lib/siyuan-note]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/home/cyx/Documents/siyuan-note, data 11 MB]
+I 2022/05/25 08:20:03 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/05/25 08:20:03 conf.go:499: database size [6.0 MB], block count [1809]
+I 2022/05/25 08:20:03 working.go:125: kernel booted
+E 2022/05/25 12:23:06 liandi.go:295: get community user failed: Post "https://siyuan-sync.b3logfile.com/apis/siyuan/user": dial tcp: lookup siyuan-sync.b3logfile.com: Temporary failure in name resolution
