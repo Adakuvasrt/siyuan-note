@@ -5,7 +5,7 @@
 		"icon": "1f965",
 		"id": "20220221115951-m6ee9jd",
 		"title": "Go",
-		"updated": "20220521153525"
+		"updated": "20220525181135"
 	},
 	"Children": [
 		{
@@ -24,6 +24,388 @@
 			]
 		},
 		{
+			"ID": "20220525172820-0u2zbt5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220525172820-0u2zbt5",
+				"updated": "20220525172824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GMP"
+				}
+			]
+		},
+		{
+			"ID": "20220525180554-euoxh1c",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220525180554-euoxh1c",
+				"updated": "20220525180600"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220525180558-whq4kyg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220525180558-whq4kyg",
+						"updated": "20220525180600"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Goroutine是一个与其他goroutines并行运行在同一个地址空间的Go函数或者方法。一个运行的程序由一个或者多个goroutine组成。它与线程，协程，进程不同。它是一个gotroutine。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220525173743-1y3i4y2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220525173743-1y3i4y2",
+				"updated": "20220525175255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " goroutine和thread区别"
+				}
+			]
+		},
+		{
+			"ID": "20220525175256-1r6481m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220525175256-1r6481m",
+				"updated": "20220525180519"
+			},
+			"Children": [
+				{
+					"ID": "20220525175257-nc9zhpx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525175257-nc9zhpx",
+						"updated": "20220525180115"
+					},
+					"Children": [
+						{
+							"ID": "20220525175257-tagzq65",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525175257-tagzq65",
+								"updated": "20220525180115"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "栈内存初始4KB"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220525180117-nmx3rjf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525180117-nmx3rjf",
+						"updated": "20220525180127"
+					},
+					"Children": [
+						{
+							"ID": "20220525180117-8mdir8l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525180117-8mdir8l",
+								"updated": "20220525180127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户态交互，消耗小"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220525180129-2ub2x5d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525180129-2ub2x5d",
+						"updated": "20220525180240"
+					},
+					"Children": [
+						{
+							"ID": "20220525180129-krn6ka8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525180129-krn6ka8",
+								"updated": "20220525180240"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不需要线程切换的成本"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220525180241-kiiq620",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525180241-kiiq620",
+						"updated": "20220525180519"
+					},
+					"Children": [
+						{
+							"ID": "20220525180241-5vw7dp6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525180241-5vw7dp6",
+								"updated": "20220525180519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建使用，通讯简单"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220525180618-ftcgn0u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220525180618-ftcgn0u",
+				"updated": "20220525180658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "M个线程，N个goroutine M:N模型"
+				}
+			]
+		},
+		{
+			"ID": "20220525180708-xuud6d4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220525180708-xuud6d4",
+				"updated": "20220525180815"
+			},
+			"Children": [
+				{
+					"ID": "20220525180711-1lok1um",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525180711-1lok1um",
+						"updated": "20220525180741"
+					},
+					"Children": [
+						{
+							"ID": "20220525180711-8jueyc0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525180711-8jueyc0",
+								"updated": "20220525180741"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "G goroutine "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "runtime.g"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 包含goroutine的状态，堆栈，上下文"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220525180742-rym49qy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525180742-rym49qy",
+						"updated": "20220525180812"
+					},
+					"Children": [
+						{
+							"ID": "20220525180742-88d70tn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525180742-88d70tn",
+								"updated": "20220525180812"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "M 工作线程（OS thread） "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "runtime.m"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 所有M都有线程栈"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220525180813-1r2c0rp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220525180813-1r2c0rp",
+						"updated": "20220525180815"
+					},
+					"Children": [
+						{
+							"ID": "20220525180813-njioja6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220525180813-njioja6",
+								"updated": "20220525180815"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "P "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220525181106-jqvubdk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220525181106-jqvubdk",
+				"updated": "20220525181123"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GM调度模型的问题："
+				}
+			]
+		},
+		{
+			"ID": "20220525181135-gjocwmz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220525181135-gjocwmz",
+				"updated": "20220525181135"
+			}
+		},
+		{
+			"ID": "20220525172825-213lmgt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220525172825-213lmgt",
+				"updated": "20220525172829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Memory"
+				}
+			]
+		},
+		{
+			"ID": "20220525172829-rahsm1g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220525172829-rahsm1g",
+				"updated": "20220525172831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GC"
+				}
+			]
+		},
+		{
 			"ID": "20220521153525-w3i7lc8",
 			"Type": "NodeParagraph",
 			"Properties": {
@@ -36,7 +418,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220525082433-ekgflqr",
-				"updated": "20220525082433"
+				"updated": "20220525173447"
 			}
 		},
 		{
@@ -59,8 +441,14 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220525082457-0zi4lc3",
-				"updated": "20220525082457"
-			}
+				"updated": "20220525173508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1/9"
+				}
+			]
 		}
 	]
 }
