@@ -1,0 +1,511 @@
+{
+	"ID": "20220527094043-2wvurn7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f9d7",
+		"id": "20220527094043-2wvurn7",
+		"title": "Plan",
+		"updated": "20220528154050"
+	},
+	"Children": [
+		{
+			"ID": "20220527095345-7s8xqay",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220527095345-7s8xqay",
+				"updated": "20220527095345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "⛵️ Todo List"
+				}
+			]
+		},
+		{
+			"ID": "20220527095345-3y4yjkv",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220527095345-3y4yjkv",
+				"updated": "20220528154050"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20220527095345-dt62tmr",
+					"Type": "NodeSuperBlock",
+					"Properties": {
+						"id": "20220527095345-dt62tmr",
+						"updated": "20220528154041"
+					},
+					"Children": [
+						{
+							"Type": "NodeSuperBlockOpenMarker"
+						},
+						{
+							"Type": "NodeSuperBlockLayoutMarker",
+							"Data": "row"
+						},
+						{
+							"ID": "20220527095345-wdauot6",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220527095345-wdauot6",
+								"updated": "20220527095345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Todo"
+								}
+							]
+						},
+						{
+							"ID": "20220527095345-6aflwff",
+							"Type": "NodeThematicBreak",
+							"Properties": {
+								"id": "20220527095345-6aflwff",
+								"style": "color: var(--b3-card-info-color);background-color: var(--b3-card-info-background);",
+								"updated": "20220527095345"
+							}
+						},
+						{
+							"ID": "20220527095345-g9bmlua",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 3
+							},
+							"Properties": {
+								"custom-f": "kb",
+								"id": "20220527095345-g9bmlua",
+								"updated": "20220528154041"
+							},
+							"Children": [
+								{
+									"ID": "20220527095517-k5bb2ty",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527095517-k5bb2ty",
+										"updated": "20220527181445"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527095517-dvg0k0j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527095517-dvg0k0j",
+												"updated": "20220527181445"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "DDIA"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527181450-rgixs5d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527181450-rgixs5d",
+										"updated": "20220527181457"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527181450-qsdyvsn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527181450-qsdyvsn",
+												"updated": "20220527181457"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "高性能MySQL"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527181525-xdrtxir",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527181525-xdrtxir",
+										"updated": "20220528154041"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527181525-mqt87tp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527181525-mqt87tp",
+												"updated": "20220528154041"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "MicroService Project？"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220528154018-kpoth6r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220528154018-kpoth6r",
+										"updated": "20220528154025"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220528154018-wxpg19n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220528154018-wxpg19n",
+												"updated": "20220528154025"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Light RPC"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeSuperBlockCloseMarker"
+						}
+					]
+				},
+				{
+					"ID": "20220527095345-n0uzsxx",
+					"Type": "NodeSuperBlock",
+					"Properties": {
+						"id": "20220527095345-n0uzsxx",
+						"updated": "20220527095510"
+					},
+					"Children": [
+						{
+							"Type": "NodeSuperBlockOpenMarker"
+						},
+						{
+							"Type": "NodeSuperBlockLayoutMarker",
+							"Data": "row"
+						},
+						{
+							"ID": "20220527095345-k6p24o8",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220527095345-k6p24o8",
+								"updated": "20220527095345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Doing"
+								}
+							]
+						},
+						{
+							"ID": "20220527095345-t8wr6ts",
+							"Type": "NodeThematicBreak",
+							"Properties": {
+								"id": "20220527095345-t8wr6ts",
+								"style": "color: var(--b3-card-success-color);background-color: var(--b3-card-success-background);",
+								"updated": "20220527095345"
+							}
+						},
+						{
+							"ID": "20220527095345-3mw1ufp",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 3
+							},
+							"Properties": {
+								"custom-f": "kb",
+								"id": "20220527095345-3mw1ufp",
+								"updated": "20220527095510"
+							},
+							"Children": [
+								{
+									"ID": "20220527095345-n42uimq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527095345-n42uimq",
+										"updated": "20220527095510"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527095345-p774nbq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527095345-p774nbq",
+												"updated": "20220527095510"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "k8s"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527095513-dnksy8h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527095513-dnksy8h",
+										"updated": "20220527095514"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527095513-oyqoil2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527095513-oyqoil2",
+												"updated": "20220527095514"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Go Runtime"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527100005-gzm9yjm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527100005-gzm9yjm",
+										"updated": "20220527100005"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527100005-903labv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527100005-903labv",
+												"updated": "20220527100005"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Raft Implementation"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527180450-vbcngng",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527180450-vbcngng",
+										"updated": "20220527180458"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527180450-f8gxdxg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527180450-f8gxdxg",
+												"updated": "20220527180458"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Algothrim"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeSuperBlockCloseMarker"
+						}
+					]
+				},
+				{
+					"ID": "20220527095345-njn2a77",
+					"Type": "NodeSuperBlock",
+					"Properties": {
+						"id": "20220527095345-njn2a77",
+						"updated": "20220528154050"
+					},
+					"Children": [
+						{
+							"Type": "NodeSuperBlockOpenMarker"
+						},
+						{
+							"Type": "NodeSuperBlockLayoutMarker",
+							"Data": "row"
+						},
+						{
+							"ID": "20220527095345-cs5dch7",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220527095345-cs5dch7",
+								"updated": "20220527095345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Done"
+								}
+							]
+						},
+						{
+							"ID": "20220527095345-o6qq98t",
+							"Type": "NodeThematicBreak",
+							"Properties": {
+								"id": "20220527095345-o6qq98t",
+								"style": "color: var(--b3-card-warning-color);background-color: var(--b3-card-warning-background);",
+								"updated": "20220527095345"
+							}
+						},
+						{
+							"ID": "20220527103509-36m9rfu",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 3
+							},
+							"Properties": {
+								"custom-f": "kb",
+								"id": "20220527103509-36m9rfu",
+								"updated": "20220528154050"
+							},
+							"Children": [
+								{
+									"ID": "20220527103509-b18uv2f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 3,
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527103509-b18uv2f",
+										"updated": "20220528154050"
+									},
+									"Children": [
+										{
+											"Type": "NodeTaskListItemMarker"
+										},
+										{
+											"ID": "20220527095345-6uqq4ki",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527095345-6uqq4ki",
+												"updated": "20220528154050"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "NodeSuperBlockCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220527095350-6eq245h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527095350-6eq245h",
+				"updated": "20220527095428"
+			}
+		}
+	]
+}

@@ -5,8 +5,7 @@
 		"icon": "1f3c4-200d-2642-fe0f",
 		"id": "20220521152512-5us8rp5",
 		"title": "Kubernetes",
-		"title-img": "background-image:linear-gradient(to top, #9795f0 0%, #fbc8d4 100%)",
-		"updated": "20220526090852"
+		"updated": "20220528161515"
 	},
 	"Children": [
 		{
@@ -926,6 +925,7 @@
 							"ID": "20220521155902-e7wkx5a",
 							"Type": "NodeList",
 							"ListData": {
+								"Tight": true,
 								"BulletChar": 42,
 								"Padding": 2,
 								"Marker": "Kg==",
@@ -941,6 +941,7 @@
 									"Type": "NodeListItem",
 									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
 										"Padding": 2,
 										"Marker": "Kg==",
@@ -1668,6 +1669,7 @@
 			"ID": "20220521193445-k5h6cn4",
 			"Type": "NodeList",
 			"ListData": {
+				"Tight": true,
 				"BulletChar": 42,
 				"Padding": 2,
 				"Marker": "Kg==",
@@ -1683,6 +1685,7 @@
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
 						"Padding": 2,
 						"Marker": "Kg==",
@@ -1822,6 +1825,7 @@
 			"ID": "20220521194732-u0kse5v",
 			"Type": "NodeList",
 			"ListData": {
+				"Tight": true,
 				"BulletChar": 42,
 				"Padding": 2,
 				"Marker": "Kg==",
@@ -1837,6 +1841,7 @@
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
 						"Padding": 2,
 						"Marker": "Kg==",
@@ -4068,6 +4073,7 @@
 			"ID": "20220522144209-dvsqlgq",
 			"Type": "NodeList",
 			"ListData": {
+				"Tight": true,
 				"BulletChar": 42,
 				"Padding": 2,
 				"Marker": "Kg==",
@@ -4083,6 +4089,7 @@
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
 						"Padding": 2,
 						"Marker": "Kg==",
@@ -5037,6 +5044,7 @@
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1,
+				"Tight": true,
 				"Start": 1,
 				"Delimiter": 46,
 				"Padding": 3,
@@ -5054,6 +5062,7 @@
 					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
 						"Start": 1,
 						"Delimiter": 46,
 						"Padding": 3,
@@ -5202,7 +5211,6 @@
 								"Start": 1,
 								"Delimiter": 46,
 								"Padding": 3,
-								"MarkerOffset": 1,
 								"Marker": "MQ==",
 								"Num": 1
 							},
@@ -5221,7 +5229,6 @@
 										"Start": 1,
 										"Delimiter": 46,
 										"Padding": 3,
-										"MarkerOffset": 1,
 										"Marker": "MQ==",
 										"Num": 1
 									},
@@ -7208,6 +7215,7 @@
 			"ID": "20220525204752-pptdlyh",
 			"Type": "NodeList",
 			"ListData": {
+				"Tight": true,
 				"BulletChar": 42,
 				"Padding": 2,
 				"Marker": "Kg==",
@@ -7215,7 +7223,7 @@
 			},
 			"Properties": {
 				"id": "20220525204752-pptdlyh",
-				"updated": "20220526080739"
+				"updated": "20220526155440"
 			},
 			"Children": [
 				{
@@ -7223,6 +7231,7 @@
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
 						"Padding": 2,
 						"Marker": "Kg==",
@@ -7230,7 +7239,7 @@
 					},
 					"Properties": {
 						"id": "20220525204800-ph43tkn",
-						"updated": "20220525204803"
+						"updated": "20220526155440"
 					},
 					"Children": [
 						{
@@ -7238,12 +7247,169 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220525204800-so8p8t9",
-								"updated": "20220525204803"
+								"updated": "20220526155440"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "host-gw",
+									"Data": "host-gw 纯三层网络模式",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "将每个 flannel 子网的路由的下一跳设置成子网对应的宿主机 IP，也就是让主机充当网关",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "使用 etcd 存储子网和主机的信息",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "路由规则：\u003c 目的容器 IP 地址段 \u003e via \u003c 网关 IP 地址段（设置容器所在宿主机 IP）\u003e dev eth0",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "Calico 使用 BGP 分发路由信息",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "BGP（Border Gateway Protocal）边界网关协议 UDP,Linux 原生支持的用于在大规模数据中心维护不同的自治系统之间路由信息的无中心的路由协议",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "边界网关：负责连接不同自治系统的路由器",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": "",
+										"parent-style": "display: block; max-width: 738px;",
+										"style": "width: 728px;"
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220526155417-2lag8zg.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"width: 728px;\" parent-style=\"display: block; max-width: 738px;\"}",
 									"Properties": {
 										"id": ""
 									}
@@ -7265,7 +7431,7 @@
 					},
 					"Properties": {
 						"id": "20220525204805-yc2tydq",
-						"updated": "20220526080530"
+						"updated": "20220526155422"
 					},
 					"Children": [
 						{
@@ -7389,11 +7555,11 @@
 							]
 						},
 						{
-							"ID": "20220526075139-o9czauq",
+							"ID": "20220526155417-ozoz7sx",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220526075139-o9czauq",
-								"updated": "20220526080135"
+								"id": "20220526155417-ozoz7sx",
+								"updated": "20220526155422"
 							},
 							"Children": [
 								{
@@ -7434,13 +7600,6 @@
 								{
 									"Type": "NodeSoftBreak",
 									"Data": "\n",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "​",
 									"Properties": {
 										"id": ""
 									}
@@ -7553,6 +7712,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220525204753-a990zsk",
+								"style": "text-align: left;",
 								"updated": "20220526083055"
 							},
 							"Children": [
@@ -7637,7 +7797,7 @@
 									"Type": "NodeImage",
 									"Properties": {
 										"id": "",
-										"parent-style": "display: block; max-width: 741px;",
+										"parent-style": "max-width: 741px; display: block;",
 										"style": "width: 731px;"
 									},
 									"Children": [
@@ -7694,7 +7854,7 @@
 								},
 								{
 									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"width: 731px;\" parent-style=\"display: block; max-width: 741px;\"}",
+									"Data": "{: style=\"width: 731px;\" parent-style=\"max-width: 741px; display: block;\"}",
 									"Properties": {
 										"id": ""
 									}
@@ -7735,6 +7895,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220526083109-b1iic9l",
+				"style": "text-align: center;",
 				"updated": "20220526083448"
 			},
 			"Children": [
@@ -7816,7 +7977,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "CNI 设计思想：k8s 在启动 Infra 容器之后，可以直接调用 CNI 网络插件，为这个 Infra 容器的 Network Namespace 配置符合预期的网络栈。"
+					"Data": "CNI 设计思想：k8s 在启动 Infra 容器之后，可以直接调用 CNI 网络插件，为这个 Infra 容器的 Network Namespace 配置符合预期的网络栈。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -7824,7 +7988,13 @@
 			"ID": "20220526084235-fc0jjl7",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
 			},
 			"Properties": {
 				"id": "20220526084235-fc0jjl7",
@@ -7834,10 +8004,14 @@
 				{
 					"ID": "20220526084236-6acwyxi",
 					"Type": "NodeListItem",
+					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
 						"Delimiter": 46,
-						"Marker": "MS4=",
+						"Padding": 3,
+						"Marker": "MQ==",
 						"Num": 1
 					},
 					"Properties": {
@@ -7855,7 +8029,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "实现网络方案本身"
+									"Data": "实现网络方案本身",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -7864,10 +8041,14 @@
 				{
 					"ID": "20220526084241-2z55e2b",
 					"Type": "NodeListItem",
+					"Data": "2",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
 						"Delimiter": 46,
-						"Marker": "Mi4=",
+						"Padding": 3,
+						"Marker": "Mg==",
 						"Num": 2
 					},
 					"Properties": {
@@ -7885,7 +8066,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "实现对应CNI插件，配置Infra容器内的网络栈，并连接到CNI网桥上"
+									"Data": "实现对应 CNI 插件，配置 Infra 容器内的网络栈，并连接到 CNI 网桥上",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -7903,7 +8087,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "flannel启动之后会在每台宿主机上生成对应的CNI配置文件（一个ConfigMap），从而告诉k8s,使用flannel作为网络插件"
+					"Data": "flannel 启动之后会在每台宿主机上生成对应的 CNI 配置文件（一个 ConfigMap），从而告诉 k8s,使用 flannel 作为网络插件",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -7917,14 +8104,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "处理网络插件相关逻辑在具体的CRI里面实现，CNI插件需要实现的两种方法"
+					"Data": "处理网络插件相关逻辑在具体的 CRI 里面实现，CNI 插件需要实现的两种方法",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220526084652-6lemw31",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220526084652-6lemw31",
 				"updated": "20220526084734"
@@ -7933,9 +8129,13 @@
 				{
 					"ID": "20220526084653-3zv8vmr",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220526084653-3zv8vmr",
@@ -7952,7 +8152,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "ADD 把容器添加到CNI网络"
+									"Data": "ADD 把容器添加到 CNI 网络",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -7961,9 +8164,13 @@
 				{
 					"ID": "20220526084657-z1s1uxq",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220526084657-z1s1uxq",
@@ -7980,7 +8187,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "DEL 把容器从CNI网络里移除"
+									"Data": "DEL 把容器从 CNI 网络里移除",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -7998,14 +8208,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "网络模型"
+					"Data": "网络模型",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220526090746-3k6vy40",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220526090746-3k6vy40",
 				"updated": "20220526090852"
@@ -8014,9 +8233,13 @@
 				{
 					"ID": "20220526090747-zgyijfa",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220526090747-zgyijfa",
@@ -8033,7 +8256,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "所有容器都可以通过IP和其他容器通信"
+									"Data": "所有容器都可以通过 IP 和其他容器通信",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -8042,9 +8268,13 @@
 				{
 					"ID": "20220526090802-g62cacb",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220526090802-g62cacb",
@@ -8061,7 +8291,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "所有宿主机都可以通过IP和所有容器通信"
+									"Data": "所有宿主机都可以通过 IP 和所有容器通信",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -8070,9 +8303,13 @@
 				{
 					"ID": "20220526090831-1p30tzd",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220526090831-1p30tzd",
@@ -8089,11 +8326,386 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "容器看到自己的IP，和别人看到的地址是完全一样的"
+									"Data": "容器看到自己的 IP，和别人看到的地址是完全一样的",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20220526174123-5c0zkjh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220526174123-5c0zkjh",
+				"updated": "20220526174130"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "容器网络隔离",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526174134-0z1yc2x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526174134-0z1yc2x",
+				"updated": "20220526174203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网络隔离能力通过 NetworkPolicy 来定义",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526174625-htircog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526174625-htircog",
+				"updated": "20220526174628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "白名单的方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526161042-pmk1k0q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220526161042-pmk1k0q",
+				"updated": "20220526161051"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Service，DNS 与服务发现",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526161055-02mtun3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526161055-02mtun3",
+				"updated": "20220526161840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "被 Service selector 选中的 Pod,就称为 Service 的 Endpoints，处于 Running 并且通过 ReadinessProbe 检查的 Pod 才会出现在 Service 的 Endpoints 列表里面",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526161913-z2oi9gd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526161913-z2oi9gd",
+				"updated": "20220526161931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认使用 Round Robin 模式的负载均衡",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526162043-shjrnvx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526162043-shjrnvx",
+				"updated": "20220526164808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Service 工作方式：kube-proxy + iptables",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526163048-oo2mc0f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526163048-oo2mc0f",
+				"updated": "20220526163709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建 Service 之后，Informer 感知到之后，在宿主机上创建对应 iptables 规则，把 Service 的 VIP 转发到 iptables 链，随机转发到代理的 Pod 的地址 （性能限制",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526163801-w92zxb7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526163801-w92zxb7",
+				"updated": "20220526163901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPVS 模式：创建虚拟网卡，并分配 Service VIP 作为 IP 地址，通过内核的 IPVS 模块为它设置三个 IPVS 虚拟主机",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526164258-koy8iz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526164258-koy8iz1",
+				"updated": "20220526164317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "k8s 中，Service 和 Pod 都会被分配对应的 DNS A 地址",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526164842-m5d5v1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526164842-m5d5v1l",
+				"updated": "20220526164856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ClusterIP 模式提供一个 Pod 稳定的 IP",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526164858-mjud8hu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526164858-mjud8hu",
+				"updated": "20220526164914"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Handless Service 提供一个 Pod 稳定的 DNS 地址",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526164951-ngqw3it",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220526164951-ngqw3it",
+				"updated": "20220526165449"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "外部访问 Service",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526165659-cbap5ap",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526165659-cbap5ap",
+				"updated": "20220526165836"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "NodePort Service 对外暴露的端口  （设置 iptables 规则",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526170540-6pcubm5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526170540-6pcubm5",
+				"updated": "20220526170556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " TODO： 知识点缺失，待补充",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526170356-fqso358",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526170356-fqso358",
+				"updated": "20220526170406"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指定 LoadBalances 类型的 Service",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526170526-v1zrphb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526170526-v1zrphb",
+				"updated": "20220526170531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ExternalName",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526171020-rhk5vxa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220526171020-rhk5vxa",
+				"updated": "20220526171024"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Ingress",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526171149-gb5uyhi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526171149-gb5uyhi",
+				"updated": "20220526171218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代理不同 Service 而设置的负载均衡服务（Service 的 Service）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220526171510-1vpnqz3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526171510-1vpnqz3",
+				"updated": "20220526171516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对反向代理的一种抽象",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -8103,7 +8715,7 @@
 			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20220521191800-2lfgvgh",
-				"updated": "20220521191803"
+				"updated": "20220527100830"
 			},
 			"Children": [
 				{
@@ -8115,7 +8727,32 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "作业调度",
+					"Data": "作业调度与资源管理",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102219-q09ne5o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220527102219-q09ne5o",
+				"updated": "20220527102223"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "资源模型",
 					"Properties": {
 						"id": ""
 					}
@@ -8127,8 +8764,1203 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220521191806-8vk74jn",
-				"updated": "20220521191806"
+				"updated": "20220527102254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Pod 是最小的原子单位，所以调度和资源管理的相关字段都属于 Pod 对象",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102326-rzxhizs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102326-rzxhizs",
+				"updated": "20220527102403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CPU 属于可压缩资源，不足时只会饥饿不退出",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102344-wxegbzr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102344-wxegbzr",
+				"updated": "20220527102400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "内存属于不可压缩资源，不足时会退出",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102419-m82e0vw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102419-m82e0vw",
+				"updated": "20220527102712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Pod 的配置限额取决于内部所有 Pod 的总和",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102457-a02b4ur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102457-a02b4ur",
+				"updated": "20220527102711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CPU 限额可以配置 CPU 个数，或者分数  500m（millicpu）0.5 个 CPU",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102538-eckfax8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102538-eckfax8",
+				"updated": "20220527102719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "内存单位 bytes 可以使用 Ti,Gi,Mi 等方式作为 bytes 的值 （1Mi=1024*1024）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220527102652-sbyfys4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102652-sbyfys4",
+				"updated": "20220527102810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "资源分为 limits 和 requests 两种，调度的时候按照 requests 计算，限制的时候根据 limits 使用 Cgroups 限制"
+				}
+			]
+		},
+		{
+			"ID": "20220527103000-if5iev6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527103000-if5iev6",
+				"updated": "20220527103425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Qos模型  不同等级，Eviction（资源回收）时使用，按自下向上的等级删除"
+				}
+			]
+		},
+		{
+			"ID": "20220527103026-uxc4pkv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220527103026-uxc4pkv",
+				"updated": "20220527104509"
+			},
+			"Children": [
+				{
+					"ID": "20220527103028-ue89rjs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527103028-ue89rjs",
+						"updated": "20220527104151"
+					},
+					"Children": [
+						{
+							"ID": "20220527103028-77bmzbt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527103028-77bmzbt",
+								"updated": "20220527104151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Graranteed：同时设置了limits和requests并且两者相等 （只设置limit，默认request=limits"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220527103057-ct9g58n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527103057-ct9g58n",
+						"updated": "20220527104509"
+					},
+					"Children": [
+						{
+							"ID": "20220527103057-8p3sero",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527103057-8p3sero",
+								"updated": "20220527104509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Burstable：至少有一个Container设置了requests"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220527103250-8cyu4vl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527103250-8cyu4vl",
+						"updated": "20220527103440"
+					},
+					"Children": [
+						{
+							"ID": "20220527103250-pow2pdx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527103250-pow2pdx",
+								"updated": "20220527103440"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BestEffort：都没有设置"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220527103601-qi7lajr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527103601-qi7lajr",
+				"updated": "20220527104730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cpuset：把Pod绑定到某个（些）CPU核上 Graranteed类型并且requests=limits为整数"
+				}
+			]
+		},
+		{
+			"ID": "20220527103914-z41z8db",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220527103914-z41z8db",
+				"updated": "20220527103919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调度器"
+				}
+			]
+		},
+		{
+			"ID": "20220527103921-ad8bsku",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527103921-ad8bsku",
+				"updated": "20220527105220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为新创建出来的Pod寻找合适的节点"
+				}
+			]
+		},
+		{
+			"ID": "20220527104806-cz5ymhk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220527104806-cz5ymhk",
+				"updated": "20220527104837"
+			},
+			"Children": [
+				{
+					"ID": "20220527104806-oeo1ecq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527104806-oeo1ecq",
+						"updated": "20220527104847"
+					},
+					"Children": [
+						{
+							"ID": "20220527104806-pygtz7a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527104806-pygtz7a",
+								"updated": "20220527104847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据调度算法找到所有可以运行这个Pod的节点 predicate"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220527104825-s84ac21",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527104825-s84ac21",
+						"updated": "20220527104837"
+					},
+					"Children": [
+						{
+							"ID": "20220527104825-jrrv89f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527104825-jrrv89f",
+								"updated": "20220527104837"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据调度算法挑选一个最符合条件的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220527105303-ytevkcz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527105303-ytevkcz",
+				"updated": "20220527105304"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "display: block; max-width: 601px;",
+						"style": "width: 591px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220527105304-65xef3i.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 591px;\" parent-style=\"display: block; max-width: 601px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220527105909-a5qunba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527105909-a5qunba",
+				"updated": "20220527105937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两个调度循环"
+				}
+			]
+		},
+		{
+			"ID": "20220527105938-2vmcnlg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220527105938-2vmcnlg",
+				"updated": "20220527110438"
+			},
+			"Children": [
+				{
+					"ID": "20220527105938-98z5roa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527105938-98z5roa",
+						"updated": "20220527110116"
+					},
+					"Children": [
+						{
+							"ID": "20220527105938-16df5wq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527105938-16df5wq",
+								"updated": "20220527110116"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Informer Path\n监听调度相关的API对象信息，并且添加到调度队列（优先级队列），并且负责更新调度器缓存"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220527105948-3ac157z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527105948-3ac157z",
+						"updated": "20220527110438"
+					},
+					"Children": [
+						{
+							"ID": "20220527105948-r4rvg9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527105948-r4rvg9r",
+								"updated": "20220527110438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Scheduling Path\n拿出Pod,过滤得到可以运行的Node（从Secheduler Cache得到），然后打分，得到分数最高的作为调度结果，更改Pod的nodeName（Bind）在Cache中，然后异步的请求APIServer来真正完成Bind，真正调度的时候还需要Admit（二次确认）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220527110447-j9lob00",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527110447-j9lob00",
+				"updated": "20220527110510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点：Cache化，乐观化Bind，无锁化"
+				}
+			]
+		},
+		{
+			"ID": "20220527175718-x9bjku8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527175718-x9bjku8",
+				"updated": "20220527175718"
 			}
+		},
+		{
+			"ID": "20220527175718-56f7cou",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220527175718-56f7cou",
+				"updated": "20220527175727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认调度器策略"
+				}
+			]
+		},
+		{
+			"ID": "20220527175727-3v5wxbv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220527175727-3v5wxbv",
+				"updated": "20220527181720"
+			},
+			"Children": [
+				{
+					"ID": "20220527175837-n1ik7xn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527175837-n1ik7xn",
+						"updated": "20220527181720"
+					},
+					"Children": [
+						{
+							"ID": "20220527175837-bvbwv1l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527175837-bvbwv1l",
+								"updated": "20220527175837"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Predicates 过滤器，过滤出符合条件的节点"
+								}
+							]
+						},
+						{
+							"ID": "20220527175957-vlgsypv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220527175957-vlgsypv",
+								"updated": "20220527181720"
+							},
+							"Children": [
+								{
+									"ID": "20220527175955-msu49pu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527175955-msu49pu",
+										"updated": "20220527180326"
+									},
+									"Children": [
+										{
+											"ID": "20220527175955-wkldb2h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527175955-wkldb2h",
+												"updated": "20220527180017"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "GeneralPrediactes 最基础的调度策略"
+												}
+											]
+										},
+										{
+											"ID": "20220527180133-4saqjgr",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220527180133-4saqjgr",
+												"updated": "20220527180326"
+											},
+											"Children": [
+												{
+													"ID": "20220527180133-fjkm7wq",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220527180133-fjkm7wq",
+														"updated": "20220527180206"
+													},
+													"Children": [
+														{
+															"ID": "20220527180133-9ktkxgx",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220527180133-9ktkxgx",
+																"updated": "20220527180206"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "PodFitsResources CPU和内存资源是否够用"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220527180206-22fj3ou",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220527180206-22fj3ou",
+														"updated": "20220527180237"
+													},
+													"Children": [
+														{
+															"ID": "20220527180206-z2x4w7e",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220527180206-z2x4w7e",
+																"updated": "20220527180237"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "PodFitsHost 检查宿主机名字和nodeName是否相同（Admit二次确认）"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220527180237-1u225ds",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220527180237-1u225ds",
+														"updated": "20220527180249"
+													},
+													"Children": [
+														{
+															"ID": "20220527180237-f80wr9z",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220527180237-f80wr9z",
+																"updated": "20220527180249"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "PodfitsHostPorts 端口是否冲突"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220527180250-dm0bs4x",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220527180250-dm0bs4x",
+														"updated": "20220527180326"
+													},
+													"Children": [
+														{
+															"ID": "20220527180250-dmetd98",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220527180250-dmetd98",
+																"updated": "20220527180326"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "PodMatchNodeSelector 检查nodeSelector和nodeAffinity"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527180345-xc5x8nd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527180345-xc5x8nd",
+										"updated": "20220527180353"
+									},
+									"Children": [
+										{
+											"ID": "20220527180345-vs0pie2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527180345-vs0pie2",
+												"updated": "20220527180353"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Volume相关的过滤规则"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527181212-uo6qvt2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527181212-uo6qvt2",
+										"updated": "20220527181243"
+									},
+									"Children": [
+										{
+											"ID": "20220527181212-3k1bxsr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527181212-3k1bxsr",
+												"updated": "20220527181243"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "宿主机相关的过滤规则 Pod是否满足Node的某些条件 Toleration"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527181300-j2cny18",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527181300-j2cny18",
+										"updated": "20220527181720"
+									},
+									"Children": [
+										{
+											"ID": "20220527181300-obuxbxa",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527181300-obuxbxa",
+												"updated": "20220527181720"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Pod相关的过滤规则 亲密关系"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220527175758-by9i1wp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220527175758-by9i1wp",
+				"updated": "20220527182200"
+			},
+			"Children": [
+				{
+					"ID": "20220527175839-9vkcxaj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527175839-9vkcxaj",
+						"updated": "20220527182200"
+					},
+					"Children": [
+						{
+							"ID": "20220527182003-jfptan4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527182003-jfptan4",
+								"updated": "20220527182003"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Priorities 为节点打分"
+								}
+							]
+						},
+						{
+							"ID": "20220527175839-h6k2yax",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220527175839-h6k2yax",
+								"updated": "20220527182200"
+							},
+							"Children": [
+								{
+									"ID": "20220527182003-bap1z8w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527182003-bap1z8w",
+										"updated": "20220527182003"
+									},
+									"Children": [
+										{
+											"ID": "20220527182003-5ssipk0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527182003-5ssipk0",
+												"updated": "20220527182003"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "LeastRequestedPriority 选择空闲资源最多的宿主机"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527182008-vt067v1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527182008-vt067v1",
+										"updated": "20220527182109"
+									},
+									"Children": [
+										{
+											"ID": "20220527182008-wr4hrn3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527182008-wr4hrn3",
+												"updated": "20220527182109"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "BalancedResourceAllocation 选择资源分配最均衡的节点（CPU和memory均衡"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527182118-0o7uwf9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527182118-0o7uwf9",
+										"updated": "20220527182133"
+									},
+									"Children": [
+										{
+											"ID": "20220527182118-hx5bj14",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527182118-hx5bj14",
+												"updated": "20220527182133"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "NodeAffinityPriority"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527182136-z1wf1vg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527182136-z1wf1vg",
+										"updated": "20220527182157"
+									},
+									"Children": [
+										{
+											"ID": "20220527182136-3pa2mz9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527182136-3pa2mz9",
+												"updated": "20220527182157"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "TaintTolerationPriority"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220527182143-7rhbpde",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220527182143-7rhbpde",
+										"updated": "20220527182200"
+									},
+									"Children": [
+										{
+											"ID": "20220527182143-wjwffae",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220527182143-wjwffae",
+												"updated": "20220527182200"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "interPodAffinityPriority"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220527182438-h25kbyn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220527182438-h25kbyn",
+				"updated": "20220527182449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优先级和抢占机制"
+				}
+			]
+		},
+		{
+			"ID": "20220527182604-o8wj6ht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527182604-o8wj6ht",
+				"updated": "20220527182618"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Pod调度失败时的解决方案"
+				}
+			]
+		},
+		{
+			"ID": "20220527182721-k4xqzj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527182721-k4xqzj2",
+				"updated": "20220527182734"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优先级 32位int,不超过10亿"
+				}
+			]
+		},
+		{
+			"ID": "20220527183254-fq1q7jg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527183254-fq1q7jg",
+				"updated": "20220527183437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调度的时候优先级高的在优先级队列里面会提前出队，调度失败的时候会尝试抢占低优先级的Pod，改变nominatedNodeName设置为被抢占的Node，下一轮调度决定"
+				}
+			]
+		},
+		{
+			"ID": "20220527183737-yuqb2ex",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527183737-yuqb2ex",
+				"updated": "20220527183741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调度队列分为两个"
+				}
+			]
+		},
+		{
+			"ID": "20220527183806-du7j616",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220527183806-du7j616",
+				"updated": "20220527183906"
+			},
+			"Children": [
+				{
+					"ID": "20220527183807-syqntgv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527183807-syqntgv",
+						"updated": "20220527183809"
+					},
+					"Children": [
+						{
+							"ID": "20220527183807-fp02lel",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527183807-fp02lel",
+								"updated": "20220527183809"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "activeQ"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220527183810-od7d0oo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220527183810-od7d0oo",
+						"updated": "20220527183906"
+					},
+					"Children": [
+						{
+							"ID": "20220527183810-u4x6538",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220527183810-u4x6538",
+								"updated": "20220527183906"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "unschedulableQ 专门存放调度失败的Pod"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220527183948-1p9spcg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527183948-1p9spcg",
+				"updated": "20220527184236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "unschedulableQ触发调度失败之后，k8s利用缓存模拟抢占影响，得到最佳抢占结果，然后开始真正抢占，改变nominatedNodeName设置为被抢占的Node，然后开启goroutine同步删除牺牲者，然后进入调度流程调度抢占者"
+				}
+			]
+		},
+		{
+			"ID": "20220527184314-7n2bmqm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527184314-7n2bmqm",
+				"updated": "20220527184353"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调度器predicates两遍，一遍假设抢占者已经运行在节点上，一遍假设没有，都通过才可能"
+				}
+			]
+		},
+		{
+			"ID": "20220527184417-u2vim5n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220527184417-u2vim5n",
+				"updated": "20220527184433"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GPU和Device Plugin"
+				}
+			]
+		},
+		{
+			"ID": "20220527184745-248jj7v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527184745-248jj7v",
+				"updated": "20220527184745"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "display: block; max-width: 835px;",
+						"style": "width: 825px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220527184743-yqi9h2y.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 825px;\" parent-style=\"display: block; max-width: 835px;\"}"
+				}
+			]
 		},
 		{
 			"ID": "20220521191807-plfwtjf",
@@ -8140,18 +9972,23 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "# ",
-					"Properties": {
-						"id": ""
-					}
-				},
+					"Type": "NodeText",
+					"Data": "容器运行时"
+				}
+			]
+		},
+		{
+			"ID": "20220528154625-14cc2w0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220528154625-14cc2w0",
+				"updated": "20220528154628"
+			},
+			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "容器运行时",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "kubelet"
 				}
 			]
 		},
@@ -8160,8 +9997,366 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220521191817-lzcftjn",
-				"updated": "20220521191817"
-			}
+				"updated": "20220527185045"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "display: block; max-width: 633px;",
+						"style": "width: 623px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220527185045-ksc9a9t.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 623px;\" parent-style=\"display: block; max-width: 633px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220528153527-gl1knu4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528153527-gl1knu4",
+				"updated": "20220528153929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "kubelet工作核心是一个控制循环 SyncLoop"
+				}
+			]
+		},
+		{
+			"ID": "20220528153932-oo7z02v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220528153932-oo7z02v",
+				"updated": "20220528154011"
+			},
+			"Children": [
+				{
+					"ID": "20220528153935-cd169ae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220528153935-cd169ae",
+						"updated": "20220528153943"
+					},
+					"Children": [
+						{
+							"ID": "20220528153935-s3jal6n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528153935-s3jal6n",
+								"updated": "20220528153943"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Pod更新事件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220528153943-qo5m1wv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220528153943-qo5m1wv",
+						"updated": "20220528153949"
+					},
+					"Children": [
+						{
+							"ID": "20220528153943-txs0jje",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528153943-txs0jje",
+								"updated": "20220528153949"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Pod生命周期变化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220528153949-9b3uvtu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220528153949-9b3uvtu",
+						"updated": "20220528154000"
+					},
+					"Children": [
+						{
+							"ID": "20220528153949-qh636kp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528153949-qh636kp",
+								"updated": "20220528154000"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "kubelet本身设置的执行周期"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220528154001-jwijb17",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220528154001-jwijb17",
+						"updated": "20220528154011"
+					},
+					"Children": [
+						{
+							"ID": "20220528154001-v2r6knd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528154001-v2r6knd",
+								"updated": "20220528154011"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "定时的清理事件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220528154539-uustxu8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528154539-uustxu8",
+				"updated": "20220528154540"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "display: block; max-width: 743px;",
+						"style": "width: 733px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220528154540-k1u4sok.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 733px;\" parent-style=\"display: block; max-width: 743px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220528154608-71l8823",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220528154608-71l8823",
+				"updated": "20220528154613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CRI"
+				}
+			]
+		},
+		{
+			"ID": "20220528154633-g8ymjlp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220528154633-g8ymjlp",
+				"updated": "20220528155727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安全容器"
+				}
+			]
+		},
+		{
+			"ID": "20220528155728-l4o8y6v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220528155728-l4o8y6v",
+				"updated": "20220528160503"
+			},
+			"Children": [
+				{
+					"ID": "20220528155730-7ujpv2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220528155730-7ujpv2a",
+						"updated": "20220528155814"
+					},
+					"Children": [
+						{
+							"ID": "20220528155730-ococ7s8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528155730-ococ7s8",
+								"updated": "20220528155814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Kata Containers 通过虚拟硬件虚拟出虚拟机，然后安装剪裁后的内核"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220528155739-8eormnu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220528155739-8eormnu",
+						"updated": "20220528155851"
+					},
+					"Children": [
+						{
+							"ID": "20220528155739-cowi8y4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528155739-cowi8y4",
+								"updated": "20220528155851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "gVisor 用Go语言模拟一个在用户态运行的操作系统内核，来代替进程发起系统调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220528160459-g4ufie9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220528160459-g4ufie9",
+						"updated": "20220528160503"
+					},
+					"Children": [
+						{
+							"ID": "20220528160459-jvmha31",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528160459-jvmha31",
+								"updated": "20220528160503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "User Mode Linux"
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"ID": "20220521191818-qlp9gwo",
@@ -8173,18 +10368,122 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "# ",
-					"Properties": {
-						"id": ""
-					}
-				},
+					"Type": "NodeText",
+					"Data": "容器监控"
+				}
+			]
+		},
+		{
+			"ID": "20220528160739-ui9coe7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220528160739-ui9coe7",
+				"updated": "20220528160746"
+			},
+			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "容器监控",
+					"Data": "Prometheus"
+				}
+			]
+		},
+		{
+			"ID": "20220528160746-joz382i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528160746-joz382i",
+				"updated": "20220528160815"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"id": ""
-					}
+						"parent-style": "display: block; max-width: 819px;",
+						"style": "width: 809px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220528160815-7wyn0m3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 809px;\" parent-style=\"display: block; max-width: 819px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220527102209-s8bf1yw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527102209-s8bf1yw",
+				"updated": "20220528161003"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用Pull的方式拉取被监控对象的Metrics数据（监控指标数据）然后把数据保存在TSDB（时序数据库）方便按时间检索"
+				}
+			]
+		},
+		{
+			"ID": "20220528161307-spf7xvs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220528161307-spf7xvs",
+				"updated": "20220528161316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Custom Metrics"
+				}
+			]
+		},
+		{
+			"ID": "20220528161506-6kne6rg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528161506-6kne6rg",
+				"updated": "20220528161506"
+			}
+		},
+		{
+			"ID": "20220528161506-e83q5o2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220528161506-e83q5o2",
+				"updated": "20220528161515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "容器日志收集与管理"
 				}
 			]
 		}

@@ -7,11 +7,13 @@
     ],
     "lightThemes": [
       "notion-theme",
-      "daylight"
+      "daylight",
+      "blue-dog",
+      "Zhang-Light"
     ],
     "themeDark": "midnight",
-    "themeLight": "notion-theme",
-    "themeVer": "2.1.2",
+    "themeLight": "blue-dog",
+    "themeVer": "0.24",
     "icons": [
       "ant",
       "material",
@@ -71,6 +73,15 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1fa82",
+      "1f344",
+      "1f7e9",
+      "1f600",
+      "1f38b",
+      "1f1fa-1f1f8",
+      "2692",
+      "1f511",
+      "1f422",
       "1f3c4-200d-2642-fe0f",
       "1f468-200d-1f467-200d-1f467",
       "1f6b1",
@@ -85,7 +96,7 @@
   },
   "export": {
     "paragraphBeginningSpace": true,
-    "addTitle": false,
+    "addTitle": true,
     "blockRefMode": 4,
     "blockEmbedMode": 1,
     "blockRefTextLeft": "",
@@ -151,7 +162,7 @@
   },
   "uiLayout": {
     "bottom": [],
-    "hideDock": false,
+    "hideDock": true,
     "layout": {
       "children": [
         {
@@ -187,25 +198,13 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "278px",
+              "size": "307px",
               "type": "left"
             },
             {
               "children": [
                 {
                   "children": [
-                    {
-                      "children": {
-                        "action": "",
-                        "blockId": "20220523095552-mx9iu4j",
-                        "instance": "Editor",
-                        "mode": "wysiwyg"
-                      },
-                      "docIcon": "1f422",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "raft-中文翻译"
-                    },
                     {
                       "active": true,
                       "children": {
@@ -218,6 +217,30 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "Kubernetes"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220221115951-m6ee9jd",
+                        "instance": "Editor",
+                        "mode": "wysiwyg"
+                      },
+                      "docIcon": "1f965",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Go"
+                    },
+                    {
+                      "children": {
+                        "action": "",
+                        "blockId": "20220527094043-2wvurn7",
+                        "instance": "Editor",
+                        "mode": "wysiwyg"
+                      },
+                      "docIcon": "1f9d7",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Plan"
                     }
                   ],
                   "height": "",
@@ -246,7 +269,7 @@
               "direction": "tb",
               "instance": "Layout",
               "resize": "lr",
-              "size": "310px",
+              "size": "321px",
               "type": "right"
             }
           ],
@@ -287,7 +310,7 @@
           "show": true,
           "size": {
             "height": 0,
-            "width": 278
+            "width": 307
           },
           "type": "file"
         },
@@ -333,7 +356,7 @@
           "show": true,
           "size": {
             "height": null,
-            "width": 319
+            "width": 321
           },
           "type": "outline"
         },
@@ -373,14 +396,14 @@
     ],
     "top": []
   },
-  "userData": "d716d5d6812229ac440f08261821941aae58b173cbc2600c61906ca0e967b4d7f5976ad51f37ba2883e558823851c4e22a95450cd43fe555e255b1910b5e8ff6a0b81d159838e08fc204429e8b2d3cd6287db6d1fcd9754b6867aa005f95203956c0ad5fb3182b2fe08fada3cc2df3a0923bec4ccd6575c4d003b4f62c327de9224aaf0c681e1a64730f264859595b68c60d86bea380d39023c63315f2a3747b3433631ded196d8301180e3beb72522145abd211b7f522a2245869057e9b9c236c19052ad1b2cf3f39b3fade668b56e62239697955006dfef53d7075876c7763297e4238411861eaa78fc2ce3833c48cef9539bc7ab155f6c8d74d8e21ea6160032847fab3561d25aa1907f531a257426bd1968bf5ff70ba807fcf305c1ffc6ee8db460b6d37fcc95c5bde37e9aa4bafb3ca64acdd02b0d29f93c8836f66a4ad697650c1f55ddd4acbdb00369c72617f1c0627867dc9f922cbc0530ea2cf31bf73c533280ace2c2a572fb39b89f144bde90e4e39e2f84f7c203239e43183e62c53812ee622a5fc85a2bc9d8f5c98c99c2bffcf1e6ffe5a344cd1e72b265256255775ead1febf61124738c44ff2ccbbe833cdf9bb6c95cee595c91c9e59deedaa7eaeab82686e56193cd9849c770856befcbe7a97b00eb4003be678f085e62121441125e46c96b710b03a3300d052338109361baa2683e2750e82eff3e1e4764527bdd93da27e4614fab3f751dd0bfb9d930e88eba2dc26b3cde70dbbb3b2370cb7fb78496b6c663d60d89a61f0cd3446d05f5bba4ece2aab0f36814233ba0c220fdadcdd6261ff795c154e37d0625e64cd48201b2819141a5e2f897d782b106204d218fbc464226e01a011e982a6c39855dfa0365e8e74987364a2cba455c97568ceb80c6d3a08280839c4d83dffe6a8af7197a9e0ad3f27913525733878401d919f79ee0168e41b3a46e425264aede1e7b168b62fd370b2295dcc84d674ae79e486f532d9a32ac03574df6a5af77bb39a43a45bad34988de2450708adeeb2414be8210383c55ebb1ed7a768a345387653638d825f2ff0537de7ec10b1195bf3cefe06e2b4f1a5782fa55b1c35eadf453f08e62cbcb657c605c97f759ee6cd0f12d174a38ce7c18c40da04a8df46d55b75d4d85144ab64e480f7e73c35c4ca239a44eadda1b8528113e26343eb3da8b51e2fc0ed8a7716d55bbecdc8db5e106b04532a0d9b98ea3e138cc027066ff9e8c494d164dad6ac1817fb50850d734d036550593754b2bdd43c61290fdf83a568a48f46d5b895e78ed26d2ce4ff0e64e3faeb593a0e4745791de92b87efe92889e0045f5e3e11faf50bbd9ecc2240ff5a478cc8771148bd6099fe6d352b6e8a3892326b16cead1041119e27f4f2a6ec04828965054c88bd2d7f60f2aacb85d9fbccccb316793f6d2a812ae4b48a6c2f8a1be93844e75039d86ae5242d34fdc52157e82d1cba637db8df084ec280b14192fea7473907953d536e97ba41f8d91e0a9d76c187b5533d0be903e779c51656dd91633e8e9757727efd685bb27ef868a0fa08d557d64534cfc1f535894b52660e76291113d3dd2b9d5622d1397b475fbdd213747929e8c9d58c8a87cd195700708e7dfab7051a02f7bb9818c176b10c084c057874540617d0599cf551699a56a4b9271a0b0d1566ae72585525b9dd76de02c5a900bb20ef4d30ba3a5bfbad55c6908cfd137d315988463332e0a9ba697b10f62646fc395a002787cb94f454751453bbdae10a15ccffa43deac4fe612ef0da00c88f0789c917f53b4cf89387e8ebf60707778def554850c9d32fe0db060e7bb33ac18df1e8f2543e97196736411ab77b1bb2e0fe0542bc774a7640b99d3119a1e79aca3bf66f468c946d36c167ac5bff1f7d663b7e6fa3e7350443152c64ed314448f9e15853aa6820335a12ebadf53791e338c3a855142a6769ae4676b0a65ec7882117eb8c0154775b58577108e77fd91fe6ef2614995f9936600343809b17e231cc3a00c4798051555f845722f52124b24d33a71d31be7610d4e04eb3fb2b1b6a8e76a72e42b9b7123478c479e2fb221366051cfa4cae34ba08bec95ffc6281bd615048ba323a29227e8b766fad455fd0cb2c6c93d030507c844ab121e38d2e8a74ae5e923c86cca27d836a3130b8756444b6633bbdc5212d12a13eaf45480093ea8a021010f314f14c959eb085c0b74bb581b2ce1d2eebc8df297a9f59f20e54cf1df59502c1410150261c6321e267b85043c522f6fc08356302f88048e6b9026c57162d0d77c909247ad0f699ceca49a5e3baf1195f28171eac78ab299681de7b77f82b59f5521c36bd01f59191cd0da5d7c826c32e240306ebe267d0a061af63db4ce61798cfc14f0e0afdb18343cea029239e7be4b67b2715211d8f7dd0816a9f1f50eb75f4503bec5552f135a213fd4c7f3782924a6259ff921e70caf2ac2651370e8ca6563e87ece6bd98ae56cdb183fb0c114280684aa508972022cc55c1bacb6c15b7317239a5e4630fed4ef62a336a349cdcc890948371f59ae931569e80e9df28a2b44da50c747918d3eaa024e6b79cfe6cafc5ce471eacd852ac828fcb58ea0f3abf375bc97f0c7a47c7b486dc016c564e28fe89e973de819c25f20dfd5c3dc34c144a778c83b387ed0498f0e07c1c275fe3200044f8f2e725180ed850a62fbebbd16653a154e68e522f4462c1b4edecc4c85277f18261e368946196eacfec5f3d92a3f076ad4c7335a9b53d5116d66bc139d9a0d6861bffb82bcdf3238e67478e30ef72c951fe30fe7832e3534cdc5120838e0c38f074b5652f763509bccef0714fceda3c68b5243c8611bc981782a10dd8e7acfc9ea12e872e03b10bd3f0211123c1ffcf9e0659077e2e0fb4b1d318eb31d38a26be06",
+  "userData": "d716d5d6812229ac440f08261821941aae58b173cbc2600c61906ca0e967b4d7f5976ad51f37ba2883e558823851c4e22a95450cd43fe555e255b1910b5e8ff6a0b81d159838e08fc204429e8b2d3cd6287db6d1fcd9754b6867aa005f95203956c0ad5fb3182b2fe08fada3cc2df3a0923bec4ccd6575c4d003b4f62c327de9224aaf0c681e1a64730f264859595b68c60d86bea380d39023c63315f2a3747b3433631ded196d8301180e3beb72522145abd211b7f522a2245869057e9b9c236c19052ad1b2cf3f39b3fade668b56e62239697955006dfef53d7075876c7763297e4238411861eaa78fc2ce3833c48cef9539bc7ab155f6c8d74d8e21ea6160032847fab3561d25aa1907f531a257426bd1968bf5ff70ba807fcf305c1ffc6ee8db460b6d37fcc95c5bde37e9aa4bafb3ca64acdd02b0d29f93c8836f66a4ad697650c1f55ddd4acbdb00369c72617f1c0627867dc9f922cbc0530ea2cf31bf73c533280ace2c2a572fb39b89f144bde90e4e39e2f84f7c203239e43183e62c53812ee622a5fc85a2bc9d8f5c98c99c2bffcf1e6ffe5a344cd1e72b265256255775ead1febf61124738c44ff2ccbbe833cdf9bb6c95cee595c91c9e59deedaa7eaeab82686e56193cd9849c770856befcbe7a97b00eb4003be678f085e62121441125e46c96b710b03a3300d052338109361baa2683e2750e82eff3e1e4764527bdd93da27e4614fab3f751dd0bfb9d930e88eba2dc26b3cde70dbbb3b2370cb7fb78496b6c663d60d89a61f0cd3446d05f5bba4ece2aab0f36814233ba0c220fdadcdd6261ff795c154e37d0625e64cd48201b2819141a5e2f897d782b106204d218fbc464226e01a011e982a6c39855dfa0365e8e74987364a2cba455c97568ceb80c6d3a08280839c4d83dffe6a8af7197a9e0ad3f27913525733878401d919f79ee0168e41b3a46e425264aede1e7b168b62fd370b2295dcc84d674ae79e486f532d9a32ac03574df6a5af77bb39a43a45bad34988de2450708adeeb2414be8210383c55ebb1ed7a768a345387653638d825f2ff0537de7ec10b1195bf3cefe06e2b4f1a5782fa55b1c35eadf453f08e62cbcb657c605c97f759ee6cd0f12d174a38ce7c18c40da04a8df46d55b75d4d85144ab64e480f7e73c35c4ca239a44eadda1b8528113e26343eb3da8b51e2fc0ed8a7716d55bbecdc8db5e106b04532a0d9b98ea3e138cc027066ff9e8c494d164dad6ac1817fb50850d734d036550593754b2bdd43c61290fdf83a568a48f46d5b895e78ed26d2ce4ff0e64e3faeb593a0e4745791de92b87efe92889e0045f5e3e11faf50bbd9ecc2240ff5a478cc8771148bd6099fe6d352b6e8a3892326b16cead1041119e27f4f2a6ec04828965054c88bd2d7f60f2aacb85d9fbccccb316793f6d2a812ae4b48a6c2f8a1be93844e75039d86ae5242d34fdc52157e82d1cba637db8df084ec280b14192fea7473907953d536e97ba41f8d91e0a9d76c187b5533d0be903e779c51656dd91633e8e9757727efd685bb27ef868a0fa08d557d64534cfc1f535894b52660e76291113d3dd2b9d5622d1397b475fbdd213747929e8c9d58c8a87cd195700709f928341fbcab4bf5f81d771366a1fc038aaa1e892ddefe5a4274e66ce3e159e0a958fb6e264c57fd7f4da2c710639776e2f50aaec4d5a4696bb625796f3554609b0a62ef9b08e4eab7760d4271feb989a2ef23cad268f2a71b9fc97cb197dc043120ec22147e40127fd260615a1eb969c9977c1efc044cff9b9a73c2b5d6027cf20f51ed108fa836007ce72461a3e607f06ee297789a6fe003445cc97d50305edc384a2bac832a6914e87f482d54c3c5c41d15f7e8ccfe56491b065518a92e385eda22aa727ff0bc856446eb5fbdb14e3d6a2e6b9cc7cf7045df09ee11259ed6b4e78087b36676e97778d5ad44842560108ed46077d76cec1590dd7976be4c38ac733e5e8ee40490fe1a21ccc71404a617c885fd0b1d70bbb01e2b89333b0390b7710623059514eec64e5f7890b569465a57d19ad514dbce467e16368a2ff82eeff0f7a6305ca967a1dca64ce37c1c922713af9ba6a22dfdd4bbe79e3638e963f43af86fc97d06b074a78bce6c257fca0e3007da5e147871cf6e1928178da64381bf1d7e776cdf13aa1ef3c687fcf10d0da3640dd436c59f2578c482bd43a188c4fca7a8a6592b1440223df1086742a8ec70e7c30cead372b5153d68ae29447f31dd8e7f0978a74229c931ac529bc49c01d8be9cbccfc13491de5f247402ec2b45757690cd6b4aeeaea38688478a0708e90784a97a39c53ed4c4013ea38a85887b2a21cd63bf2af360fbeba851baad0feea373ea0889501e881ca342e314b9a536cfa4fc1882333bf096fb021a72731b45d5511c0c31be415d18090c18823d43770d2f71498452bd80d7233f9c698561f8c70695a3a1ff028b6f09b89007d6c1cfb9c502dccfcbeb515342ad8cf97cde9263bd0fa74b88dc2af42c6a3de43440665271b447256ff3fc9c71e0162ae6cc976bf35fdc0ae8618a7e5037537c23f88d18b43a6919f07ad1919ca02d005a2146cbc1c28b937747e2449d8ba3977fbd95528b88de505cc26d8d8589b094432732b3b3141f4ed0b0fde584b0f92e1c205c5e34236c475605db24b21d1a40e5b949d931336b864ff5887bb7f525cb5774410eb9ab79c285ff1f33505ca890517484c1756083a18ac80b4f724229ffd263a4dec144a46884790453618e1bf20d6a57d6a65dc767d98bc6e1876955bde3489dd77e7f4681565988a6e708d2751a0ff0da95fdf72504a417477d57f00672808cc8e985df96e973da30d6c860a7300efa3698cde8256622c8c24ff6e3cb13c753110bcee3a8ea2410e9c79ee794b21",
   "account": {
     "displayTitle": true,
     "displayVIP": true
   },
   "readonly": false,
   "localIPs": [
-    "192.168.43.169",
+    "192.168.1.113",
     "192.168.58.1"
   ],
   "accessAuthCode": "",
@@ -443,7 +466,7 @@
     "virtualRefDoc": true
   },
   "stat": {
-    "docCount": 7
+    "docCount": 8
   },
   "api": {
     "token": "5siplr7126vmoyeq"
