@@ -5,7 +5,7 @@
 		"icon": "1f9d7",
 		"id": "20220527094043-2wvurn7",
 		"title": "Plan",
-		"updated": "20220528154050"
+		"updated": "20220527095510"
 	},
 	"Children": [
 		{
@@ -28,7 +28,7 @@
 			"Type": "NodeSuperBlock",
 			"Properties": {
 				"id": "20220527095345-3y4yjkv",
-				"updated": "20220528154050"
+				"updated": "20220527095510"
 			},
 			"Children": [
 				{
@@ -289,7 +289,8 @@
 									},
 									"Children": [
 										{
-											"Type": "NodeTaskListItemMarker"
+											"Type": "NodeTaskListItemMarker",
+											"TaskListItemChecked": true
 										},
 										{
 											"ID": "20220527095345-p774nbq",

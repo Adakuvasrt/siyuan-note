@@ -1,0 +1,827 @@
+{
+	"ID": "20220530114433-8ixbx0s",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f35e",
+		"id": "20220530114433-8ixbx0s",
+		"title": "DDIA设计数据密集型应用",
+		"updated": "20220531203627"
+	},
+	"Children": [
+		{
+			"ID": "20220530114433-vl312tl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220530114433-vl312tl",
+				"updated": "20220530114537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前言"
+				}
+			]
+		},
+		{
+			"ID": "20220530114538-tq6kljb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530114538-tq6kljb",
+				"updated": "20220530114617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据库领域，分布式系统快速发展的驱动"
+				}
+			]
+		},
+		{
+			"ID": "20220530114617-yfmu98v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220530114617-yfmu98v",
+				"updated": "20220531203627"
+			},
+			"Children": [
+				{
+					"ID": "20220530114618-rjhu3y3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530114618-rjhu3y3",
+						"updated": "20220530114643"
+					},
+					"Children": [
+						{
+							"ID": "20220530114618-fwl5tgt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530114618-fwl5tgt",
+								"updated": "20220530114643"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "互联网公司海量数据和负载的需求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530114643-lp5onmm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530114643-lp5onmm",
+						"updated": "20220530114718"
+					},
+					"Children": [
+						{
+							"ID": "20220530114643-frnwila",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530114643-frnwila",
+								"updated": "20220530114718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "商业的快速更迭需要系统中的数据模型足够灵活以方便调整"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530114719-3x80ww0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530114719-3x80ww0",
+						"updated": "20220530114729"
+					},
+					"Children": [
+						{
+							"ID": "20220530114719-q4f32ar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530114719-q4f32ar",
+								"updated": "20220530114729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "免费和开源软件的成功"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530114730-y6qw0ly",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530114730-y6qw0ly",
+						"updated": "20220531203627"
+					},
+					"Children": [
+						{
+							"ID": "20220530114730-zgnvqx7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530114730-zgnvqx7",
+								"updated": "20220531203627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CPU主频增长缓慢，多核系统成为主流，网络速度快速发展，并行分布式系统将成为主流"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530114827-5ojukuo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530114827-5ojukuo",
+						"updated": "20220530114839"
+					},
+					"Children": [
+						{
+							"ID": "20220530114827-ul4od6f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530114827-ul4od6f",
+								"updated": "20220530114839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "逐渐普及的IAAS云服务"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530114840-0c0bldm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530114840-0c0bldm",
+						"updated": "20220530114846"
+					},
+					"Children": [
+						{
+							"ID": "20220530114840-jiu3cev",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530114840-jiu3cev",
+								"updated": "20220530114846"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务的高可用需求"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220530115007-5ql2r64",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530115007-5ql2r64",
+				"updated": "20220530140248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据密集型应用：如果“数据”是其成败决定性因素，包括数据的规模、数据的复杂度或者数据产生与变化的速率等，我们就可以称为“数据密集型应用系统”"
+				}
+			]
+		},
+		{
+			"ID": "20220530140252-z7okc45",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220530140252-z7okc45",
+				"updated": "20220530141702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据系统的基石"
+				}
+			]
+		},
+		{
+			"ID": "20220530141702-4rqjshe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141702-4rqjshe",
+				"updated": "20220530141723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可靠性、可扩展性、可维护性"
+				}
+			]
+		},
+		{
+			"ID": "20220530142727-j1nqvls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530142727-j1nqvls",
+				"updated": "20220530142730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据系统："
+				}
+			]
+		},
+		{
+			"ID": "20220530142731-vift0cy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220530142731-vift0cy",
+				"updated": "20220530142824"
+			},
+			"Children": [
+				{
+					"ID": "20220530142732-q7jsgkn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530142732-q7jsgkn",
+						"updated": "20220530142736"
+					},
+					"Children": [
+						{
+							"ID": "20220530142732-zbi1ozf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530142732-zbi1ozf",
+								"updated": "20220530142736"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据库database"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530142743-q52b12m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530142743-q52b12m",
+						"updated": "20220530142746"
+					},
+					"Children": [
+						{
+							"ID": "20220530142743-ciangnf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530142743-ciangnf",
+								"updated": "20220530142746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缓存cache"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530142749-gac4umc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530142749-gac4umc",
+						"updated": "20220530142758"
+					},
+					"Children": [
+						{
+							"ID": "20220530142749-0dhqy51",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530142749-0dhqy51",
+								"updated": "20220530142758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "搜索索引search indexes"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530142801-dh47bgz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530142801-dh47bgz",
+						"updated": "20220530142810"
+					},
+					"Children": [
+						{
+							"ID": "20220530142801-ejp9h97",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530142801-ejp9h97",
+								"updated": "20220530142810"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流处理stream processing"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530142811-b3o21z5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530142811-b3o21z5",
+						"updated": "20220530142824"
+					},
+					"Children": [
+						{
+							"ID": "20220530142811-sigqz5d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530142811-sigqz5d",
+								"updated": "20220530142824"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "批处理batch processing"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220530143014-64sq5bc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530143014-64sq5bc",
+				"updated": "20220530143309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把总体工作拆分成一系列能被单个工具高效完成的任务，并通过代码把它们缝合起来，组合成的新的数据系统需要保证一系列数据正确性完整性高性能等要求，要求开发人员需要数据系统设计能力。"
+				}
+			]
+		},
+		{
+			"ID": "20220530143534-ndbvbcs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220530143534-ndbvbcs",
+				"updated": "20220530143539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可靠性"
+				}
+			]
+		},
+		{
+			"ID": "20220530143625-c2hdi5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530143625-c2hdi5k",
+				"updated": "20220530143636"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "即使出现故障，也能正确工作"
+				}
+			]
+		},
+		{
+			"ID": "20220530143938-55jn2uq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220530143938-55jn2uq",
+				"updated": "20220530144336"
+			},
+			"Children": [
+				{
+					"ID": "20220530143939-3ur83u7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530143939-3ur83u7",
+						"updated": "20220530144000"
+					},
+					"Children": [
+						{
+							"ID": "20220530143939-5htnoxf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530143939-5htnoxf",
+								"updated": "20220530144000"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "硬件故障：增加硬件的冗余度"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530144131-wyuhq2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530144131-wyuhq2a",
+						"updated": "20220530144305"
+					},
+					"Children": [
+						{
+							"ID": "20220530144131-cc4mmxm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530144131-cc4mmxm",
+								"updated": "20220530144305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件错误：隔离、重启"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220530144133-8998qns",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220530144133-8998qns",
+						"updated": "20220530144336"
+					},
+					"Children": [
+						{
+							"ID": "20220530144133-bk1lw8n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220530144133-bk1lw8n",
+								"updated": "20220530144336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "人为错误：测试，精心设计，回滚机制"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220530144346-hqax1w9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220530144346-hqax1w9",
+				"updated": "20220530144351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可扩展性"
+				}
+			]
+		},
+		{
+			"ID": "20220530144407-g193h4m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530144407-g193h4m",
+				"updated": "20220530144417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应对负载增长的能力"
+				}
+			]
+		},
+		{
+			"ID": "20220530144615-2y8uou8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530144615-2y8uou8",
+				"updated": "20220530144706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "扇出（fan-out）：为了服务一个请求而需要执行的其他服务的请求数量"
+				}
+			]
+		},
+		{
+			"ID": "20220530141753-t64n8gu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141753-t64n8gu",
+				"updated": "20220530141815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据模型与查询语言"
+				}
+			]
+		},
+		{
+			"ID": "20220530154109-q8t926v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530154109-q8t926v",
+				"updated": "20220530154143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据模型不仅影响着软件的编写方式，而且影响着我们的解题思路"
+				}
+			]
+		},
+		{
+			"ID": "20220530141733-uc4339n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141733-uc4339n",
+				"updated": "20220530141817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "存储与检索"
+				}
+			]
+		},
+		{
+			"ID": "20220530141733-lnx0v75",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141733-lnx0v75",
+				"updated": "20220530141819"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编码与演化"
+				}
+			]
+		},
+		{
+			"ID": "20220530141828-oyhihly",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220530141828-oyhihly",
+				"updated": "20220530141831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式数据"
+				}
+			]
+		},
+		{
+			"ID": "20220530141831-74lxz7g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141831-74lxz7g",
+				"updated": "20220530141835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "复制"
+				}
+			]
+		},
+		{
+			"ID": "20220530141835-d1wp3dk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141835-d1wp3dk",
+				"updated": "20220530141837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分区"
+				}
+			]
+		},
+		{
+			"ID": "20220530141837-1hl1qwa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141837-1hl1qwa",
+				"updated": "20220530141842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事务"
+				}
+			]
+		},
+		{
+			"ID": "20220530141842-4nwm3fc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141842-4nwm3fc",
+				"updated": "20220530141851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式系统的麻烦"
+				}
+			]
+		},
+		{
+			"ID": "20220530141852-are5i7x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141852-are5i7x",
+				"updated": "20220530141858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一致性与共识"
+				}
+			]
+		},
+		{
+			"ID": "20220530141902-kl2d2mh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220530141902-kl2d2mh",
+				"updated": "20220530141906"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "衍生数据"
+				}
+			]
+		},
+		{
+			"ID": "20220530141906-uxwaui8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141906-uxwaui8",
+				"updated": "20220530141910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "批处理"
+				}
+			]
+		},
+		{
+			"ID": "20220530141911-wmmwckc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141911-wmmwckc",
+				"updated": "20220530141915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "流处理"
+				}
+			]
+		},
+		{
+			"ID": "20220530141916-g5z157t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220530141916-g5z157t",
+				"updated": "20220530141924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据系统的未来"
+				}
+			]
+		},
+		{
+			"ID": "20220530141800-35p9axp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220530141800-35p9axp",
+				"updated": "20220530141800"
+			}
+		}
+	]
+}
