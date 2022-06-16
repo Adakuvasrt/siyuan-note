@@ -5,7 +5,7 @@
 		"icon": "1f3c4-200d-2642-fe0f",
 		"id": "20220521152512-5us8rp5",
 		"title": "Kubernetes",
-		"updated": "20220528161515"
+		"updated": "20220521175651"
 	},
 	"Children": [
 		{
@@ -1313,15 +1313,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220521170103-p0fu96i",
-				"updated": "20220521170152"
+				"updated": "20220607094951"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "容器查看/proc 文件系统和 top 命令查看的是宿主机信息  --使用 lxcfs 把宿主机/var/lib/lxcfs/proc/memoinfo 文件挂载到 Docker 容器的/proc/meminfo 位置",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "容器查看 /proc 文件系统和 top 命令查看的是宿主机信息  --使用 lxcfs 把宿主机 /var/lib/lxcfs/proc/memoinfo 文件挂载到 Docker 容器的 /proc/meminfo 位置"
 				}
 			]
 		},
@@ -1330,15 +1327,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220521170201-2awrd0w",
-				"updated": "20220521173200"
+				"updated": "20220607094955"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "可以通过加入容器所在的 namespace 来进入进程,使用 setns()系统调用",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "可以通过加入容器所在的 namespace 来进入进程,使用 setns() 系统调用"
 				}
 			]
 		},
@@ -1352,83 +1346,47 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"id": "",
-						"parent-style": "max-width: 546px; display: block;",
-						"style": "width: 536px;"
+						"parent-style": "max-width: 570px; display: block;",
+						"style": "width: 560px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang",
-							"Data": "!",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeBang"
 						},
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "image.png"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220521175651-zu1ssyk.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "assets/image-20220521175651-zu1ssyk.png"
 						},
 						{
-							"Type": "NodeLinkSpace",
-							"Data": " ",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeLinkSpace"
 						},
 						{
 							"Type": "NodeLinkTitle",
-							"Data": "k8s架构",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "k8s架构"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": "){: style=\"width: 536px;\" parent-style=\"max-width: 546px; display: block;\"}",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 536px;\" parent-style=\"max-width: 546px; display: block;\"}",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "{: style=\"width: 560px;\" parent-style=\"max-width: 570px; display: block;\"}"
 				}
 			]
 		},
@@ -1442,83 +1400,47 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"id": "",
-						"parent-style": "max-width: 1147px;",
-						"style": "width: 1156px;"
+						"parent-style": "max-width: 915px;",
+						"style": "width: 905px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang",
-							"Data": "!",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeBang"
 						},
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "image.png"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220521180119-3qxnifh.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "assets/image-20220521180119-3qxnifh.png"
 						},
 						{
-							"Type": "NodeLinkSpace",
-							"Data": " ",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeLinkSpace"
 						},
 						{
 							"Type": "NodeLinkTitle",
-							"Data": "k8s功能全景图",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "k8s功能全景图"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": "){: style=\"width: 1156px;\" parent-style=\"max-width: 1147px;\"}",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 1156px;\" parent-style=\"max-width: 1147px;\"}",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "{: style=\"width: 905px;\" parent-style=\"max-width: 915px;\"}"
 				}
 			]
 		},
@@ -8871,7 +8793,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "资源分为 limits 和 requests 两种，调度的时候按照 requests 计算，限制的时候根据 limits 使用 Cgroups 限制"
+					"Data": "资源分为 limits 和 requests 两种，调度的时候按照 requests 计算，限制的时候根据 limits 使用 Cgroups 限制",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -8885,14 +8810,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Qos模型  不同等级，Eviction（资源回收）时使用，按自下向上的等级删除"
+					"Data": "Qos 模型  不同等级，Eviction（资源回收）时使用，按自下向上的等级删除",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220527103026-uxc4pkv",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220527103026-uxc4pkv",
 				"updated": "20220527104509"
@@ -8901,9 +8835,13 @@
 				{
 					"ID": "20220527103028-ue89rjs",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527103028-ue89rjs",
@@ -8920,7 +8858,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Graranteed：同时设置了limits和requests并且两者相等 （只设置limit，默认request=limits"
+									"Data": "Graranteed：同时设置了 limits 和 requests 并且两者相等 （只设置 limit，默认 request=limits",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -8929,9 +8870,13 @@
 				{
 					"ID": "20220527103057-ct9g58n",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527103057-ct9g58n",
@@ -8948,7 +8893,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Burstable：至少有一个Container设置了requests"
+									"Data": "Burstable：至少有一个 Container 设置了 requests",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -8957,9 +8905,13 @@
 				{
 					"ID": "20220527103250-8cyu4vl",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527103250-8cyu4vl",
@@ -8976,7 +8928,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "BestEffort：都没有设置"
+									"Data": "BestEffort：都没有设置",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -8994,7 +8949,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "cpuset：把Pod绑定到某个（些）CPU核上 Graranteed类型并且requests=limits为整数"
+					"Data": "cpuset：把 Pod 绑定到某个（些）CPU 核上 Graranteed 类型并且 requests=limits 为整数",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9008,8 +8966,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "调度器"
+					"Data": "调度器",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9023,14 +8991,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "为新创建出来的Pod寻找合适的节点"
+					"Data": "为新创建出来的 Pod 寻找合适的节点",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220527104806-cz5ymhk",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220527104806-cz5ymhk",
 				"updated": "20220527104837"
@@ -9039,9 +9016,13 @@
 				{
 					"ID": "20220527104806-oeo1ecq",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527104806-oeo1ecq",
@@ -9058,7 +9039,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "根据调度算法找到所有可以运行这个Pod的节点 predicate"
+									"Data": "根据调度算法找到所有可以运行这个 Pod 的节点 predicate",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -9067,9 +9051,13 @@
 				{
 					"ID": "20220527104825-s84ac21",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527104825-s84ac21",
@@ -9086,7 +9074,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "根据调度算法挑选一个最符合条件的"
+									"Data": "根据调度算法挑选一个最符合条件的",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -9104,40 +9095,69 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
 					"Properties": {
+						"id": "",
 						"parent-style": "display: block; max-width: 601px;",
 						"style": "width: 591px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png"
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220527105304-65xef3i.png"
+							"Data": "assets/image-20220527105304-65xef3i.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 591px;\" parent-style=\"display: block; max-width: 601px;\"}"
+					"Data": "{: style=\"width: 591px;\" parent-style=\"display: block; max-width: 601px;\"}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9151,14 +9171,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "两个调度循环"
+					"Data": "两个调度循环",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220527105938-2vmcnlg",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220527105938-2vmcnlg",
 				"updated": "20220527110438"
@@ -9167,9 +9196,13 @@
 				{
 					"ID": "20220527105938-98z5roa",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527105938-98z5roa",
@@ -9186,7 +9219,24 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Informer Path\n监听调度相关的API对象信息，并且添加到调度队列（优先级队列），并且负责更新调度器缓存"
+									"Data": "Informer Path",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "监听调度相关的 API 对象信息，并且添加到调度队列（优先级队列），并且负责更新调度器缓存",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -9195,9 +9245,13 @@
 				{
 					"ID": "20220527105948-3ac157z",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527105948-3ac157z",
@@ -9214,7 +9268,24 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Scheduling Path\n拿出Pod,过滤得到可以运行的Node（从Secheduler Cache得到），然后打分，得到分数最高的作为调度结果，更改Pod的nodeName（Bind）在Cache中，然后异步的请求APIServer来真正完成Bind，真正调度的时候还需要Admit（二次确认）"
+									"Data": "Scheduling Path",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "拿出 Pod,过滤得到可以运行的 Node（从 Secheduler Cache 得到），然后打分，得到分数最高的作为调度结果，更改 Pod 的 nodeName（Bind）在 Cache 中，然后异步的请求 APIServer 来真正完成 Bind，真正调度的时候还需要 Admit（二次确认）",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -9232,7 +9303,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "特点：Cache化，乐观化Bind，无锁化"
+					"Data": "特点：Cache 化，乐观化 Bind，无锁化",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9254,15 +9328,30 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "默认调度器策略"
+					"Data": "默认调度器策略",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220527175727-3v5wxbv",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220527175727-3v5wxbv",
 				"updated": "20220527181720"
@@ -9271,9 +9360,12 @@
 				{
 					"ID": "20220527175837-n1ik7xn",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527175837-n1ik7xn",
@@ -9290,14 +9382,22 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Predicates 过滤器，过滤出符合条件的节点"
+									"Data": "Predicates 过滤器，过滤出符合条件的节点",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
 						{
 							"ID": "20220527175957-vlgsypv",
 							"Type": "NodeList",
-							"ListData": {},
+							"ListData": {
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
 							"Properties": {
 								"id": "20220527175957-vlgsypv",
 								"updated": "20220527181720"
@@ -9306,9 +9406,12 @@
 								{
 									"ID": "20220527175955-msu49pu",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527175955-msu49pu",
@@ -9325,14 +9428,23 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "GeneralPrediactes 最基础的调度策略"
+													"Data": "GeneralPrediactes 最基础的调度策略",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
 										{
 											"ID": "20220527180133-4saqjgr",
 											"Type": "NodeList",
-											"ListData": {},
+											"ListData": {
+												"Tight": true,
+												"BulletChar": 42,
+												"Padding": 2,
+												"Marker": "Kg==",
+												"Num": -1
+											},
 											"Properties": {
 												"id": "20220527180133-4saqjgr",
 												"updated": "20220527180326"
@@ -9341,9 +9453,13 @@
 												{
 													"ID": "20220527180133-fjkm7wq",
 													"Type": "NodeListItem",
+													"Data": "*",
 													"ListData": {
+														"Tight": true,
 														"BulletChar": 42,
-														"Marker": "Kg=="
+														"Padding": 2,
+														"Marker": "Kg==",
+														"Num": -1
 													},
 													"Properties": {
 														"id": "20220527180133-fjkm7wq",
@@ -9360,7 +9476,10 @@
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "PodFitsResources CPU和内存资源是否够用"
+																	"Data": "PodFitsResources CPU 和内存资源是否够用",
+																	"Properties": {
+																		"id": ""
+																	}
 																}
 															]
 														}
@@ -9369,9 +9488,13 @@
 												{
 													"ID": "20220527180206-22fj3ou",
 													"Type": "NodeListItem",
+													"Data": "*",
 													"ListData": {
+														"Tight": true,
 														"BulletChar": 42,
-														"Marker": "Kg=="
+														"Padding": 2,
+														"Marker": "Kg==",
+														"Num": -1
 													},
 													"Properties": {
 														"id": "20220527180206-22fj3ou",
@@ -9388,7 +9511,10 @@
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "PodFitsHost 检查宿主机名字和nodeName是否相同（Admit二次确认）"
+																	"Data": "PodFitsHost 检查宿主机名字和 nodeName 是否相同（Admit 二次确认）",
+																	"Properties": {
+																		"id": ""
+																	}
 																}
 															]
 														}
@@ -9397,9 +9523,13 @@
 												{
 													"ID": "20220527180237-1u225ds",
 													"Type": "NodeListItem",
+													"Data": "*",
 													"ListData": {
+														"Tight": true,
 														"BulletChar": 42,
-														"Marker": "Kg=="
+														"Padding": 2,
+														"Marker": "Kg==",
+														"Num": -1
 													},
 													"Properties": {
 														"id": "20220527180237-1u225ds",
@@ -9416,7 +9546,10 @@
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "PodfitsHostPorts 端口是否冲突"
+																	"Data": "PodfitsHostPorts 端口是否冲突",
+																	"Properties": {
+																		"id": ""
+																	}
 																}
 															]
 														}
@@ -9425,9 +9558,13 @@
 												{
 													"ID": "20220527180250-dm0bs4x",
 													"Type": "NodeListItem",
+													"Data": "*",
 													"ListData": {
+														"Tight": true,
 														"BulletChar": 42,
-														"Marker": "Kg=="
+														"Padding": 2,
+														"Marker": "Kg==",
+														"Num": -1
 													},
 													"Properties": {
 														"id": "20220527180250-dm0bs4x",
@@ -9444,7 +9581,10 @@
 															"Children": [
 																{
 																	"Type": "NodeText",
-																	"Data": "PodMatchNodeSelector 检查nodeSelector和nodeAffinity"
+																	"Data": "PodMatchNodeSelector 检查 nodeSelector 和 nodeAffinity",
+																	"Properties": {
+																		"id": ""
+																	}
 																}
 															]
 														}
@@ -9457,9 +9597,13 @@
 								{
 									"ID": "20220527180345-xc5x8nd",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527180345-xc5x8nd",
@@ -9476,7 +9620,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Volume相关的过滤规则"
+													"Data": "Volume 相关的过滤规则",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9485,9 +9632,13 @@
 								{
 									"ID": "20220527181212-uo6qvt2",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527181212-uo6qvt2",
@@ -9504,7 +9655,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "宿主机相关的过滤规则 Pod是否满足Node的某些条件 Toleration"
+													"Data": "宿主机相关的过滤规则 Pod 是否满足 Node 的某些条件 Toleration",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9513,9 +9667,13 @@
 								{
 									"ID": "20220527181300-j2cny18",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527181300-j2cny18",
@@ -9532,7 +9690,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "Pod相关的过滤规则 亲密关系"
+													"Data": "Pod 相关的过滤规则 亲密关系",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9547,7 +9708,12 @@
 		{
 			"ID": "20220527175758-by9i1wp",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220527175758-by9i1wp",
 				"updated": "20220527182200"
@@ -9556,9 +9722,12 @@
 				{
 					"ID": "20220527175839-9vkcxaj",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527175839-9vkcxaj",
@@ -9575,14 +9744,23 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Priorities 为节点打分"
+									"Data": "Priorities 为节点打分",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
 						{
 							"ID": "20220527175839-h6k2yax",
 							"Type": "NodeList",
-							"ListData": {},
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
 							"Properties": {
 								"id": "20220527175839-h6k2yax",
 								"updated": "20220527182200"
@@ -9591,9 +9769,13 @@
 								{
 									"ID": "20220527182003-bap1z8w",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527182003-bap1z8w",
@@ -9610,7 +9792,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "LeastRequestedPriority 选择空闲资源最多的宿主机"
+													"Data": "LeastRequestedPriority 选择空闲资源最多的宿主机",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9619,9 +9804,13 @@
 								{
 									"ID": "20220527182008-vt067v1",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527182008-vt067v1",
@@ -9638,7 +9827,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "BalancedResourceAllocation 选择资源分配最均衡的节点（CPU和memory均衡"
+													"Data": "BalancedResourceAllocation 选择资源分配最均衡的节点（CPU 和 memory 均衡",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9647,9 +9839,13 @@
 								{
 									"ID": "20220527182118-0o7uwf9",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527182118-0o7uwf9",
@@ -9666,7 +9862,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "NodeAffinityPriority"
+													"Data": "NodeAffinityPriority",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9675,9 +9874,13 @@
 								{
 									"ID": "20220527182136-z1wf1vg",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527182136-z1wf1vg",
@@ -9694,7 +9897,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "TaintTolerationPriority"
+													"Data": "TaintTolerationPriority",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9703,9 +9909,13 @@
 								{
 									"ID": "20220527182143-7rhbpde",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220527182143-7rhbpde",
@@ -9722,7 +9932,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "interPodAffinityPriority"
+													"Data": "interPodAffinityPriority",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -9744,8 +9957,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "优先级和抢占机制"
+					"Data": "优先级和抢占机制",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9759,7 +9982,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Pod调度失败时的解决方案"
+					"Data": "Pod 调度失败时的解决方案",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9773,7 +9999,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "优先级 32位int,不超过10亿"
+					"Data": "优先级 32 位 int,不超过 10 亿",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9787,7 +10016,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "调度的时候优先级高的在优先级队列里面会提前出队，调度失败的时候会尝试抢占低优先级的Pod，改变nominatedNodeName设置为被抢占的Node，下一轮调度决定"
+					"Data": "调度的时候优先级高的在优先级队列里面会提前出队，调度失败的时候会尝试抢占低优先级的 Pod，改变 nominatedNodeName 设置为被抢占的 Node，下一轮调度决定",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9801,14 +10033,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "调度队列分为两个"
+					"Data": "调度队列分为两个",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220527183806-du7j616",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220527183806-du7j616",
 				"updated": "20220527183906"
@@ -9817,9 +10058,13 @@
 				{
 					"ID": "20220527183807-syqntgv",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527183807-syqntgv",
@@ -9836,7 +10081,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "activeQ"
+									"Data": "activeQ",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -9845,9 +10093,13 @@
 				{
 					"ID": "20220527183810-od7d0oo",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220527183810-od7d0oo",
@@ -9864,7 +10116,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "unschedulableQ 专门存放调度失败的Pod"
+									"Data": "unschedulableQ 专门存放调度失败的 Pod",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -9882,7 +10137,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "unschedulableQ触发调度失败之后，k8s利用缓存模拟抢占影响，得到最佳抢占结果，然后开始真正抢占，改变nominatedNodeName设置为被抢占的Node，然后开启goroutine同步删除牺牲者，然后进入调度流程调度抢占者"
+					"Data": "unschedulableQ 触发调度失败之后，k8s 利用缓存模拟抢占影响，得到最佳抢占结果，然后开始真正抢占，改变 nominatedNodeName 设置为被抢占的 Node，然后开启 goroutine 同步删除牺牲者，然后进入调度流程调度抢占者",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9896,7 +10154,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "调度器predicates两遍，一遍假设抢占者已经运行在节点上，一遍假设没有，都通过才可能"
+					"Data": "调度器 predicates 两遍，一遍假设抢占者已经运行在节点上，一遍假设没有，都通过才可能",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9910,8 +10171,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "GPU和Device Plugin"
+					"Data": "GPU 和 Device Plugin",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9925,40 +10196,69 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
 					"Properties": {
+						"id": "",
 						"parent-style": "display: block; max-width: 835px;",
 						"style": "width: 825px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png"
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220527184743-yqi9h2y.png"
+							"Data": "assets/image-20220527184743-yqi9h2y.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 825px;\" parent-style=\"display: block; max-width: 835px;\"}"
+					"Data": "{: style=\"width: 825px;\" parent-style=\"display: block; max-width: 835px;\"}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9972,8 +10272,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "容器运行时"
+					"Data": "容器运行时",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -9987,8 +10297,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "kubelet"
+					"Data": "kubelet",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10002,40 +10322,69 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
 					"Properties": {
+						"id": "",
 						"parent-style": "display: block; max-width: 633px;",
 						"style": "width: 623px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png"
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220527185045-ksc9a9t.png"
+							"Data": "assets/image-20220527185045-ksc9a9t.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 623px;\" parent-style=\"display: block; max-width: 633px;\"}"
+					"Data": "{: style=\"width: 623px;\" parent-style=\"display: block; max-width: 633px;\"}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10049,7 +10398,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "kubelet工作核心是一个控制循环 SyncLoop"
+					"Data": "kubelet 工作核心是一个控制循环 SyncLoop",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10057,7 +10409,13 @@
 			"ID": "20220528153932-oo7z02v",
 			"Type": "NodeList",
 			"ListData": {
-				"Typ": 1
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
 			},
 			"Properties": {
 				"id": "20220528153932-oo7z02v",
@@ -10067,10 +10425,14 @@
 				{
 					"ID": "20220528153935-cd169ae",
 					"Type": "NodeListItem",
+					"Data": "1",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
 						"Delimiter": 46,
-						"Marker": "MS4=",
+						"Padding": 3,
+						"Marker": "MQ==",
 						"Num": 1
 					},
 					"Properties": {
@@ -10088,7 +10450,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Pod更新事件"
+									"Data": "Pod 更新事件",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10097,10 +10462,14 @@
 				{
 					"ID": "20220528153943-qo5m1wv",
 					"Type": "NodeListItem",
+					"Data": "2",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
 						"Delimiter": 46,
-						"Marker": "Mi4=",
+						"Padding": 3,
+						"Marker": "Mg==",
 						"Num": 2
 					},
 					"Properties": {
@@ -10118,7 +10487,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Pod生命周期变化"
+									"Data": "Pod 生命周期变化",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10127,10 +10499,14 @@
 				{
 					"ID": "20220528153949-9b3uvtu",
 					"Type": "NodeListItem",
+					"Data": "3",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
 						"Delimiter": 46,
-						"Marker": "My4=",
+						"Padding": 3,
+						"Marker": "Mw==",
 						"Num": 3
 					},
 					"Properties": {
@@ -10148,7 +10524,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "kubelet本身设置的执行周期"
+									"Data": "kubelet 本身设置的执行周期",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10157,10 +10536,14 @@
 				{
 					"ID": "20220528154001-jwijb17",
 					"Type": "NodeListItem",
+					"Data": "4",
 					"ListData": {
 						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
 						"Delimiter": 46,
-						"Marker": "NC4=",
+						"Padding": 3,
+						"Marker": "NA==",
 						"Num": 4
 					},
 					"Properties": {
@@ -10178,7 +10561,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "定时的清理事件"
+									"Data": "定时的清理事件",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10196,40 +10582,69 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
 					"Properties": {
+						"id": "",
 						"parent-style": "display: block; max-width: 743px;",
 						"style": "width: 733px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png"
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220528154540-k1u4sok.png"
+							"Data": "assets/image-20220528154540-k1u4sok.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 733px;\" parent-style=\"display: block; max-width: 743px;\"}"
+					"Data": "{: style=\"width: 733px;\" parent-style=\"display: block; max-width: 743px;\"}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10243,8 +10658,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "CRI"
+					"Data": "CRI",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10258,15 +10683,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "安全容器"
+					"Data": "安全容器",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220528155728-l4o8y6v",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220528155728-l4o8y6v",
 				"updated": "20220528160503"
@@ -10275,9 +10716,13 @@
 				{
 					"ID": "20220528155730-7ujpv2a",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220528155730-7ujpv2a",
@@ -10294,7 +10739,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Kata Containers 通过虚拟硬件虚拟出虚拟机，然后安装剪裁后的内核"
+									"Data": "Kata Containers 通过虚拟硬件虚拟出虚拟机，然后安装剪裁后的内核",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10303,9 +10751,13 @@
 				{
 					"ID": "20220528155739-8eormnu",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220528155739-8eormnu",
@@ -10322,7 +10774,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "gVisor 用Go语言模拟一个在用户态运行的操作系统内核，来代替进程发起系统调用"
+									"Data": "gVisor 用 Go 语言模拟一个在用户态运行的操作系统内核，来代替进程发起系统调用",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10331,9 +10786,13 @@
 				{
 					"ID": "20220528160459-g4ufie9",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220528160459-g4ufie9",
@@ -10350,7 +10809,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "User Mode Linux"
+									"Data": "User Mode Linux",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -10368,8 +10830,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "容器监控"
+					"Data": "容器监控",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10383,8 +10855,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "Prometheus"
+					"Data": "Prometheus",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10398,40 +10880,69 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
 					"Properties": {
+						"id": "",
 						"parent-style": "display: block; max-width: 819px;",
 						"style": "width: 809px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png"
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220528160815-7wyn0m3.png"
+							"Data": "assets/image-20220528160815-7wyn0m3.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 809px;\" parent-style=\"display: block; max-width: 819px;\"}"
+					"Data": "{: style=\"width: 809px;\" parent-style=\"display: block; max-width: 819px;\"}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10445,7 +10956,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "使用Pull的方式拉取被监控对象的Metrics数据（监控指标数据）然后把数据保存在TSDB（时序数据库）方便按时间检索"
+					"Data": "使用 Pull 的方式拉取被监控对象的 Metrics 数据（监控指标数据）然后把数据保存在 TSDB（时序数据库）方便按时间检索",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10459,8 +10973,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "Custom Metrics"
+					"Data": "Custom Metrics",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -10482,8 +11006,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "容器日志收集与管理"
+					"Data": "容器日志收集与管理",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		}

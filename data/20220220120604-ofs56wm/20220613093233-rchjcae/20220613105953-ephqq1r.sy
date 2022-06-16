@@ -1,0 +1,483 @@
+{
+	"ID": "20220613105953-ephqq1r",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f3a1",
+		"id": "20220613105953-ephqq1r",
+		"title": "Paxos",
+		"updated": "20220613142743"
+	},
+	"Children": [
+		{
+			"ID": "20220613105953-aflwnt1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613105953-aflwnt1",
+				"updated": "20220613110000"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两阶段"
+				}
+			]
+		},
+		{
+			"ID": "20220613110000-a8sarei",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220613110000-a8sarei",
+				"updated": "20220613111638"
+			},
+			"Children": [
+				{
+					"ID": "20220613110002-87xpaxz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613110002-87xpaxz",
+						"updated": "20220613111733"
+					},
+					"Children": [
+						{
+							"ID": "20220613110002-m561ig7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613110002-m561ig7",
+								"updated": "20220613111733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Prepare: 只会响应大于最大提案ID的Promise应答,会回复最大的已经Accepted的值(如果没有返回空值)"
+								}
+							]
+						},
+						{
+							"ID": "20220613110115-h5biwht",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220613110115-h5biwht",
+								"updated": "20220613110632"
+							},
+							"Children": [
+								{
+									"ID": "20220613110115-7ewqx3f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220613110115-7ewqx3f",
+										"updated": "20220613110632"
+									},
+									"Children": [
+										{
+											"ID": "20220613110115-dx2rw7x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220613110115-dx2rw7x",
+												"updated": "20220613110632"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "得到大多数的Promise应答才能发送Accept请求"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220613110008-c8ougud",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613110008-c8ougud",
+						"updated": "20220613111638"
+					},
+					"Children": [
+						{
+							"ID": "20220613110008-9bh9kai",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613110008-9bh9kai",
+								"updated": "20220613111638"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Accept: 回复大于等于最大提案ID的Accepted应答,如果得到了更大的Prepare请求,不再接受以前的Accepted请求,相当于达成了新的大多数,锁被新的抢了"
+								}
+							]
+						},
+						{
+							"ID": "20220613110130-tx6qqzn",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220613110130-tx6qqzn",
+								"updated": "20220613111455"
+							},
+							"Children": [
+								{
+									"ID": "20220613110130-938353e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220613110130-938353e",
+										"updated": "20220613111455"
+									},
+									"Children": [
+										{
+											"ID": "20220613110130-wmnph3d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220613110130-wmnph3d",
+												"updated": "20220613111455"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "得到大多数Acceptd应答,值不再会改变,因为得不到新值的大多数Promise应答,大多数节点已经Accept值,只能得到含有已经大多数Acceptd的值"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220613111039-z8x27nu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613111039-z8x27nu",
+				"updated": "20220613111039"
+			}
+		},
+		{
+			"ID": "20220613112104-9lrpahs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613112104-9lrpahs",
+				"updated": "20220613112358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "谁抢到大多数promise,就有资格进行accepted,如果accepted大多数成功,值达成,如果accepted达到大多数之前被新的抢到了大多数promise,那就会新值去尝试达成"
+				}
+			]
+		},
+		{
+			"ID": "20220613142743-9130t08",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220613142743-9130t08",
+				"updated": "20220613142743"
+			}
+		},
+		{
+			"ID": "20220613142744-v9gij5w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613142744-v9gij5w",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两个承诺是指："
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-qvwfxic",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220613142744-qvwfxic",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"ID": "20220613142744-3v191zn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613142744-3v191zn",
+						"updated": "20220613142744"
+					},
+					"Children": [
+						{
+							"ID": "20220613142744-cxdrwtt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613142744-cxdrwtt",
+								"updated": "20220613142744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "承诺不会再接受提案 ID 小于或等于 n 的 Prepare 请求。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220613142744-b1o219e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613142744-b1o219e",
+						"updated": "20220613142744"
+					},
+					"Children": [
+						{
+							"ID": "20220613142744-xvbted3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613142744-xvbted3",
+								"updated": "20220613142744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "承诺不会再接受提案 ID 小于 n 的 Accept 请求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-rdww44y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613142744-rdww44y",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个应答是指："
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-2z3b44d",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220613142744-2z3b44d",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"ID": "20220613142744-fatnfgt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613142744-fatnfgt",
+						"updated": "20220613142744"
+					},
+					"Children": [
+						{
+							"ID": "20220613142744-2w91adw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613142744-2w91adw",
+								"updated": "20220613142744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不违背以前作出的承诺的前提下，回复已经批准过的提案中 ID 最大的那个提案所设定的值和提案 ID，如果该值从来没有被任何提案设定过，则返回空值。如果违反此前做出的承诺，即收到的提案 ID 并不是决策节点收到过的最大的，那允许直接对此 Prepare 请求不予理会。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-02vf0hq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613142744-02vf0hq",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当提案节点收到了多数派决策节点的应答（称为 Promise 应答）后，可以开始第二阶段“批准”（Accept）过程，这时有如下两种可能的结果："
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-gnciysj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220613142744-gnciysj",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"ID": "20220613142744-s1ej3yg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613142744-s1ej3yg",
+						"updated": "20220613142744"
+					},
+					"Children": [
+						{
+							"ID": "20220613142744-awpnf50",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613142744-awpnf50",
+								"updated": "20220613142744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果提案节点发现所有响应的决策节点此前都没有批准过该值（即为空），那说明它是第一个设置值的节点，可以随意地决定要设定的值，将自己选定的值与提案 ID，构成一个二元组“(id, value)”，再次广播给全部的决策节点（称为 Accept 请求）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220613142744-ozta3in",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220613142744-ozta3in",
+						"updated": "20220613142744"
+					},
+					"Children": [
+						{
+							"ID": "20220613142744-nmp94wf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220613142744-nmp94wf",
+								"updated": "20220613142744"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果提案节点发现响应的决策节点中，已经有至少一个节点的应答中包含有值了，那它就不能够随意取值了，必须无条件地从应答中找出提案 ID 最大的那个值并接受，构成一个二元组“(id, maxAcceptValue)”，再次广播给全部的决策节点（称为 Accept 请求）。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-63fqg6w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613142744-63fqg6w",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当每一个决策节点收到 Accept 请求时，都会在不违背以前作出的承诺的前提下，接收并持久化对当前提案 ID 和提案附带的值。如果违反此前做出的承诺，即收到的提案 ID 并不是决策节点收到过的最大的，那允许直接对此 Accept 请求不予理会。"
+				}
+			]
+		},
+		{
+			"ID": "20220613142744-c49420n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613142744-c49420n",
+				"updated": "20220613142744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当提案节点收到了多数派决策节点的应答（称为 Accepted 应答）后，协商结束，共识决议形成，将形成的决议发送给所有记录节点进行学习。"
+				}
+			]
+		},
+		{
+			"ID": "20220613142758-hc51v3a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220613142758-hc51v3a",
+				"updated": "20220613142829"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220613142828-0rf9wxr.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}
