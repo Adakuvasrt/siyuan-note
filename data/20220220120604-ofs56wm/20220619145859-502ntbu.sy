@@ -1,0 +1,3911 @@
+{
+	"ID": "20220619145859-502ntbu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f351",
+		"id": "20220619145859-502ntbu",
+		"title": "消息队列(kafka)",
+		"updated": "20220619192550"
+	},
+	"Children": [
+		{
+			"ID": "20220619145859-0glvpen",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220619145859-0glvpen",
+				"updated": "20220619171908"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "概述",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619171908-5ydq7iv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619171908-5ydq7iv",
+				"updated": "20220619172650"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "应用场景",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172633-5j8fcdi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619172633-5j8fcdi",
+				"updated": "20220619172633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日志收集系统和消息系统",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619171929-0fqr25y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619171929-0fqr25y",
+				"updated": "20220619172638"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "设计目标",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619171932-k51ia1d",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619171932-k51ia1d",
+				"updated": "20220619171933"
+			},
+			"Children": [
+				{
+					"ID": "20220619171933-337t71d",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619171933-337t71d",
+						"updated": "20220619171933"
+					},
+					"Children": [
+						{
+							"ID": "20220619171933-ht9ne5t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619171933-ht9ne5t",
+								"updated": "20220619172002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "O(1)级别的持久化能力,TB 级别以上的数据保持常数时间的访问性能",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619172053-ot0be5w",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172053-ot0be5w",
+						"updated": "20220619172053"
+					},
+					"Children": [
+						{
+							"ID": "20220619172053-c2z1dze",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619172053-c2z1dze",
+								"updated": "20220619172135"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高吞吐率,单机 100K 条消息的传输",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619172135-gkmijko",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172135-gkmijko",
+						"updated": "20220619172135"
+					},
+					"Children": [
+						{
+							"ID": "20220619172135-7jww862",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619172135-7jww862",
+								"updated": "20220619172205"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消费分区和分布式消费,支持 partition 内的消息顺序传输",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619172207-4foc7sl",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172207-4foc7sl",
+						"updated": "20220619172207"
+					},
+					"Children": [
+						{
+							"ID": "20220619172207-h56bmb0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619172207-h56bmb0",
+								"updated": "20220619172218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同时支持离线消息处理和实时消息处理",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619172219-z0ibg70",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172219-z0ibg70",
+						"updated": "20220619172219"
+					},
+					"Children": [
+						{
+							"ID": "20220619172219-tf8kd5s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619172219-tf8kd5s",
+								"updated": "20220619172230"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Scale out 水平扩展",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619172303-4cqd3ks",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220619172303-4cqd3ks",
+				"updated": "20220619172303"
+			}
+		},
+		{
+			"ID": "20220619172233-j5mi7a9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619172233-j5mi7a9",
+				"updated": "20220619172244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "消息传递模式:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172244-36zeqgi",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619172244-36zeqgi",
+				"updated": "20220619172256"
+			},
+			"Children": [
+				{
+					"ID": "20220619172244-wfsa4he",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172244-wfsa4he",
+						"updated": "20220619172244"
+					},
+					"Children": [
+						{
+							"ID": "20220619172244-m5xa74o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619172244-m5xa74o",
+								"updated": "20220619172250"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "点对点传递模式",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619172251-tcy1whu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172251-tcy1whu",
+						"updated": "20220619172256"
+					},
+					"Children": [
+						{
+							"ID": "20220619172251-b47njm3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619172251-b47njm3",
+								"updated": "20220619172256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发布-订阅模式",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619172350-gw0qjje",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220619172350-gw0qjje",
+				"updated": "20220619172350"
+			}
+		},
+		{
+			"ID": "20220619172351-l7v8j5i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619172351-l7v8j5i",
+				"updated": "20220619172645"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Kafka 的作用",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172553-h1pciu9",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220619172553-h1pciu9",
+				"updated": "20220619172554"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20220619172359-zpfo567",
+					"Type": "NodeList",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172359-zpfo567",
+						"updated": "20220619172554"
+					},
+					"Children": [
+						{
+							"ID": "20220619172402-6l9ed1b",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172402-6l9ed1b",
+								"updated": "20220619172402"
+							},
+							"Children": [
+								{
+									"ID": "20220619172402-o7o5qej",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172402-o7o5qej",
+										"updated": "20220619172404"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "解耦",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220619172411-qih53z8",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172411-qih53z8",
+								"updated": "20220619172411"
+							},
+							"Children": [
+								{
+									"ID": "20220619172411-doyrsic",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172411-doyrsic",
+										"updated": "20220619172423"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "冗余:数据持久化",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220619172424-je6yomn",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172424-je6yomn",
+								"updated": "20220619172424"
+							},
+							"Children": [
+								{
+									"ID": "20220619172424-svirb2k",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172424-svirb2k",
+										"updated": "20220619172428"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "扩展性",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220619172434-39hc8ny",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172434-39hc8ny",
+								"updated": "20220619172434"
+							},
+							"Children": [
+								{
+									"ID": "20220619172434-k49bme9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172434-k49bme9",
+										"updated": "20220619172440"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "峰值处理",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619172553-xr63s5a",
+					"Type": "NodeList",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619172553-xr63s5a",
+						"updated": "20220619172554"
+					},
+					"Children": [
+						{
+							"ID": "20220619172440-wb9ums2",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172440-wb9ums2",
+								"updated": "20220619172554"
+							},
+							"Children": [
+								{
+									"ID": "20220619172440-p1y45f2",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172440-p1y45f2",
+										"updated": "20220619172503"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "可恢复性:部分组件失效不会影响整个系统",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220619172504-xh8shg5",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172504-xh8shg5",
+								"updated": "20220619172554"
+							},
+							"Children": [
+								{
+									"ID": "20220619172504-zp7aujt",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172504-zp7aujt",
+										"updated": "20220619172507"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "顺序保证",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220619172518-lm8n879",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172518-lm8n879",
+								"updated": "20220619172554"
+							},
+							"Children": [
+								{
+									"ID": "20220619172518-8iqw5zw",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172518-8iqw5zw",
+										"updated": "20220619172519"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "缓冲",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220619172529-zj8yyvz",
+							"Type": "NodeListItem",
+							"Data": "*",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220619172529-zj8yyvz",
+								"updated": "20220619172554"
+							},
+							"Children": [
+								{
+									"ID": "20220619172529-zq34wd9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220619172529-zq34wd9",
+										"updated": "20220619172531"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "异步通信",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172554-vg0v0ik",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619172554-vg0v0ik",
+				"updated": "20220619172720"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "术语",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172720-akpy54o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619172720-akpy54o",
+				"updated": "20220619172726"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619172724-myod5wj.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: parent-style=\"display: block;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172727-0hbwz0p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619172727-0hbwz0p",
+				"updated": "20220619172808"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Broker",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172810-nlhe056",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619172810-nlhe056",
+				"updated": "20220619172854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务器节点,存储 topic 的数据",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172903-a4p7m7a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619172903-a4p7m7a",
+				"updated": "20220619172907"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Topic",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172908-g6qd2zv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619172908-g6qd2zv",
+				"updated": "20220619172934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "消息的类别,类似数据库的不同表,物理上分开存储",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172944-x2g8ko3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619172944-x2g8ko3",
+				"updated": "20220619172957"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Partition",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619172959-ecv1s25",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619172959-ecv1s25",
+				"updated": "20220619173013"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "topic 中的数据分割为一个或多个 partition。每个 topic 至少有一个 partition。每个 partition 中的数据使用多个 segment 文件存储。partition 中的数据是有序的，不同 partition 间的数据丢失了数据的顺序。如果 topic 有多个 partition，消费数据时就不能保证数据的顺序。在需要严格保证消息的消费顺序的场景下，需要将 partition 数目设为 1。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173150-70ewwi3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619173150-70ewwi3",
+				"updated": "20220619173154"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Producer",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173155-9gkv79q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173155-9gkv79q",
+				"updated": "20220619173232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "消息的生产者,发送消息到 Topic 中,存储到某个 Partition 中",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173234-90jxlde",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619173234-90jxlde",
+				"updated": "20220619173238"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Consumer",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173239-yf67idi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173239-yf67idi",
+				"updated": "20220619173250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "消息的消费者,可以消费多个 Topic 中的数据",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173250-j3vuq9k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619173250-j3vuq9k",
+				"updated": "20220619173257"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Consumer Group",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173101-dbmpjba",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173101-dbmpjba",
+				"updated": "20220619173305"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个 Consumer 属于一个特定的 Consumer Group",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173311-mmta4hc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619173311-mmta4hc",
+				"updated": "20220619173311"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Leader",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173311-l7vkrtr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173311-l7vkrtr",
+				"updated": "20220619173311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个 partition 有多个副本，其中有且仅有一个作为 Leader，Leader 是当前负责数据的读写的 partition。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173337-dgdz3mw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619173337-dgdz3mw",
+				"updated": "20220619173337"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Follower",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173337-yfd49vi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173337-yfd49vi",
+				"updated": "20220619173337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Follower 跟随 Leader，所有写请求都通过 Leader 路由，数据变更会广播给所有 Follower，Follower 与 Leader 保持数据同步。如果 Leader 失效，则从 Follower 中选举出一个新的 Leader。当 Follower 与 Leader 挂掉、卡住或者同步太慢，leader 会把这个 follower 从“in sync replicas”（ISR）列表中删除，重新创建一个 Follower。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173607-putgfmp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220619173607-putgfmp",
+				"updated": "20220619173611"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "架构",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173612-k1bnagz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173612-k1bnagz",
+				"updated": "20220619173617"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block; max-width: 1034px;",
+						"style": "width: 1024px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619173615-vz56tsq.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 1024px;\" parent-style=\"display: block; max-width: 1034px;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619173621-zu89nia",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619173621-zu89nia",
+				"updated": "20220619180350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个 Topic 分为多个 Partition,每一条消费必须指定 Topic 和 Partition,每个 Partition 对应一个物理上的存储,Partition 越多,吞吐量就越大,但是需要的资源也越多,Partition 顺序写磁盘,性能高",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619180401-kbmjqk3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619180401-kbmjqk3",
+				"updated": "20220619180451"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kafka 会保留所有的消息,可以设置删除策略为文件达到一定大小或删除多久前的",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619180452-vaaw5jr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619180452-vaaw5jr",
+				"updated": "20220619180454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为 Kafka 读取特定消息的时间复杂度为 O(1)，即与文件大小无关，所以这里删除过期文件与提高 Kafka 性能无关。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619180620-h5arbfh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619180620-h5arbfh",
+				"updated": "20220619180622"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "消息路由",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619180623-skpse94",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619180623-skpse94",
+				"updated": "20220619180658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Producer 发送消息到 broker 时，会根据 Paritition 机制选择将其存储到哪一个 Partition。如果 Partition 机制设置合理，所有消息可以均匀分布到不同的 Partition 里，这样就实现了负载均衡。有了 Partition 后，不同的消息可以并行写入不同 broker 的不同 Partition 里，极大的提高了吞吐率。在发送一条消息时，可以指定这条消息的 key，Producer 根据这个 key 和 Partition 机制来判断应该将这条消息发送到哪个 Parition。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619180701-225o1le",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619180701-225o1le",
+				"updated": "20220619180708"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Consumer Group",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619180713-9f6j2lu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619180713-9f6j2lu",
+				"updated": "20220619180716"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block; max-width: 654px;",
+						"style": "width: 644px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619180713-det0xyg.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 644px;\" parent-style=\"display: block; max-width: 654px;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181114-l0blgyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619181114-l0blgyz",
+				"updated": "20220619181114"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是 Kafka 用来实现一个 Topic 消息的广播（发给所有的 Consumer）和单播（发给某一个 Consumer）的手段。一个 Topic 可以对应多个 Consumer Group。如果需要实现广播，只要每个 Consumer 有一个独立的 Group 就可以了。要实现单播只要所有的 Consumer 在同一个 Group 里。用 Consumer Group 还可以将 Consumer 进行自由的分组而不需要多次发送消息到不同的 Topic。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192328-mkibmbn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192328-mkibmbn",
+				"updated": "20220619192328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同一条消息只能被同一个消费者组中一个消费者消费，但是可以被多个消费者组同时消费。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181114-rhds5sz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619181114-rhds5sz",
+				"updated": "20220619181114"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实际上，Kafka 的设计理念之一就是同时提供离线处理和实时处理。根据这一特性，可以使用 Storm 这种实时流处理系统对消息进行实时在线处理，同时使用 Hadoop 这种批处理系统进行离线处理，还可以同时将数据实时备份到另一个数据中心，只需要保证这三个操作所使用的 Consumer 属于不同的 Consumer Group 即可。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190600-09in5zi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619190600-09in5zi",
+				"updated": "20220619190604"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "a.每个 consumer 客户端被创建时,会向 zookeeper 注册自己的信息;",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "b.此作用主要是为了\"负载均衡\".",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "c.同一个 Consumer Group 中的 Consumers，Kafka 将相应 Topic 中的每个消息只发送给其中一个 Consumer。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "d.Consumer Group 中的每个 Consumer 读取 Topic 的一个或多个 Partitions，并且是唯一的 Consumer；",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "e.一个 Consumer group 的多个 consumer 的所有线程依次有序地消费一个 topic 的所有 partitions,如果 Consumer group 中所有 consumer 总线程大于 partitions 数量，则会出现空闲情况;",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190810-snu45ii",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619190810-snu45ii",
+				"updated": "20220619190815"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Consumer 均衡算法",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192639-eiwyocz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192639-eiwyocz",
+				"updated": "20220619192639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当一个 group 中,有 consumer 加入或者离开时,会触发 partitions 均衡.均衡的最终目的,是提升 topic 的并发消费能力.",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190810-yphipfe",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 41,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20220619190810-yphipfe",
+				"updated": "20220619190823"
+			},
+			"Children": [
+				{
+					"ID": "20220619192639-u7k22g8",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 41,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220619192639-u7k22g8",
+						"updated": "20220619192639"
+					},
+					"Children": [
+						{
+							"ID": "20220619192639-uob3lhz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192639-uob3lhz",
+								"updated": "20220619192639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "假如 topic1,具有如下 partitions: P0,P1,P2,P3",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619192639-jetjb61",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 41,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220619192639-jetjb61",
+						"updated": "20220619192639"
+					},
+					"Children": [
+						{
+							"ID": "20220619192639-x5aj35m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192639-x5aj35m",
+								"updated": "20220619192639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "加入 group 中,有如下 consumer: C0,C1",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619192639-bx0c4d8",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 41,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220619192639-bx0c4d8",
+						"updated": "20220619192639"
+					},
+					"Children": [
+						{
+							"ID": "20220619192639-xuins9j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192639-xuins9j",
+								"updated": "20220619192639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先根据 partition 索引号对 partitions 排序: P0,P1,P2,P3",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619192639-2g9104g",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 41,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220619192639-2g9104g",
+						"updated": "20220619192639"
+					},
+					"Children": [
+						{
+							"ID": "20220619192639-nawu7ic",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192639-nawu7ic",
+								"updated": "20220619192639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据(consumer.id + '-'+ thread 序号)排序: C0,C1",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619192639-57xqv5p",
+					"Type": "NodeListItem",
+					"Data": "5",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 5,
+						"Delimiter": 41,
+						"Padding": 3,
+						"Marker": "NQ==",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220619192639-57xqv5p",
+						"updated": "20220619192639"
+					},
+					"Children": [
+						{
+							"ID": "20220619192639-s5gx9lh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192639-s5gx9lh",
+								"updated": "20220619192639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算倍数: M = [P0,P1,P2,P3].size / [C0,C1].size,本例值 M=2(向上取整)",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619192639-7fik2pe",
+					"Type": "NodeListItem",
+					"Data": "6",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 6,
+						"Delimiter": 41,
+						"Padding": 3,
+						"Marker": "Ng==",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220619192639-7fik2pe",
+						"updated": "20220619192639"
+					},
+					"Children": [
+						{
+							"ID": "20220619192639-s8gddd7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192639-s8gddd7",
+								"updated": "20220619192639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "然后依次分配 partitions: C0 = [P0,P1],C1=[P2,P3],即 Ci = [P(i * M),P((i + 1) * M -1)]",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619191110-mtchhgz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619191110-mtchhgz",
+				"updated": "20220619191110"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Consumer offset",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619191111-3wmhwwu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619191111-3wmhwwu",
+				"updated": "20220619191118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用来跟踪每个 consumer 目前所消费的 partition 中最大的 offset",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181230-no0rjva",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619181230-no0rjva",
+				"updated": "20220619181242"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "delivery guarantee",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-cv5vuwk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619181243-cv5vuwk",
+				"updated": "20220619181243"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有这么几种可能的 delivery guarantee：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-8c0b4i7",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619181243-8c0b4i7",
+				"updated": "20220619181250"
+			},
+			"Children": [
+				{
+					"ID": "20220619181250-tkjqab1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619181250-tkjqab1",
+						"updated": "20220619181250"
+					},
+					"Children": [
+						{
+							"ID": "20220619181250-luzgr26",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619181250-luzgr26",
+								"updated": "20220619181250"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "At most once 　　消息可能会丢，但绝不会重复传输",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-oqn6rrr",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619181243-oqn6rrr",
+				"updated": "20220619181256"
+			},
+			"Children": [
+				{
+					"ID": "20220619181252-xa4xvy5",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619181252-xa4xvy5",
+						"updated": "20220619181256"
+					},
+					"Children": [
+						{
+							"ID": "20220619181252-5iu6huv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619181252-5iu6huv",
+								"updated": "20220619181256"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "At least one 　　消息绝不会丢，但可能会重复传输",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-1nplvlg",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619181243-1nplvlg",
+				"updated": "20220619181257"
+			},
+			"Children": [
+				{
+					"ID": "20220619181254-h05h5oa",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619181254-h05h5oa",
+						"updated": "20220619181257"
+					},
+					"Children": [
+						{
+							"ID": "20220619181254-5ue9g2y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619181254-5ue9g2y",
+								"updated": "20220619181257"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Exactly once 　　每条消息肯定会被传输一次且仅传输一次，很多时候这是用户所想要的。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-rcgka9p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619181243-rcgka9p",
+				"updated": "20220619181318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当 Producer 向 broker 发送消息时，一旦这条消息被 commit，因数 replication 的存在，它就不会丢。但是如果 Producer 发送数据给 broker 后，遇到网络问题而造成通信中断，那 Producer 就无法判断该条消息是否已经 commit。虽然 Kafka 无法确定网络故障期间发生了什么，但是 Producer 可以生成一种类似于",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "主键",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的东西，发生故障时幂等性的重试多次，这样就做到了 Exactly once。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-2b03xf5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619181243-2b03xf5",
+				"updated": "20220619181243"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接下来讨论的是消息从 broker 到 Consumer 的 delivery guarantee 语义。（仅针对 Kafka consumer high level API）。Consumer 在从 broker 读取消息后，可以选择 commit，该操作会在 Zookeeper 中保存该 Consumer 在该 Partition 中读取的消息的 offset。该 Consumer 下一次再读该 Partition 时会从下一条开始读取。如未 commit，下一次读取的开始位置会跟上一次 commit 之后的开始位置相同。当然可以将 Consumer 设置为 autocommit，即 Consumer 一旦读到数据立即自动 commit。如果只讨论这一读取消息的过程，那 Kafka 是确保了 Exactly once。但实际使用中应用程序并非在 Consumer 读取完数据就结束了，而是要进行进一步处理，而数据处理与 commit 的顺序在很大程度上决定了消息从 broker 和 consumer 的 delivery guarantee semantic。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619181243-84c30ur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619181243-84c30ur",
+				"updated": "20220619182320"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Kafka 默认保证 At least once",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，并且允许通过设置 Producer 异步提交来实现 At most once。而 Exactly once 要求与外部存储系统协作，幸运的是 Kafka 提供的 offset 可以非常直接非常容易得使用这种方式。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182317-ooydg2k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619182317-ooydg2k",
+				"updated": "20220619182324"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "高可用",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619183025-3mvfcki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619183025-3mvfcki",
+				"updated": "20220619183032"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Replication",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182324-931a9fq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619182324-931a9fq",
+				"updated": "20220619182457"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 Replication,每个 partition 的数据保存多个副本,多个 Replication 之间需要一个 Leader,Produce 只发送数据到 Leader,其他 replication 从 Leader 复制数据",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182853-cjsuvdp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619182853-cjsuvdp",
+				"updated": "20220619182854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了更好的做负载均衡，Kafka 尽量将所有的 Partition 均匀分配到整个集群上。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182910-dejo1fc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619182910-dejo1fc",
+				"updated": "20220619182910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kafka 分配 Replica 的算法如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182910-jfz8sql",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619182910-jfz8sql",
+				"updated": "20220619182910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.将所有 Broker（假设共 n 个 Broker）和待分配的 Partition 排序",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182910-8hf18h5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619182910-8hf18h5",
+				"updated": "20220619182910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.将第 i 个 Partition 分配到第（i mod n）个 Broker 上",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619182910-wdi0hws",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619182910-wdi0hws",
+				"updated": "20220619182910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.将第 i 个 Partition 的第 j 个 Replica 分配到第（(i + j) mode n）个 Broker 上",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192410-9bdfqms",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192410-9bdfqms",
+				"updated": "20220619192410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不支持读写分离，所有的读写操作都在 Leader 节点上；",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192440-wgyvgil",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192440-wgyvgil",
+				"updated": "20220619192440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果使用读写分离的策略，必然会有主和副本之间数据同步，要保证其一致性，另外副本在同步的时候如何保证实时性。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192440-nfr8zie",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619192440-nfr8zie",
+				"updated": "20220619192440"
+			},
+			"Children": [
+				{
+					"ID": "20220619192440-bf63g25",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619192440-bf63g25",
+						"updated": "20220619192440"
+					},
+					"Children": [
+						{
+							"ID": "20220619192440-gy5zoh4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192440-gy5zoh4",
+								"updated": "20220619192440"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "数据一致性",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：如果采用一主多从的方式，Leader 副本的数据在同步到 Follower 副本的时候会存在一定的延迟，那么 Follower 副本的消息位移也不一样，但是消费者需要通过消费位移来控制消息拉取的进度，多个副本之间要维护统一消费位移的一致性。那么如果要解决这个问题，就需要引入分布式锁，保证锁的安全，非常耗费性能。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619192440-6wvn2j0",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619192440-6wvn2j0",
+						"updated": "20220619192440"
+					},
+					"Children": [
+						{
+							"ID": "20220619192440-5jnn28w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619192440-5jnn28w",
+								"updated": "20220619192440"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "实时性",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：如果网络延迟比较大，在同步的过程中难免会影响效率，从而可能无法满足实时性业务的需求。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619183045-1kabbg2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619183045-1kabbg2",
+				"updated": "20220619183045"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Data Replication（副本策略）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619183059-gry5yd8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619183059-gry5yd8",
+				"updated": "20220619183059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Producer 在发布消息到某个 Partition 时，先通过 ZooKeeper 找到该 Partition 的 Leader，然后无论该 Topic 的 Replication Factor 为多少，Producer 只将该消息发送到该 Partition 的 Leader。Leader 会将该消息写入其本地 Log。每个 Follower 都从 Leader pull 数据。这种方式上，Follower 存储的数据顺序与 Leader 保持一致。Follower 在收到该消息并写入其 Log 后，向 Leader 发送 ACK。一旦 Leader 收到了 ISR 中的所有 Replica 的 ACK，该消息就被认为已经 commit 了，Leader 将增加 HW 并且向 Producer 发送 ACK。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619183059-k0d96fo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619183059-k0d96fo",
+				"updated": "20220619183059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了提高性能，每个 Follower 在接收到数据后就立马向 Leader 发送 ACK，而非等到数据写入 Log 中。因此，对于已经 commit 的消息，Kafka 只能保证它被存于多个 Replica 的内存中，而不能保证它们被持久化到磁盘中，也就不能完全保证异常发生后该条消息一定能被 Consumer 消费。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619183059-k82to4d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619183059-k82to4d",
+				"updated": "20220619183059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Consumer 读消息也是从 Leader 读取，只有被 commit 过的消息才会暴露给 Consumer。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184002-gi5t6do",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184002-gi5t6do",
+				"updated": "20220619184002"
+			}
+		},
+		{
+			"ID": "20220619183837-feb94tl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619183837-feb94tl",
+				"updated": "20220619183854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HW: High Watermark 最晚副本同步到的位置",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619183913-w214gxk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619183913-w214gxk",
+				"updated": "20220619183953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ISR: In-Sync Replicas 一定程度同步的副本 OSR:Out-Of-Sync 同步滞后过多的副本",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619183652-3ib8cmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619183652-3ib8cmh",
+				"updated": "20220619183655"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block; max-width: 735px;",
+						"style": "width: 725px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619183652-f3zzcsr.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 725px;\" parent-style=\"display: block; max-width: 735px;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184324-rvd6mn6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184324-rvd6mn6",
+				"updated": "20220619184324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于 Kafka 而言，定义一个 Broker 是否“活着”包含两个条件：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184324-u9dwmra",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220619184324-u9dwmra",
+				"updated": "20220619184324"
+			},
+			"Children": [
+				{
+					"ID": "20220619184324-rj8lhs4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619184324-rj8lhs4",
+						"updated": "20220619184324"
+					},
+					"Children": [
+						{
+							"ID": "20220619184324-uss4sxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619184324-uss4sxy",
+								"updated": "20220619184324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一是它必须维护与 ZooKeeper 的 session（这个通过 ZooKeeper 的 Heartbeat 机制来实现）。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220619184324-l1xnm5z",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220619184324-l1xnm5z",
+						"updated": "20220619184324"
+					},
+					"Children": [
+						{
+							"ID": "20220619184324-abbhwxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220619184324-abbhwxy",
+								"updated": "20220619184324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "二是 Follower 必须能够及时将 Leader 的消息复制过来，不能“落后太多”。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619184343-syx8fg3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184343-syx8fg3",
+				"updated": "20220619184538"
+			}
+		},
+		{
+			"ID": "20220619184343-navdsg8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184343-navdsg8",
+				"updated": "20220619184343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要说明的是，Kafka 只解决 fail/recover，不处理“Byzantine”（“拜占庭”）问题。一条消息只有被 ISR 里的所有 Follower 都从 Leader 复制过去才会被认为已提交。这样就避免了部分数据被写进了 Leader，还没来得及被任何 Follower 复制就宕机了，而造成数据丢失（Consumer 无法消费这些数据）。而对于 Producer 而言，它可以选择是否等待消息 commit，这可以通过 request.required.acks 来设置。这种机制确保了只要 ISR 有一个或以上的 Follower，一条被 commit 的消息就不会丢失。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184623-vkt7xag",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619184623-vkt7xag",
+				"updated": "20220619184645"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Leader Election",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184840-qek5ukq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184840-qek5ukq",
+				"updated": "20220619184840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一种非常常用的选举 leader 的方式是“Majority Vote”（“少数服从多数”），但 Kafka 并未采用这种方式。这种模式下，如果我们有 2f+1 个 Replica（包含 Leader 和 Follower），那在 commit 之前必须保证有 f+1 个 Replica 复制完消息，为了保证正确选出新的 Leader，fail 的 Replica 不能超过 f 个。因为在剩下的任意 f+1 个 Replica 里，至少有一个 Replica 包含有最新的所有消息。这种方式有个很大的优势，系统的 latency 只取决于最快的几个 Broker，而非最慢那个。Majority Vote 也有一些劣势，为了保证 Leader Election 的正常进行，它所能容忍的 fail 的 follower 个数比较少。如果要容忍 1 个 follower 挂掉，必须要有 3 个以上的 Replica，如果要容忍 2 个 Follower 挂掉，必须要有 5 个以上的 Replica。也就是说，在生产环境下为了保证较高的容错程度，必须要有大量的 Replica，而大量的 Replica 又会在大数据量下导致性能的急剧下降。这就是这种算法更多用在 ZooKeeper 这种共享集群配置的系统中而很少在需要存储大量数据的系统中使用的原因。例如 HDFS 的 HA Feature 是基于 majority-vote-based journal，但是它的数据存储并没有使用这种方式。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184840-84l2g9q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184840-84l2g9q",
+				"updated": "20220619184840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kafka 在 ZooKeeper 中动态维护了一个 ISR（in-sync replicas），这个 ISR 里的所有 Replica 都跟上了 leader，只有 ISR 里的成员才有被选为 Leader 的可能。在这种模式下，对于 f+1 个 Replica，一个 Partition 能在保证不丢失已经 commit 的消息的前提下容忍 f 个 Replica 的失败。在大多数使用场景中，这种模式是非常有利的。事实上，为了容忍 f 个 Replica 的失败，Majority Vote 和 ISR 在 commit 前需要等待的 Replica 数量是一样的，但是 ISR 需要的总的 Replica 的个数几乎是 Majority Vote 的一半。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619184840-2gsedwg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619184840-2gsedwg",
+				"updated": "20220619184840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "虽然 Majority Vote 与 ISR 相比有不需等待最慢的 Broker 这一优势，但是 Kafka 作者认为 Kafka 可以通过 Producer 选择是否被 commit 阻塞来改善这一问题，并且节省下来的 Replica 和磁盘使得 ISR 模式仍然值得。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619185632-xzrjxig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619185632-xzrjxig",
+				"updated": "20220619185928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "(以前)所有 Follower 都在 ZooKeeper 上设置一个 Watch，一旦 Leader 宕机，其对应的 ephemeral znode 会自动删除，此时所有 Follower 都尝试创建该节点，而创建成功者（ZooKeeper 保证只有一个能创建成功）即是新的 Leader，其它 Replica 即为 Follower。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619185635-xymz603",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619185635-xymz603",
+				"updated": "20220619185915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "kafka 在所有 broker 中选出一个 controller，所有 Partition 的 Leader 选举都由 controller 决定。controller 会将 Leader 的改变直接通过 RPC 的方式（比 ZooKeeper Queue 的方式更高效）通知需为为此作为响应的 Broker。同时 controller 也负责增删 Topic 以及 Replica 的重新分配。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190040-iigfnx5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619190040-iigfnx5",
+				"updated": "20220619190043"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "消息发布",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190052-djscbdx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619190052-djscbdx",
+				"updated": "20220619190052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "producer 发送消息到 broker 时，会根据分区算法选择将其存储到哪一个 partition。其路由机制为：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190052-fbalesp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220619190052-fbalesp",
+				"linenumber": "true",
+				"updated": "20220619190052"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "1、 指定了 patition，则直接使用；\n2、 未指定 patition 但指定 key，通过对 key 的 value 进行hash 选出一个 patition\n3、 patition 和 key 都未指定，使用轮询选出一个 patition。\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190053-kd7dw0d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619190053-kd7dw0d",
+				"updated": "20220619190240"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619190237-avtujka.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: parent-style=\"display: block;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190320-exrt7t3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619190320-exrt7t3",
+				"updated": "20220619190325"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Topic",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190411-vvrmexn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619190411-vvrmexn",
+				"updated": "20220619190416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Topic 创建",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190416-wqwidxh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619190416-wqwidxh",
+				"updated": "20220619190418"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619190416-9w9uwmc.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: parent-style=\"display: block;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619190524-60oodol",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220619190524-60oodol",
+				"updated": "20220619191908"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "其他",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619191908-e0jrnyj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619191908-e0jrnyj",
+				"updated": "20220619191911"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "事务消息",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619191912-y4rby3e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619191912-y4rby3e",
+				"updated": "20220619191916"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block; max-width: 906px;",
+						"style": "width: 896px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220619191912-zyziefh.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 896px;\" parent-style=\"display: block; max-width: 906px;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619191918-mettzln",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220619191918-mettzln",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "性能",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-0vzkvki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220619192550-0vzkvki",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "谈谈 Kafka 吞吐量为何如此高？",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-j01nmxl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-j01nmxl",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多分区、batch send、kafka Reator 网络模型、pagecache、sendfile 零拷贝、数据压缩",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-wwtvwfv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-wwtvwfv",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1\u003e 顺序读写",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-et6w4e9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-et6w4e9",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pic2.zhimg.com/80/v2-12ae2ae2e8c7606b7cb028088ae87f2d_720w.jpg",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-i3uisaz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-i3uisaz",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上图就展示了 Kafka 是如何写入数据的， 每一个 Partition 其实都是一个文件 ，收到消息后 Kafka 会把数据插入到文件末尾（虚框部分）。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-6sejfz6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-6sejfz6",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种方法有一个缺陷—— 没有办法删除数据 ，所以 Kafka 是不会删除数据的，它会把所有的数据都保留下来，每个消费者（Consumer）对每个 Topic 都有一个 offset 用来表示 读取到了第几条数据 。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-kxt3v30",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-kxt3v30",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2\u003ePage Cache",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-r0vyqaa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-r0vyqaa",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了优化读写性能，Kafka 利用了操作系统本身的 Page Cache，就是利用操作系统自身的内存而不是 JVM 空间内存。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-tzg2zzs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-tzg2zzs",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3\u003e 零拷贝",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-3m3hn1u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-3m3hn1u",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "零拷贝就是一种避免 CPU 将数据从一块存储拷贝到另外一块存储的技术。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-308ncgs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-308ncgs",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "linux 操作系统 “零拷贝” 机制使用了 sendfile 方法， 允许操作系统将数据从 Page Cache 直接发送到网络，只需要最后一步的 copy 操作将数据复制到 NIC 缓冲区， 这样避免重新复制数据 。示意图如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-1a6gprw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-1a6gprw",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://pic2.zhimg.com/v2-4802ab4f3e588e5e36413a700bee9dd1_r.jpg",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-8di9ey0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-8di9ey0",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过这种 “零拷贝” 的机制，Page Cache 结合 sendfile 方法，Kafka 消费端的性能也大幅提升。这也是为什么有时候消费端在不断消费数据时，我们并没有看到磁盘 io 比较高，此刻正是操作系统缓存在提供数据。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-6p14i5w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-6p14i5w",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4\u003e 分区分段 + 索引",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-o33d95a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-o33d95a",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kafka 的 message 是按 topic 分类存储的，topic 中的数据又是按照一个一个的 partition 即分区存储到不同 broker 节点。每个 partition 对应了操作系统上的一个文件夹，partition 实际上又是按照 segment 分段存储的。这也非常符合分布式系统分区分桶的设计思想。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-2j5yp99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-2j5yp99",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5\u003e 批量读写",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-6xv48zm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-6xv48zm",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kafka 数据读写也是批量的而不是单条的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-zaauqms",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-zaauqms",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6\u003e 批量压缩",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220619192550-qyb7sg9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220619192550-qyb7sg9",
+				"updated": "20220619192550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果每个消息都压缩，但是压缩率相对很低，所以 Kafka 使用了批量压缩，即将多个消息一起压缩而不是单个消息压缩",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}
