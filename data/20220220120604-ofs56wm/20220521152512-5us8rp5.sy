@@ -5,7 +5,7 @@
 		"icon": "1f3c4-200d-2642-fe0f",
 		"id": "20220521152512-5us8rp5",
 		"title": "Kubernetes",
-		"updated": "20220607094951"
+		"updated": "20220617095039"
 	},
 	"Children": [
 		{
@@ -1474,15 +1474,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220521185953-opcy3ca",
-				"updated": "20220521190033"
+				"updated": "20220616212418"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "master 节点默认有污点, 组织 pod 调度到 master 节点上",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "master 节点默认有污点, 不组织 pod 调度到 master 节点上"
 				}
 			]
 		},
@@ -3018,7 +3015,7 @@
 			},
 			"Properties": {
 				"id": "20220521201749-494n5wr",
-				"updated": "20220521215201"
+				"updated": "20220616213937"
 			},
 			"Children": [
 				{
@@ -3033,7 +3030,7 @@
 					},
 					"Properties": {
 						"id": "20220521203828-kxa7erp",
-						"updated": "20220521203928"
+						"updated": "20220616213338"
 					},
 					"Children": [
 						{
@@ -3041,15 +3038,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220521203828-nzrh9h9",
-								"updated": "20220521203922"
+								"updated": "20220616213338"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Liveness Probe: 检查到不健康,自动重启",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Liveness Probe: 存活探测 判断何时重启 检查到不健康,自动重启，可以使用TCP或者HTTP或者TCP套接字或者gRPC"
 								}
 							]
 						},
@@ -3120,7 +3114,7 @@
 					},
 					"Properties": {
 						"id": "20220521204235-8yvf2yb",
-						"updated": "20220521204253"
+						"updated": "20220616213347"
 					},
 					"Children": [
 						{
@@ -3128,15 +3122,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220521204235-7hzpshi",
-								"updated": "20220521204253"
+								"updated": "20220616213347"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Readiness Probe:",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Readiness Probe: 就绪探测 确定容器是否已经就绪可以接受流量 等待程序加载到可用状态"
 								}
 							]
 						}
@@ -3155,7 +3146,7 @@
 					},
 					"Properties": {
 						"id": "20220521215200-1tyw0e2",
-						"updated": "20220521215201"
+						"updated": "20220616213937"
 					},
 					"Children": [
 						{
@@ -3163,15 +3154,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220521215200-gtkl8x2",
-								"updated": "20220521215201"
+								"updated": "20220616213937"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "xxx",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "Start Probe：启动探测，启动探测成功之后进行存活探测"
 								}
 							]
 						}
@@ -3209,15 +3197,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220521204320-w3nken2",
-				"updated": "20220522091833"
+				"updated": "20220616215532"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "预定义 Pod 默认设置,可以定义 label selector 防止误伤",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "预定义 Pod 默认设置,可以定义 label selector 防止误伤，，             "
 				}
 			]
 		},
@@ -3366,135 +3351,77 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"id": "",
-						"parent-style": "max-width: 526px;",
-						"style": "width: 516px;"
+						"parent-style": "max-width: 446px;",
+						"style": "width: 436px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang",
-							"Data": "!",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeBang"
 						},
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "image.png"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220522092351-91x2ucf.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "assets/image-20220522092351-91x2ucf.png"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 516px;\" parent-style=\"max-width: 526px;\"}",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "{: style=\"width: 436px;\" parent-style=\"max-width: 446px;\"}"
 				},
 				{
 					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"id": "",
-						"parent-style": "max-width: 440px;",
-						"style": "width: 430px;"
+						"parent-style": "max-width: 384px;",
+						"style": "width: 374px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang",
-							"Data": "!",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeBang"
 						},
 						{
-							"Type": "NodeOpenBracket",
-							"Data": "[",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenBracket"
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "image.png"
 						},
 						{
-							"Type": "NodeCloseBracket",
-							"Data": "]",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseBracket"
 						},
 						{
-							"Type": "NodeOpenParen",
-							"Data": "(",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeOpenParen"
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220522093047-gn7aus6.png",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "assets/image-20220522093047-gn7aus6.png"
 						},
 						{
-							"Type": "NodeCloseParen",
-							"Data": ")",
-							"Properties": {
-								"id": ""
-							}
+							"Type": "NodeCloseParen"
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 430px;\" parent-style=\"max-width: 440px;\"}",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "{: style=\"width: 374px;\" parent-style=\"max-width: 384px;\"}"
 				}
 			]
 		},
@@ -4003,7 +3930,7 @@
 			},
 			"Properties": {
 				"id": "20220522144209-dvsqlgq",
-				"updated": "20220522144524"
+				"updated": "20220616220045"
 			},
 			"Children": [
 				{
@@ -4054,7 +3981,7 @@
 					},
 					"Properties": {
 						"id": "20220522144224-f8bvvr8",
-						"updated": "20220522144524"
+						"updated": "20220616220045"
 					},
 					"Children": [
 						{
@@ -4062,15 +3989,12 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220522144224-b2fiv92",
-								"updated": "20220522144229"
+								"updated": "20220616220045"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "Dns 方式",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "DNS 方式"
 								}
 							]
 						},
@@ -7610,7 +7534,7 @@
 			},
 			"Properties": {
 				"id": "20220526080754-3b70u3k",
-				"updated": "20220526083055"
+				"updated": "20220617095039"
 			},
 			"Children": [
 				{
@@ -7626,7 +7550,7 @@
 					},
 					"Properties": {
 						"id": "20220525204753-y6y0l0b",
-						"updated": "20220526083055"
+						"updated": "20220617095039"
 					},
 					"Children": [
 						{
@@ -7635,151 +7559,49 @@
 							"Properties": {
 								"id": "20220525204753-a990zsk",
 								"style": "text-align: left;",
-								"updated": "20220526083055"
+								"updated": "20220617095039"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "VXLAN 主流 不依赖 etcd 直接连接 apiServer",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeSoftBreak",
-									"Data": "\n",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "在三层网络之上，覆盖一层虚拟的，内核 VXLAN 维护的二层网络，来来让所有连接在 VXLAN 二层网络上的主机可以像在一个局域网上通信，通过 VTEP 打通隧道（VXLAN Tunnel End Point 虚拟隧道端点）VTEP 类型 flanneld，但是封装解包的是二层数据帧，而且全部在内核态完成",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeSoftBreak",
-									"Data": "\n",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "flannel.1 作为 VTEP 端点，维护不同目标地点 VTEP 设备的信息（ARP 记录",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeSoftBreak",
-									"Data": "\n",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "VNI：VTEP 设备识别数据帧是否归自己处理",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeSoftBreak",
-									"Data": "\n",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "封包：内部数据帧 +VXLAN 头 +UDP 封装（四层）+ 三层 IP 头 + 二层 MAC 头",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeSoftBreak",
-									"Data": "\n",
-									"Properties": {
-										"id": ""
-									}
-								},
-								{
-									"Type": "NodeText",
-									"Data": "flannel.1 作为网桥进行 UDP 包的转发，根据 FDB（Forwarding Database）转发数据库进行转发",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "VXLAN 主流 不依赖 etcd 直接连接 ApiServer\n在三层网络之上，覆盖一层虚拟的，内核 VXLAN 维护的二层网络，来来让所有连接在 VXLAN 二层网络上的主机可以像在一个局域网上通信，通过 VTEP 打通隧道（VXLAN Tunnel End Point 虚拟隧道端点）VTEP 类似 flanneld，但是封装解包的是二层数据帧，而且全部在内核态完成\nflannel.1 作为 VTEP 端点，维护不同目标地点 VTEP 设备的信息（ARP 记录\nVNI：VTEP 设备识别数据帧是否归自己处理\n封包：内部数据帧 +VXLAN 头 +UDP 封装（四层）+ 三层 IP 头 + 二层 MAC 头\nflannel.1 作为网桥进行 UDP 包的转发，根据 FDB（Forwarding Database）转发数据库进行转发"
 								},
 								{
 									"Type": "NodeImage",
+									"Data": "span",
 									"Properties": {
-										"id": "",
 										"parent-style": "max-width: 741px; display: block;",
 										"style": "width: 731px;"
 									},
 									"Children": [
 										{
-											"Type": "NodeBang",
-											"Data": "!",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeBang"
 										},
 										{
-											"Type": "NodeOpenBracket",
-											"Data": "[",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenBracket"
 										},
 										{
 											"Type": "NodeLinkText",
-											"Data": "image.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "image.png"
 										},
 										{
-											"Type": "NodeCloseBracket",
-											"Data": "]",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseBracket"
 										},
 										{
-											"Type": "NodeOpenParen",
-											"Data": "(",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeOpenParen"
 										},
 										{
 											"Type": "NodeLinkDest",
-											"Data": "assets/image-20220526081228-67nb1i9.png",
-											"Properties": {
-												"id": ""
-											}
+											"Data": "assets/image-20220526081228-67nb1i9.png"
 										},
 										{
-											"Type": "NodeCloseParen",
-											"Data": ")",
-											"Properties": {
-												"id": ""
-											}
+											"Type": "NodeCloseParen"
 										}
 									]
 								},
 								{
 									"Type": "NodeKramdownSpanIAL",
-									"Data": "{: style=\"width: 731px;\" parent-style=\"max-width: 741px; display: block;\"}",
-									"Properties": {
-										"id": ""
-									}
+									"Data": "{: style=\"width: 731px;\" parent-style=\"max-width: 741px; display: block;\"}"
 								}
 							]
 						}

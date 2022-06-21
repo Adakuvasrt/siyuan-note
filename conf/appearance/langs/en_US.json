@@ -1,4 +1,6 @@
 {
+  "resetRepoTip": "Resetting the data repository will completely delete the key and all snapshots, are you sure you want to reset?",
+  "resetRepo": "Reset data repo",
   "createSnapshot": "Create snapshot",
   "dataSnapshot": "Data snapshot",
   "copyKey": "Copy key string",
@@ -542,6 +544,8 @@
   "md39": "PlantUML Serve Address",
   "md40": "Leave blank to restore default <code>https://www.plantuml.com/plantuml/svg/~1</code>",
   "fileTree2": "The doc tree will automatically select the current document when the editor tab is switched",
+  "fileTree3": "No confirmation required when deleting documents",
+  "fileTree4": "If not enabled, a confirmation box will pop up every time you delete a document",
   "fileTree5": "Ref create doc save location",
   "fileTree6": "When using <code>((</code>, the save path of the new document (for example, /folder1/folder2/, the relative path of the current doc is used if it does not start with /)",
   "fileTree7": "Open in the current tab",
@@ -886,6 +890,9 @@
     "140": "Failed to create data snapshot: %s",
     "141": "Failed to rollback data snapshot",
     "142": "Snapshot memo cannot be empty",
-    "143": "Creating data snapshot..."
+    "143": "Creating data snapshot...",
+    "144": "Resetting data repository...",
+    "145": "Data repository reset completed",
+    "146": "Failed to reset data repository: %s"
   }
 }

@@ -5,7 +5,7 @@
 		"icon": "1f42a",
 		"id": "20220220195125-rpsf24e",
 		"title": "数据库",
-		"updated": "20220430175328"
+		"updated": "20220617130014"
 	},
 	"Children": [
 		{
@@ -3722,7 +3722,7 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220222171321-zedj6s2",
-								"updated": "20220222171330"
+								"updated": "20220617125433"
 							},
 							"Children": [
 								{
@@ -3732,26 +3732,378 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"ID": "20220617130037-02i7fkz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220617130037-02i7fkz",
+				"updated": "20220617130043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "索引下推"
+				}
+			]
+		},
+		{
+			"ID": "20220617130051-zvk4vsk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617130051-zvk4vsk",
+				"updated": "20220617130051"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当 sql满足最左前缀原则的时候，最左前缀可以用于在索引中定位记录，而索引下推就是用来优化那些不符合最左前缀的部分"
+				}
+			]
+		},
+		{
+			"ID": "20220617130127-f9zwzdr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617130127-f9zwzdr",
+				"updated": "20220617130132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在Mysql 5.6 版本引入了索引下推这个优化，在索引遍历过程中，对索引中包含的字段先做判断，直接过滤掉不满足条件的记录，减少回表次数"
+				}
+			]
+		},
+		{
+			"ID": "20220617125433-k5c4q6x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220617125433-k5c4q6x",
+				"updated": "20220617125435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "日志"
+				}
+			]
+		},
+		{
+			"ID": "20220617125435-mvdlm66",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220617125435-mvdlm66",
+				"updated": "20220617125446"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Redo Log"
+				}
+			]
+		},
+		{
+			"ID": "20220617125521-0zhuc6n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125521-0zhuc6n",
+				"updated": "20220617125738"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​​redo log​​是InnoDB存储引擎层的日志，又称重做日志文件，是物理日志"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
 				},
 				{
-					"ID": "20220222171330-xqugs6h",
-					"Type": "NodeListItem",
-					"ListData": {
-						"BulletChar": 42,
-						"Marker": "Kg=="
-					},
+					"Type": "NodeText",
+					"Data": "。​​redo log​​记录数据修改后新数据的备份、冗杂的​​undo log​​​、未提交的事务和回滚的事务，数据缓存到内存中，只是在事务提交前将​​redo log​​持久化到磁盘"
+				}
+			]
+		},
+		{
+			"ID": "20220617125521-6yjd77r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125521-6yjd77r",
+				"updated": "20220617125521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​redo log​​ 可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，保证了事务的持久性。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125521-jgup1m0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125521-jgup1m0",
+				"updated": "20220617125521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当有一条记录需要更新的时候，InnoDB引擎就会先把记录写到​​redo log​​中，并更新内存。之后，InnoDB引擎会在适当的时候，将这个操作更新到磁盘中，这个更新是在系统比较空闲的时候做，他的关键点是先写日志，再写磁盘。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125521-2atcpd1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125521-2atcpd1",
+				"updated": "20220617125521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​redo log​​日志大小是固定的，若空间满了以后会回到头部停止更新，先加载一些数据到磁盘让出文件空间，之后继续写入"
+				}
+			]
+		},
+		{
+			"ID": "20220617125533-vnmoxau",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125533-vnmoxau",
+				"updated": "20220617125533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了保证Redo Log能够有比较好的IO性能，InnoDB 的 Redo Log的设计有以下几个特点："
+				}
+			]
+		},
+		{
+			"ID": "20220617125533-70up3ds",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125533-70up3ds",
+				"updated": "20220617125533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "尽量保持​​Redo Log​​存储在一段连续的空间上。因此在系统第一次启动时就会将日志文件的空间完全分配。以顺序追加的方式记录Redo Log,通过顺序IO来改善性能。\nredo log包括两部分：一是内存中的日志缓冲(redo log buffer)，该部分日志是易失性的；二是磁盘上的重做日志文件(redo log file)，该部分日志是持久的。日志并不是直接写入文件的，而是先写入日志缓冲，当需要将日志刷新到磁盘时(如事务提交),将许多日志一起写入磁盘.\n并发的事务共享​​Redo Log​​的存储空间，它们的​​Redo Log​​按语句的执行顺序，依次交替的记录在一起，以减少日志占用的空间。所以，当一个事务将Redo Log写入磁盘时，也会将其他未提交**的事务的日志写入磁盘。\n​​Redo Log​​上只进行顺序追加的操作，当一个事务需要回滚时，它的​​Redo Log​​记录也不会从​​Redo Log​​中删除掉。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125542-q2t9gp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125542-q2t9gp0",
+				"updated": "20220617125542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般在事务提交之前会将redo log持久化到磁盘中，以此来保证持久性"
+				}
+			]
+		},
+		{
+			"ID": "20220617125446-rzyhewk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220617125446-rzyhewk",
+				"updated": "20220617125501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Bin Log"
+				}
+			]
+		},
+		{
+			"ID": "20220617125553-eo080w9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125553-eo080w9",
+				"updated": "20220617125729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​binlog​​​是"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "属于MySQL Server层面的，又称为归档日志，属于逻辑日志"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，是以二进制的形式记录的是这个语句的原始逻辑，依靠​​binlog​​​是没有​​CrashSafe​​能力的"
+				}
+			]
+		},
+		{
+			"ID": "20220617125553-1v4q3nl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125553-1v4q3nl",
+				"updated": "20220617125553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逻辑日志：可以简单理解为记录的就是sql语句。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125553-tgc6uz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125553-tgc6uz4",
+				"updated": "20220617125553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​binlog​​​主要使用场景：​​主从复制​​​，​​数据恢复​​"
+				}
+			]
+		},
+		{
+			"ID": "20220617125452-pl9wwlj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125452-pl9wwlj",
+				"updated": "20220617125509"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
 					"Properties": {
-						"id": "20220222171330-xqugs6h"
+						"parent-style": "display: block; max-width: 446px;",
+						"style": "width: 436px;"
 					},
 					"Children": [
 						{
-							"ID": "20220222171330-70z79n5",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220222171330-70z79n5"
-							}
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220617125506-o2ngj0y.png"
+						},
+						{
+							"Type": "NodeCloseParen"
 						}
 					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 436px;\" parent-style=\"display: block; max-width: 446px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220617125615-y1qerj5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125615-y1qerj5",
+				"updated": "20220617125615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么update语句 要有两阶段提交？"
+				}
+			]
+		},
+		{
+			"ID": "20220617125615-ryxfg81",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125615-ryxfg81",
+				"updated": "20220617125615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是为了让两份日志之间的逻辑一致。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125615-xhpbkzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125615-xhpbkzc",
+				"updated": "20220617125615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当执行update语句时，数据修改完更新到内存，先写​​redo log​​​ 并设置​​redo log​​​为准备阶段，再写​​binlog​​​，写完​​binlog​​​设置为​​redo log​​​为结束阶段。两个中间有一个写入差错，那么该操作都是失败，即​​redo log​​发现只有准备阶段没有结束，那么会将该条事务进行回滚。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125452-07j1kqs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220617125452-07j1kqs",
+				"updated": "20220617125458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Undo Log"
 				}
 			]
 		},
@@ -3760,7 +4112,211 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220222171237-hbvndgj",
-				"updated": "20220222171237"
+				"updated": "20220617125813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Undo Log 是为了实现事务的原子性，事务中执行失败，进行"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "回滚"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，在MySQL数据库 InnoDB 存储引擎中，还用Undo Log来实现多版本并发控制(简称：MVCC)。由引擎层的InnoDB引擎实现,是逻辑日志,记录数据修改被修改前的值。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125710-r378hcb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125710-r378hcb",
+				"updated": "20220617125710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原理:"
+				}
+			]
+		},
+		{
+			"ID": "20220617125710-6d38zj7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125710-6d38zj7",
+				"updated": "20220617125716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Undo Log的原理很简单，为了"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "满足事务的原子性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，在操作任何数据之前，首先将数据备份到Undo Log。然后进行数据的修改。如果出现了错误或者用户执行了ROLLBACK语句，系统可以利用Undo Log中的备份将数据恢复到事务开始之前的状态。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125806-zqqn0am",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125806-zqqn0am"
+			}
+		},
+		{
+			"ID": "20220617125809-muvmsn3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125809-muvmsn3",
+				"updated": "20220617125910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当事务成功提交，并且其他事务没有用MVCC查看这个版本时，就可以删除"
+				}
+			]
+		},
+		{
+			"ID": "20220617125921-bh3ndd4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125921-bh3ndd4"
+			}
+		},
+		{
+			"ID": "20220617125919-lb2678r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125919-lb2678r",
+				"updated": "20220617125919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了可以保证事务的原子性，Undo Log也可以用来辅助完成事务的持久化,如数据库异常之后的恢复机制。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125919-vcqmtuf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125919-vcqmtuf",
+				"updated": "20220617125919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为未提交的事务和回滚了的事务也会记录在​​Redo Log​​，因此在进行恢复时,这些事务要进行特殊的的处理。有2种不同的恢复策略："
+				}
+			]
+		},
+		{
+			"ID": "20220617125919-7wanqde",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125919-7wanqde",
+				"updated": "20220617125919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "A. 进行恢复时，只重做已经提交了的事务。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125919-mbre5n2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125919-mbre5n2",
+				"updated": "20220617125919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "B. 进行恢复时，重做所有事务包括未提交的事务和回滚了的事务。然后通过Undo Log回滚那些未提交的事务。"
+				}
+			]
+		},
+		{
+			"ID": "20220617125919-orp962t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125919-orp962t",
+				"updated": "20220617125919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MySQL数据库InnoDB存储引擎使用了B策略,​​InnoDB​​存储引擎中的恢复机制有几个特点："
+				}
+			]
+		},
+		{
+			"ID": "20220617125919-tkjrsgj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617125919-tkjrsgj",
+				"updated": "20220617130018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Undo Log回滚那些未提交的事务，被回滚了的事务在恢复时先redo再undo，也不会破坏数据的一致性\n 必须要在写Redo Log之前将对应的Undo Log写入磁盘。为了降低复杂度，InnoDB将Undo Log看作数据，因此记录Undo Log的操作也会记录到redo log中。这样undo log就可以像数据一样缓存起来，而不用在redo log之前写入磁盘了。"
+				}
+			]
+		},
+		{
+			"ID": "20220617130014-rbbqzbc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617130014-rbbqzbc"
+			}
+		},
+		{
+			"ID": "20220617130224-0yexnzv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220617130224-0yexnzv"
 			}
 		}
 	]
