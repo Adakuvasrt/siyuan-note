@@ -1,0 +1,1008 @@
+{
+	"ID": "20220621111354-2hxcyp8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f986",
+		"id": "20220621111354-2hxcyp8",
+		"title": "Kubernetes生产化实践之路",
+		"updated": "20220621144548"
+	},
+	"Children": [
+		{
+			"ID": "20220621112518-xdv4rkw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220621112518-xdv4rkw",
+				"updated": "20220621112522"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "架构基础"
+				}
+			]
+		},
+		{
+			"ID": "20220621111354-flhdnpr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220621111354-flhdnpr",
+				"updated": "20220621112526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Kubernets作用"
+				}
+			]
+		},
+		{
+			"ID": "20220621111431-harx2j8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220621111431-harx2j8",
+				"updated": "20220621111522"
+			},
+			"Children": [
+				{
+					"ID": "20220621111522-pmt6ulo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220621111522-pmt6ulo",
+						"updated": "20220621111522"
+					},
+					"Children": [
+						{
+							"ID": "20220621111522-lsa9iv3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621111522-lsa9iv3",
+								"updated": "20220621111551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "集群管理 监控和管理集群中节点的健康状况和可用资源"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621111527-hpbm45m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220621111527-hpbm45m"
+					},
+					"Children": [
+						{
+							"ID": "20220621111527-a11il92",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621111527-a11il92",
+								"updated": "20220621111556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作业调试和作业管理"
+								}
+							]
+						},
+						{
+							"ID": "20220621111603-46foogk",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220621111603-46foogk"
+							},
+							"Children": [
+								{
+									"ID": "20220621111603-1wejh66",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220621111603-1wejh66"
+									},
+									"Children": [
+										{
+											"ID": "20220621111603-pmandzj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220621111603-pmandzj",
+												"updated": "20220621111608"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "多种存储方式"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220621111615-n3lvf1g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220621111615-n3lvf1g"
+									},
+									"Children": [
+										{
+											"ID": "20220621111615-ediay4f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220621111615-ediay4f",
+												"updated": "20220621111623"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "自动可控的升级和回退"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220621111623-v5drsmw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20220621111623-v5drsmw"
+									},
+									"Children": [
+										{
+											"ID": "20220621111623-ue7ha2c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220621111623-ue7ha2c",
+												"updated": "20220621111633"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "高利用率的调度机制"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220621111634-0z9qtn6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NC4=",
+										"Num": 4
+									},
+									"Properties": {
+										"id": "20220621111634-0z9qtn6"
+									},
+									"Children": [
+										{
+											"ID": "20220621111634-mqos4sj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220621111634-mqos4sj",
+												"updated": "20220621111659"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有效的自愈机制"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220621111701-qnvfk17",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "NS4=",
+										"Num": 5
+									},
+									"Properties": {
+										"id": "20220621111701-qnvfk17"
+									},
+									"Children": [
+										{
+											"ID": "20220621111701-e8618ft",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220621111701-e8618ft",
+												"updated": "20220621111704"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "密码配置和管理"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621111708-mwcselx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220621111708-mwcselx"
+					},
+					"Children": [
+						{
+							"ID": "20220621111708-85m2woc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621111708-85m2woc",
+								"updated": "20220621111716"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务发现和服务治理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220621111719-hifch1x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621111719-hifch1x",
+				"updated": "20220621111722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "核心竞争力"
+				}
+			]
+		},
+		{
+			"ID": "20220621111723-lckqiao",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220621111723-lckqiao",
+				"updated": "20220621112503"
+			},
+			"Children": [
+				{
+					"ID": "20220621111725-v4aw6f2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220621111725-v4aw6f2",
+						"updated": "20220621111725"
+					},
+					"Children": [
+						{
+							"ID": "20220621111725-i8ikv5y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621111725-i8ikv5y",
+								"updated": "20220621111732"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "声明式系统"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621111733-jmboji6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220621111733-jmboji6"
+					},
+					"Children": [
+						{
+							"ID": "20220621111733-2cbe1tn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621111733-2cbe1tn",
+								"updated": "20220621111948"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "控制器模式  每种抽象出来的API对象都有控制器组件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621111951-wm5nk5c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220621111951-wm5nk5c"
+					},
+					"Children": [
+						{
+							"ID": "20220621111951-g8mzfwd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621111951-g8mzfwd",
+								"updated": "20220621111956"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "插件化框架"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621112501-wllghtf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220621112501-wllghtf",
+						"updated": "20220621112503"
+					},
+					"Children": [
+						{
+							"ID": "20220621112501-4csbjkj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112501-4csbjkj",
+								"updated": "20220621112503"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标准化推动"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220621112528-abkfn7x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220621112528-abkfn7x",
+				"updated": "20220621112532"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型设计"
+				}
+			]
+		},
+		{
+			"ID": "20220621112548-30t8qe9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621112548-30t8qe9",
+				"updated": "20220621112554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通用设计原则"
+				}
+			]
+		},
+		{
+			"ID": "20220621112555-3vxiade",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220621112555-3vxiade",
+				"updated": "20220621112751"
+			},
+			"Children": [
+				{
+					"ID": "20220621112556-p83ufq7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220621112556-p83ufq7",
+						"updated": "20220621112556"
+					},
+					"Children": [
+						{
+							"ID": "20220621112556-odpsgx5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112556-odpsgx5",
+								"updated": "20220621112629"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "业务模型化 所有对象的操作都用API形式发布，所有API设计都是声明式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621112630-bgahytq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220621112630-bgahytq"
+					},
+					"Children": [
+						{
+							"ID": "20220621112630-9v1qdmq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112630-9v1qdmq",
+								"updated": "20220621112653"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "控制器行为是可重入和幂等的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621112658-y7teazd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220621112658-y7teazd"
+					},
+					"Children": [
+						{
+							"ID": "20220621112658-9mfwcjw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112658-9mfwcjw",
+								"updated": "20220621112706"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所有对象之间是互补的和可组合的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621112715-18q0ubb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220621112715-18q0ubb",
+						"updated": "20220621112720"
+					},
+					"Children": [
+						{
+							"ID": "20220621112715-hemfjtk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112715-hemfjtk",
+								"updated": "20220621112733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "API 操作复杂度应该与对象数量成线性或接近线性比例"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621112735-v5tkyct",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220621112735-v5tkyct"
+					},
+					"Children": [
+						{
+							"ID": "20220621112735-whjzg4c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112735-whjzg4c",
+								"updated": "20220621112742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "API 对象状态不能依赖于网络连接状态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621112747-vs76nxz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220621112747-vs76nxz",
+						"updated": "20220621112751"
+					},
+					"Children": [
+						{
+							"ID": "20220621112747-9eq8u72",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621112747-9eq8u72",
+								"updated": "20220621112751"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽量避免让操作机制依赖于全局状态"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220621113259-g8t7ohv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621113259-g8t7ohv",
+				"updated": "20220621113302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模型设计"
+				}
+			]
+		},
+		{
+			"ID": "20220621113302-ra84vws",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621113302-ra84vws",
+				"updated": "20220621113444"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TypeMeta  （我是什么"
+				}
+			]
+		},
+		{
+			"ID": "20220621113310-im6cvxo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220621113310-im6cvxo",
+				"updated": "20220621113417"
+			},
+			"Children": [
+				{
+					"ID": "20220621113311-0a3486t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113311-0a3486t",
+						"updated": "20220621113345"
+					},
+					"Children": [
+						{
+							"ID": "20220621113311-freh4ny",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113311-freh4ny",
+								"updated": "20220621113345"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Group  core核心部分/apps应用部署相关"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621113312-p6bxbim",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113312-p6bxbim",
+						"updated": "20220621113409"
+					},
+					"Children": [
+						{
+							"ID": "20220621113312-wvp1j7n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113312-wvp1j7n",
+								"updated": "20220621113409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Kind    对象的基本类型-Node/Pod/Deployment"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621113313-xb07rf2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113313-xb07rf2",
+						"updated": "20220621113417"
+					},
+					"Children": [
+						{
+							"ID": "20220621113313-nsctm70",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113313-nsctm70",
+								"updated": "20220621113417"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Version 版本"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220621113427-f7hiedg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621113427-f7hiedg",
+				"updated": "20220621113451"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Metadata   （我是谁"
+				}
+			]
+		},
+		{
+			"ID": "20220621113437-pgn2hre",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220621113437-pgn2hre",
+				"updated": "20220621113630"
+			},
+			"Children": [
+				{
+					"ID": "20220621113503-gwiffzp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113503-gwiffzp",
+						"updated": "20220621113612"
+					},
+					"Children": [
+						{
+							"ID": "20220621113503-78fqqo5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113503-78fqqo5",
+								"updated": "20220621144328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Label                    管理对象和对象之间的松耦合关系，Label打标签，Selector条件挑选"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621113506-4daifv4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113506-4daifv4",
+						"updated": "20220621113630"
+					},
+					"Children": [
+						{
+							"ID": "20220621113506-hgp1pmp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113506-hgp1pmp",
+								"updated": "20220621144330"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Annotation            对象的属性扩展"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621113512-rpewmk8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113512-rpewmk8"
+					},
+					"Children": [
+						{
+							"ID": "20220621113512-bs3nk4d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113512-bs3nk4d",
+								"updated": "20220621144428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Finalizer                资源锁，具有Finalizer 的对象，不会立刻删除，需等到Finalizer 列表中所有字段被删除后，也就是只有该对象相关的所有外部资源已被删除，这个对象才会被最终删除。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621113520-8giwoll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621113520-8giwoll",
+						"updated": "20220621113527"
+					},
+					"Children": [
+						{
+							"ID": "20220621113520-87xzhf2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621113520-87xzhf2",
+								"updated": "20220621144447"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ResourceVersion     乐观锁"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220621144516-f34zylw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220621144516-f34zylw",
+				"updated": "20220621144527"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spec和Status 对象的核心"
+				}
+			]
+		},
+		{
+			"ID": "20220621144527-igjvi33",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220621144527-igjvi33",
+				"updated": "20220621144548"
+			},
+			"Children": [
+				{
+					"ID": "20220621144530-s6rnktb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621144530-s6rnktb",
+						"updated": "20220621144530"
+					},
+					"Children": [
+						{
+							"ID": "20220621144530-4n8tmhu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621144530-4n8tmhu",
+								"updated": "20220621144538"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Spec：用户的期望状态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220621144542-zqxe522",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220621144542-zqxe522",
+						"updated": "20220621144548"
+					},
+					"Children": [
+						{
+							"ID": "20220621144542-nzkzowx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220621144542-nzkzowx",
+								"updated": "20220621144548"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Status：对象的实际状态"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
