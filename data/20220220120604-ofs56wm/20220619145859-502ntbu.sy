@@ -5,7 +5,7 @@
 		"icon": "1f351",
 		"id": "20220619145859-502ntbu",
 		"title": "消息队列(kafka)",
-		"updated": "20220619192550"
+		"updated": "20220622143559"
 	},
 	"Children": [
 		{
@@ -3474,44 +3474,12 @@
 			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20220619192550-0vzkvki",
-				"updated": "20220619192550"
+				"updated": "20220622143559"
 			},
 			"Children": [
 				{
-					"Type": "NodeHeadingC8hMarker",
-					"Data": "### ",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
-					"Type": "NodeStrong",
-					"Properties": {
-						"id": ""
-					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "谈谈 Kafka 吞吐量为何如此高？",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"Type": "NodeText",
+					"Data": "谈谈 Kafka 吞吐量为何如此高？"
 				}
 			]
 		},

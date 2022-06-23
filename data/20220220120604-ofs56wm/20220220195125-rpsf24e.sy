@@ -5,7 +5,7 @@
 		"icon": "1f42a",
 		"id": "20220220195125-rpsf24e",
 		"title": "数据库",
-		"updated": "20220617130014"
+		"updated": "20220623160609"
 	},
 	"Children": [
 		{
@@ -18,8 +18,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "数据库"
+					"Data": "数据库",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -34,11 +44,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "概念"
+					"Data": "概念",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -81,7 +97,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "函数依赖: A 属性(组) --\u003e B 属性(组) 通过 A 属性(组)可以唯一确定 B 属性(组)  B 依赖于 A"
+									"Data": "函数依赖: A 属性(组) --\u003e B 属性(组) 通过 A 属性(组)可以唯一确定 B 属性(组)  B 依赖于 A",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
@@ -96,7 +115,8 @@
 								"Num": -1
 							},
 							"Properties": {
-								"id": "20220220200242-7l069s8"
+								"id": "20220220200242-7l069s8",
+								"updated": "20220220200242"
 							},
 							"Children": [
 								{
@@ -111,7 +131,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220200052-jm6wk41"
+										"id": "20220220200052-jm6wk41",
+										"updated": "20220220200052"
 									},
 									"Children": [
 										{
@@ -124,7 +145,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "完全函数依赖: B 属性(组)的唯一确定需要依赖于 A 属性(组)中的所有值"
+													"Data": "完全函数依赖: B 属性(组)的唯一确定需要依赖于 A 属性(组)中的所有值",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -142,7 +166,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220200135-4qte8na"
+										"id": "20220220200135-4qte8na",
+										"updated": "20220220200135"
 									},
 									"Children": [
 										{
@@ -155,7 +180,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "部分函数依赖: B 属性(组)的唯一确定只需要依赖 A 属性组的部分内容"
+													"Data": "部分函数依赖: B 属性(组)的唯一确定只需要依赖 A 属性组的部分内容",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -173,7 +201,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220200204-6tfv94h"
+										"id": "20220220200204-6tfv94h",
+										"updated": "20220220200204"
 									},
 									"Children": [
 										{
@@ -186,7 +215,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "传递函数依赖: A --\u003e B B--\u003e C C 传递函数依赖于 A"
+													"Data": "传递函数依赖: A --\u003e B B--\u003e C C 传递函数依赖于 A",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -222,7 +254,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "超码 能够唯一标识元组的一组属性"
+									"Data": "超码 能够唯一标识元组的一组属性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
@@ -236,7 +271,10 @@
 							"Children": [
 								{
 									"Type": "NodeBlockquoteMarker",
-									"Data": "\u003e "
+									"Data": "\u003e ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"ID": "20220220203559-x7pzl3a",
@@ -249,68 +287,113 @@
 										{
 											"Type": "NodeCodeSpan",
 											"CodeMarkerLen": 1,
+											"Properties": {
+												"id": ""
+											},
 											"Children": [
 												{
 													"Type": "NodeCodeSpanOpenMarker",
-													"Data": "`"
+													"Data": "`",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeSpanContent",
-													"Data": "键"
+													"Data": "键",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeSpanCloseMarker",
-													"Data": "`"
+													"Data": "`",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
 										{
 											"Type": "NodeText",
-											"Data": " 和 "
+											"Data": " 和 ",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeCodeSpan",
 											"CodeMarkerLen": 1,
+											"Properties": {
+												"id": ""
+											},
 											"Children": [
 												{
 													"Type": "NodeCodeSpanOpenMarker",
-													"Data": "`"
+													"Data": "`",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeSpanContent",
-													"Data": "码"
+													"Data": "码",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeSpanCloseMarker",
-													"Data": "`"
+													"Data": "`",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
 										{
 											"Type": "NodeText",
-											"Data": " 是同一个意思 ("
+											"Data": " 是同一个意思 (",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeCodeSpan",
 											"CodeMarkerLen": 1,
+											"Properties": {
+												"id": ""
+											},
 											"Children": [
 												{
 													"Type": "NodeCodeSpanOpenMarker",
-													"Data": "`"
+													"Data": "`",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeSpanContent",
-													"Data": "key"
+													"Data": "key",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeCodeSpanCloseMarker",
-													"Data": "`"
+													"Data": "`",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										},
 										{
 											"Type": "NodeText",
-											"Data": " 的不同翻译)"
+											"Data": " 的不同翻译)",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								}
@@ -357,7 +440,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "候选键: 能够最小唯一标识一个元组的属性组"
+													"Data": "候选键: 能够最小唯一标识一个元组的属性组",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -389,7 +475,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "主键: 候选键中唯一一个被挑选为主键用来唯一标识"
+													"Data": "主键: 候选键中唯一一个被挑选为主键用来唯一标识",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -407,7 +496,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220200358-ub7ixg4"
+										"id": "20220220200358-ub7ixg4",
+										"updated": "20220220200358"
 									},
 									"Children": [
 										{
@@ -420,7 +510,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "主属性: 候选码中的各个属性"
+													"Data": "主属性: 候选码中的各个属性",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -452,7 +545,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "非主属性: 码属性组之外的属性"
+													"Data": "非主属性: 码属性组之外的属性",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -464,7 +560,8 @@
 							"ID": "20220220203549-7ygrzpe",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20220220203549-7ygrzpe"
+								"id": "20220220203549-7ygrzpe",
+								"updated": "20220220203549"
 							}
 						}
 					]
@@ -490,11 +587,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "数据库范式"
+					"Data": "数据库范式",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -508,7 +611,10 @@
 			"Children": [
 				{
 					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e "
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"ID": "20220220200702-u04ea11",
@@ -520,7 +626,10 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "不同的范式之间递次规范, 高范式的基础是低范式"
+							"Data": "不同的范式之间递次规范, 高范式的基础是低范式",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -567,7 +676,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "第一范式(1NF) 每个属性都不可再分(原子性)"
+									"Data": "第一范式(1NF) 每个属性都不可再分(原子性)",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -599,15 +711,24 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "第二范式(2NF) 非主属性完全依赖于一组候选码, 消除了非主属性对主键的部分函数依赖"
+									"Data": "第二范式(2NF) 非主属性完全依赖于一组候选码, 消除了非主属性对主键的部分函数依赖",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeSoftBreak",
-									"Data": "\n"
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeText",
-									"Data": "每个表只描述一个事物"
+									"Data": "每个表只描述一个事物",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -625,7 +746,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220220201016-1ms36ub"
+						"id": "20220220201016-1ms36ub",
+						"updated": "20220220201016"
 					},
 					"Children": [
 						{
@@ -638,15 +760,24 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "第三范式(3NF) 任何非主属性不依赖于其他非主属性, 消除了非主属性对键的传递依赖(主属性--\u003e 非主属性--\u003e 非主属性)"
+									"Data": "第三范式(3NF) 任何非主属性不依赖于其他非主属性, 消除了非主属性对键的传递依赖(主属性--\u003e 非主属性--\u003e 非主属性)",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeSoftBreak",
-									"Data": "\n"
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeText",
-									"Data": "每一列都和主键直接相关, 而不是间接相关"
+									"Data": "每一列都和主键直接相关, 而不是间接相关",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -664,7 +795,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220220201214-r7uyc1r"
+						"id": "20220220201214-r7uyc1r",
+						"updated": "20220220201214"
 					},
 					"Children": [
 						{
@@ -677,22 +809,37 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "巴斯科德范式(BCNF) 任何非主属性不对主属性子集依赖, 消除任何属性对候选键的部分函数依赖和传递函数依赖"
+									"Data": "巴斯科德范式(BCNF) 任何非主属性不对主属性子集依赖, 消除任何属性对候选键的部分函数依赖和传递函数依赖",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeSoftBreak",
-									"Data": "\n"
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeText",
-									"Data": "修正的第三范式"
+									"Data": "修正的第三范式",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
-									"Type": "NodeBr"
+									"Type": "NodeBr",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeText",
-									"Data": "每一个决定因素都包含候选键: 如果属性(组)A 决定属性(组)B, A 的子集中必须有候选键"
+									"Data": "每一个决定因素都包含候选键: 如果属性(组)A 决定属性(组)B, A 的子集中必须有候选键",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -711,11 +858,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "E-R 图"
+					"Data": "E-R 图",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -746,7 +899,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220220205104-3q5lob7"
+						"id": "20220220205104-3q5lob7",
+						"updated": "20220220205104"
 					},
 					"Children": [
 						{
@@ -759,7 +913,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "矩形框: 表示实体"
+									"Data": "矩形框: 表示实体",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -777,7 +934,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220220205117-412nx0a"
+						"id": "20220220205117-412nx0a",
+						"updated": "20220220205117"
 					},
 					"Children": [
 						{
@@ -790,7 +948,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "椭圆形框: 表示属性"
+									"Data": "椭圆形框: 表示属性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -808,7 +969,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220220205128-6821enr"
+						"id": "20220220205128-6821enr",
+						"updated": "20220220205128"
 					},
 					"Children": [
 						{
@@ -821,7 +983,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "菱形框: 表示联系"
+									"Data": "菱形框: 表示联系",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -853,7 +1018,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "连线:"
+									"Data": "连线:",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
@@ -884,7 +1052,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220205139-9x7r3ug"
+										"id": "20220220205139-9x7r3ug",
+										"updated": "20220220205139"
 									},
 									"Children": [
 										{
@@ -897,7 +1066,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "实体和属性之间, 实体和联系之间, 属性和联系之间"
+													"Data": "实体和属性之间, 实体和联系之间, 属性和联系之间",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -915,7 +1087,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220205221-godbfnz"
+										"id": "20220220205221-godbfnz",
+										"updated": "20220220205221"
 									},
 									"Children": [
 										{
@@ -928,7 +1101,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "一对一: 两端都写 1"
+													"Data": "一对一: 两端都写 1",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -946,7 +1122,8 @@
 										"Num": -1
 									},
 									"Properties": {
-										"id": "20220220205247-aws5uy9"
+										"id": "20220220205247-aws5uy9",
+										"updated": "20220220205247"
 									},
 									"Children": [
 										{
@@ -959,7 +1136,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "一对多: 1 的方向写 1 多的一方写 n"
+													"Data": "一对多: 1 的方向写 1 多的一方写 n",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -991,7 +1171,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "多对多: 两端分别写 m, n"
+													"Data": "多对多: 两端分别写 m, n",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -1014,11 +1197,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "执行顺序/书写顺序"
+					"Data": "执行顺序/书写顺序",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1032,7 +1221,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "书写顺序"
+					"Data": "书写顺序",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1040,6 +1232,11 @@
 			"ID": "20220221204421-vwl5bfq",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220221204421-vwl5bfq",
 				"updated": "20220222114623"
@@ -1047,19 +1244,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "c3Fs"
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "(8) SELECT (9) DISTINCT \u003cSelect_list\u003e\n(1) FROM \u003cleft_table\u003e (3) \u003cjoin_type\u003e JOIN \u003cright_table\u003e\n(2) ON \u003cjoin_condition\u003e\n(4) WHERE \u003cwhere_condition\u003e\n(5) GROUP BY \u003cgroup_by_list\u003e\n(6) WITH {CUBE|ROLLUP}\n(7) HAVING \u003chaving_condtion\u003e\n(10)ORDER BY \u003corder_by_list\u003e\n(11)LIMIT \u003climit_number\u003e\n"
+					"Data": "(8) SELECT (9) DISTINCT \u003cSelect_list\u003e\n(1) FROM \u003cleft_table\u003e (3) \u003cjoin_type\u003e JOIN \u003cright_table\u003e\n(2) ON \u003cjoin_condition\u003e\n(4) WHERE \u003cwhere_condition\u003e\n(5) GROUP BY \u003cgroup_by_list\u003e\n(6) WITH {CUBE|ROLLUP}\n(7) HAVING \u003chaving_condtion\u003e\n(10)ORDER BY \u003corder_by_list\u003e\n(11)LIMIT \u003climit_number\u003e\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1073,7 +1284,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "执行顺序"
+					"Data": "执行顺序",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1094,20 +1308,32 @@
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
 					"Data": "```",
-					"CodeBlockFenceLen": 3
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "c3Fs"
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "from \njoin \non \nwhere \ngroup by  -- (开始使用select中的别名，后面的语句中都可以使用)\navg,sum.... \nhaving \nselect \ndistinct \norder by\nlimit \n"
+					"Data": "from \njoin \non \nwhere \ngroup by  -- (开始使用select中的别名，后面的语句中都可以使用)\navg,sum.... \nhaving \nselect \ndistinct \norder by\nlimit \n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```",
-					"CodeBlockFenceLen": 3
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1121,14 +1347,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "过程"
+					"Data": "过程",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220221204635-uhxlh6j",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220221204635-uhxlh6j",
 				"updated": "20220221205952"
@@ -1137,12 +1372,17 @@
 				{
 					"ID": "20220221204636-z65rojt",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221204636-z65rojt"
+						"id": "20220221204636-z65rojt",
+						"updated": "20220221204636"
 					},
 					"Children": [
 						{
@@ -1155,7 +1395,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "from 前两个表执行笛卡尔积, 生成虚拟表 vt1"
+									"Data": "from 前两个表执行笛卡尔积, 生成虚拟表 vt1",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1164,12 +1407,17 @@
 				{
 					"ID": "20220221205222-7iz3435",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205222-7iz3435"
+						"id": "20220221205222-7iz3435",
+						"updated": "20220221205222"
 					},
 					"Children": [
 						{
@@ -1182,7 +1430,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "on 筛选 vt1 符合条件的, 生成 vt2"
+									"Data": "on 筛选 vt1 符合条件的, 生成 vt2",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1191,12 +1442,17 @@
 				{
 					"ID": "20220221205300-hpqdjpx",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205300-hpqdjpx"
+						"id": "20220221205300-hpqdjpx",
+						"updated": "20220221205300"
 					},
 					"Children": [
 						{
@@ -1209,7 +1465,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果是 outer join 添加外部行, 把上一部分过滤掉的添加进来生成 vt3"
+									"Data": "如果是 outer join 添加外部行, 把上一部分过滤掉的添加进来生成 vt3",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1218,12 +1477,17 @@
 				{
 					"ID": "20220221205405-x0iprf5",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205405-x0iprf5"
+						"id": "20220221205405-x0iprf5",
+						"updated": "20220221205405"
 					},
 					"Children": [
 						{
@@ -1236,7 +1500,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "如果 from 有多个表, 使用 vt3 继续和后面表相连进行笛卡尔积   不断重复最后生成 vt3"
+									"Data": "如果 from 有多个表, 使用 vt3 继续和后面表相连进行笛卡尔积   不断重复最后生成 vt3",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1245,12 +1512,17 @@
 				{
 					"ID": "20220221205500-46ntkab",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205500-46ntkab"
+						"id": "20220221205500-46ntkab",
+						"updated": "20220221205500"
 					},
 					"Children": [
 						{
@@ -1263,7 +1535,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "where 对上一步的 vt3 进行筛选, 这一步的筛选是最终的, 不会再找回, 生成 vt4"
+									"Data": "where 对上一步的 vt3 进行筛选, 这一步的筛选是最终的, 不会再找回, 生成 vt4",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1272,12 +1547,17 @@
 				{
 					"ID": "20220221205721-id3xdxo",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205721-id3xdxo"
+						"id": "20220221205721-id3xdxo",
+						"updated": "20220221205721"
 					},
 					"Children": [
 						{
@@ -1290,7 +1570,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "group by 将唯一的值组合成一组, 得到 vt5 再往后每组只有一行"
+									"Data": "group by 将唯一的值组合成一组, 得到 vt5 再往后每组只有一行",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1299,12 +1582,17 @@
 				{
 					"ID": "20220221205819-ya92li9",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205819-ya92li9"
+						"id": "20220221205819-ya92li9",
+						"updated": "20220221205819"
 					},
 					"Children": [
 						{
@@ -1317,7 +1605,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "应用 cube 或者 rollup 选项，为 vt5 生成超组，生成 vt6"
+									"Data": "应用 cube 或者 rollup 选项，为 vt5 生成超组，生成 vt6",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1326,12 +1617,17 @@
 				{
 					"ID": "20220221205853-2s2ef44",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205853-2s2ef44"
+						"id": "20220221205853-2s2ef44",
+						"updated": "20220221205853"
 					},
 					"Children": [
 						{
@@ -1344,7 +1640,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "having 筛选分组"
+									"Data": "having 筛选分组",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1353,12 +1652,17 @@
 				{
 					"ID": "20220221205912-g52eie7",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205912-g52eie7"
+						"id": "20220221205912-g52eie7",
+						"updated": "20220221205912"
 					},
 					"Children": [
 						{
@@ -1371,7 +1675,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "select 筛选出列"
+									"Data": "select 筛选出列",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1380,12 +1687,17 @@
 				{
 					"ID": "20220221205918-u600spa",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205918-u600spa"
+						"id": "20220221205918-u600spa",
+						"updated": "20220221205918"
 					},
 					"Children": [
 						{
@@ -1398,7 +1710,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "distinct 去重"
+									"Data": "distinct 去重",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1407,12 +1722,17 @@
 				{
 					"ID": "20220221205926-3cyuzet",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220221205926-3cyuzet"
+						"id": "20220221205926-3cyuzet",
+						"updated": "20220221205926"
 					},
 					"Children": [
 						{
@@ -1425,7 +1745,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "order by 排序"
+									"Data": "order by 排序",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1434,9 +1757,13 @@
 				{
 					"ID": "20220221205936-o2pkgi8",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220221205936-o2pkgi8",
@@ -1453,7 +1780,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "limit 限定长度和偏移\n"
+									"Data": "limit 限定长度和偏移",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1471,15 +1801,30 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "表连接方式"
+					"Data": "表连接方式",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222120645-djisa7k",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222120645-djisa7k",
 				"updated": "20220222120814"
@@ -1488,12 +1833,16 @@
 				{
 					"ID": "20220222120650-n1j433z",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222120650-n1j433z"
+						"id": "20220222120650-n1j433z",
+						"updated": "20220222120650"
 					},
 					"Children": [
 						{
@@ -1506,27 +1855,42 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "内连接(inner join)"
+									"Data": "内连接(inner join)",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
 						{
 							"ID": "20220222120732-siejkzf",
 							"Type": "NodeList",
-							"ListData": {},
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
 							"Properties": {
-								"id": "20220222120732-siejkzf"
+								"id": "20220222120732-siejkzf",
+								"updated": "20220222120732"
 							},
 							"Children": [
 								{
 									"ID": "20220222120731-lvaqv78",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222120731-lvaqv78"
+										"id": "20220222120731-lvaqv78",
+										"updated": "20220222120731"
 									},
 									"Children": [
 										{
@@ -1539,7 +1903,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "自然连接: 只考虑属性相同的元组对"
+													"Data": "自然连接: 只考虑属性相同的元组对",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -1548,12 +1915,17 @@
 								{
 									"ID": "20220222120739-oq1vqdb",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222120739-oq1vqdb"
+										"id": "20220222120739-oq1vqdb",
+										"updated": "20220222120739"
 									},
 									"Children": [
 										{
@@ -1566,7 +1938,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "等值连接: 按条件连接"
+													"Data": "等值连接: 按条件连接",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -1579,9 +1954,13 @@
 				{
 					"ID": "20220222120652-gf8hjm6",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222120652-gf8hjm6",
@@ -1598,14 +1977,23 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "外连接(outer join)"
+									"Data": "外连接(outer join)",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
 						{
 							"ID": "20220222120744-khprf05",
 							"Type": "NodeList",
-							"ListData": {},
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
 							"Properties": {
 								"id": "20220222120744-khprf05",
 								"updated": "20220222120903"
@@ -1614,12 +2002,17 @@
 								{
 									"ID": "20220222120743-hyli2z6",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222120743-hyli2z6"
+										"id": "20220222120743-hyli2z6",
+										"updated": "20220222120743"
 									},
 									"Children": [
 										{
@@ -1632,7 +2025,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "左连接: 保留左边全部, 即使右边为空"
+													"Data": "左连接: 保留左边全部, 即使右边为空",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -1641,12 +2037,17 @@
 								{
 									"ID": "20220222120748-pba6yo9",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222120748-pba6yo9"
+										"id": "20220222120748-pba6yo9",
+										"updated": "20220222120748"
 									},
 									"Children": [
 										{
@@ -1659,7 +2060,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "右连接: 相反"
+													"Data": "右连接: 相反",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -1668,9 +2072,13 @@
 								{
 									"ID": "20220222120757-kk1lrhn",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220222120757-kk1lrhn",
@@ -1687,7 +2095,10 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "全外连接: "
+													"Data": "全外连接:",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -1700,9 +2111,13 @@
 				{
 					"ID": "20220222120654-3wu9o32",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222120654-3wu9o32",
@@ -1719,7 +2134,24 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "交叉连接(cross join)\n返回两表的笛卡尔积"
+									"Data": "交叉连接(cross join)",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeText",
+									"Data": "返回两表的笛卡尔积",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1737,8 +2169,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "存储过程"
+					"Data": "存储过程",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1752,7 +2194,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "存储过程是事先经过编译并存储在数据库中的一段SQL语句的集合。想要实现相应的功能时，只需要调用这个存储过程就行了（类似于函数，输入具有输出参数）。"
+					"Data": "存储过程是事先经过编译并存储在数据库中的一段 SQL 语句的集合。想要实现相应的功能时，只需要调用这个存储过程就行了（类似于函数，输入具有输出参数）。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -1766,25 +2211,38 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "优点："
+					"Data": "优点：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222121233-son2wbd",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222121233-son2wbd",
-				"updated": "20220222121251"
+				"updated": "20220623160409"
 			},
 			"Children": [
 				{
 					"ID": "20220222121233-o99q5w2",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-o99q5w2",
@@ -1796,12 +2254,15 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220222121233-e8ym51m",
-								"updated": "20220222121237"
+								"updated": "20220623160339"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "预先编译，而不需要每次运行时编译，提高了数据库执行 效率 ；"
+									"Data": "预先编译，而不需要每次运行时编译，提高了数据库执行效率；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1810,9 +2271,13 @@
 				{
 					"ID": "20220222121233-zc9p97y",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-zc9p97y",
@@ -1824,12 +2289,15 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220222121233-fml5o91",
-								"updated": "20220222121239"
+								"updated": "20220623160332"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "封装了一系列操作，对于一些数据交互比较多的操作，相比于单独执行SQL语句，可以 减少网络通信量 ；"
+									"Data": "封装了一系列操作，对于一些数据交互比较多的操作，相比于单独执行 SQL 语句，可以减少网络通信量；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1838,9 +2306,13 @@
 				{
 					"ID": "20220222121233-lzxqk7q",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-lzxqk7q",
@@ -1852,12 +2324,15 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220222121233-k9hcle0",
-								"updated": "20220222121242"
+								"updated": "20220623160346"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "具有 可复用性 ，减少了数据库开发的工作量；"
+									"Data": "具有可复用性 ，减少了数据库开发的工作量；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1866,9 +2341,13 @@
 				{
 					"ID": "20220222121233-5qxhojp",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-5qxhojp",
@@ -1880,12 +2359,15 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220222121233-szyqk12",
-								"updated": "20220222121243"
+								"updated": "20220623160344"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "安全性高 ，可以让没有权限的用户通过存储过程间接操作数据库；"
+									"Data": "安全性高，可以让没有权限的用户通过存储过程间接操作数据库；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1894,13 +2376,17 @@
 				{
 					"ID": "20220222121233-vqfd014",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-vqfd014",
-						"updated": "20220222121251"
+						"updated": "20220623160409"
 					},
 					"Children": [
 						{
@@ -1908,12 +2394,15 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220222121233-zmxwy6b",
-								"updated": "20220222121251"
+								"updated": "20220623160409"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "更易于维护"
+									"Data": "更易于维护；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1931,14 +2420,23 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "缺点："
+					"Data": "缺点：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222121233-k4g1uge",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222121233-k4g1uge",
 				"updated": "20220222121250"
@@ -1947,9 +2445,13 @@
 				{
 					"ID": "20220222121233-203i42i",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-203i42i",
@@ -1966,7 +2468,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "可移植性差 ，存储过程将应用程序绑定到了数据库上；"
+									"Data": "可移植性差 ，存储过程将应用程序绑定到了数据库上；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -1975,9 +2480,13 @@
 				{
 					"ID": "20220222121233-68v6giq",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-68v6giq",
@@ -1994,7 +2503,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "开发调试复杂 ：没有好的IDE；"
+									"Data": "开发调试复杂 ：没有好的 IDE；",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2003,9 +2515,13 @@
 				{
 					"ID": "20220222121233-wzsjt0g",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222121233-wzsjt0g",
@@ -2022,7 +2538,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "修改复杂 ，需要重新编译，有时还需要更新程序中的代码以更新调用"
+									"Data": "修改复杂 ，需要重新编译，有时还需要更新程序中的代码以更新调用",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2041,11 +2560,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "# "
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "事务"
+					"Data": "事务",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -2060,11 +2585,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "特性"
+					"Data": "特性",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -2095,7 +2626,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222113846-uylu4ai"
+						"id": "20220222113846-uylu4ai",
+						"updated": "20220222113846"
 					},
 					"Children": [
 						{
@@ -2108,7 +2640,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "A (Atomicity): 原子性"
+									"Data": "A (Atomicity): 原子性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2126,7 +2661,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222113905-m3jbwtu"
+						"id": "20220222113905-m3jbwtu",
+						"updated": "20220222113905"
 					},
 					"Children": [
 						{
@@ -2139,7 +2675,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "C (Consistency) 一致性"
+									"Data": "C (Consistency) 一致性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2157,7 +2696,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222113929-bija59g"
+						"id": "20220222113929-bija59g",
+						"updated": "20220222113929"
 					},
 					"Children": [
 						{
@@ -2170,7 +2710,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "I (Isolation) 隔离性"
+									"Data": "I (Isolation) 隔离性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2188,7 +2731,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222113939-wwm7og3"
+						"id": "20220222113939-wwm7og3",
+						"updated": "20220222113939"
 					},
 					"Children": [
 						{
@@ -2201,7 +2745,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "D (Durability) 持久性"
+									"Data": "D (Durability) 持久性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2220,11 +2767,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "## "
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "并发一致性问题"
+					"Data": "并发一致性问题",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -2255,7 +2808,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114102-q0hdeq0"
+						"id": "20220222114102-q0hdeq0",
+						"updated": "20220222114102"
 					},
 					"Children": [
 						{
@@ -2268,7 +2822,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "丢失修改: 一个事务修改之后没有提交, 另一个事务修改覆盖"
+									"Data": "丢失修改: 一个事务修改之后没有提交, 另一个事务修改覆盖",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2286,7 +2843,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114209-h615ltr"
+						"id": "20220222114209-h615ltr",
+						"updated": "20220222114209"
 					},
 					"Children": [
 						{
@@ -2299,7 +2857,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "脏读(Dirty Read): 一个事务读取了另一个事务修改但最终回滚的事务,丢失一致性"
+									"Data": "脏读(Dirty Read): 一个事务读取了另一个事务修改但最终回滚的事务,丢失一致性",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2317,7 +2878,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114334-lj3u692"
+						"id": "20220222114334-lj3u692",
+						"updated": "20220222114334"
 					},
 					"Children": [
 						{
@@ -2330,7 +2892,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "不可重复读( NonRepeatble Read): 同一个事务多次查询不一致"
+									"Data": "不可重复读( NonRepeatble Read): 同一个事务多次查询不一致",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2348,7 +2913,8 @@
 						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114434-0123ou3"
+						"id": "20220222114434-0123ou3",
+						"updated": "20220222114434"
 					},
 					"Children": [
 						{
@@ -2361,7 +2927,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "幻读(Phantom Read): 中途其他事务插入,导致多次查询有不同结果"
+									"Data": "幻读(Phantom Read): 中途其他事务插入,导致多次查询有不同结果",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2379,15 +2948,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "隔离级别"
+					"Data": "隔离级别",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222114655-ecc59el",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222114655-ecc59el",
 				"updated": "20220222114655"
@@ -2396,12 +2981,17 @@
 				{
 					"ID": "20220222114655-1qer5z8",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114655-1qer5z8"
+						"id": "20220222114655-1qer5z8",
+						"updated": "20220222114655"
 					},
 					"Children": [
 						{
@@ -2414,7 +3004,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "读未提交(Read Uncommitted): 可以看到未提交的事务数据"
+									"Data": "读未提交(Read Uncommitted): 可以看到未提交的事务数据",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2423,12 +3016,17 @@
 				{
 					"ID": "20220222114658-izgkt25",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114658-izgkt25"
+						"id": "20220222114658-izgkt25",
+						"updated": "20220222114658"
 					},
 					"Children": [
 						{
@@ -2441,7 +3039,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "读已提交(Read Commited): 只能看到已提交的事务数据"
+									"Data": "读已提交(Read Commited): 只能看到已提交的事务数据",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2450,12 +3051,17 @@
 				{
 					"ID": "20220222114700-mcc3ogk",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114700-mcc3ogk"
+						"id": "20220222114700-mcc3ogk",
+						"updated": "20220222114700"
 					},
 					"Children": [
 						{
@@ -2468,7 +3074,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "可重复读(Repeatable Read): 同一事务多次读取的数据相同"
+									"Data": "可重复读(Repeatable Read): 同一事务多次读取的数据相同",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2477,12 +3086,17 @@
 				{
 					"ID": "20220222114707-ge6668l",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222114707-ge6668l"
+						"id": "20220222114707-ge6668l",
+						"updated": "20220222114707"
 					},
 					"Children": [
 						{
@@ -2495,7 +3109,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "串行化(Serializable): 事务串行执行"
+									"Data": "串行化(Serializable): 事务串行执行",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2513,15 +3130,30 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "锁类型"
+					"Data": "锁类型",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222114529-8yjzdg0",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222114529-8yjzdg0",
 				"updated": "20220222115556"
@@ -2530,12 +3162,16 @@
 				{
 					"ID": "20220222115301-31jqzys",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222115301-31jqzys"
+						"id": "20220222115301-31jqzys",
+						"updated": "20220222115301"
 					},
 					"Children": [
 						{
@@ -2548,7 +3184,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "S锁(Shared Lock): 共享锁"
+									"Data": "S 锁(Shared Lock): 共享锁",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2557,12 +3196,17 @@
 				{
 					"ID": "20220222115313-uw8hz2h",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222115313-uw8hz2h"
+						"id": "20220222115313-uw8hz2h",
+						"updated": "20220222115313"
 					},
 					"Children": [
 						{
@@ -2575,7 +3219,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "X锁(Exclusive Lock): 排它锁"
+									"Data": "X 锁(Exclusive Lock): 排它锁",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2584,9 +3231,13 @@
 				{
 					"ID": "20220222115346-qwuy9vh",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220222115346-qwuy9vh",
@@ -2603,14 +3254,23 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "意向锁(Intention Locks): "
+									"Data": "意向锁(Intention Locks):",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						},
 						{
 							"ID": "20220222115604-jmwzm87",
 							"Type": "NodeList",
-							"ListData": {},
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
 							"Properties": {
 								"id": "20220222115604-jmwzm87",
 								"updated": "20220222115556"
@@ -2619,9 +3279,13 @@
 								{
 									"ID": "20220222115556-b5rw6a8",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
 										"id": "20220222115556-b5rw6a8",
@@ -2638,51 +3302,82 @@
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "一个事务在获得某个"
+													"Data": "一个事务在获得某个",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeStrong",
-													"Data": "strong",
+													"Properties": {
+														"id": ""
+													},
 													"Children": [
 														{
 															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
 														},
 														{
 															"Type": "NodeText",
-															"Data": "数据行"
+															"Data": "数据行",
+															"Properties": {
+																"id": ""
+															}
 														},
 														{
 															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
 														}
 													]
 												},
 												{
 													"Type": "NodeText",
-													"Data": "对象的 S 锁之前，必须先获得"
+													"Data": "对象的 S 锁之前，必须先获得",
+													"Properties": {
+														"id": ""
+													}
 												},
 												{
 													"Type": "NodeStrong",
-													"Data": "strong",
+													"Properties": {
+														"id": ""
+													},
 													"Children": [
 														{
 															"Type": "NodeStrongA6kOpenMarker",
-															"Data": "**"
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
 														},
 														{
 															"Type": "NodeText",
-															"Data": "整个表"
+															"Data": "整个表",
+															"Properties": {
+																"id": ""
+															}
 														},
 														{
 															"Type": "NodeStrongA6kCloseMarker",
-															"Data": "**"
+															"Data": "**",
+															"Properties": {
+																"id": ""
+															}
 														}
 													]
 												},
 												{
 													"Type": "NodeText",
-													"Data": "的 IS 锁或更强的锁；"
+													"Data": "的 IS 锁或更强的锁；",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -2691,24 +3386,33 @@
 								{
 									"ID": "20220222115556-7g6h8zl",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222115556-7g6h8zl"
+										"id": "20220222115556-7g6h8zl",
+										"updated": "20220222115556"
 									},
 									"Children": [
 										{
 											"ID": "20220222115556-zenrsco",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20220222115556-zenrsco"
+												"id": "20220222115556-zenrsco",
+												"updated": "20220222115556"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "一个事务在获得某个数据行对象的 X 锁之前，必须先获得整个表的 IX 锁；"
+													"Data": "一个事务在获得某个数据行对象的 X 锁之前，必须先获得整个表的 IX 锁；",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -2717,24 +3421,33 @@
 								{
 									"ID": "20220222115613-56zehqr",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222115613-56zehqr"
+										"id": "20220222115613-56zehqr",
+										"updated": "20220222115613"
 									},
 									"Children": [
 										{
 											"ID": "20220222115613-u2nytnt",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20220222115613-u2nytnt"
+												"id": "20220222115613-u2nytnt",
+												"updated": "20220222115613"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "IS/IX 锁之间都是兼容的；"
+													"Data": "IS/IX 锁之间都是兼容的；",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -2743,24 +3456,33 @@
 								{
 									"ID": "20220222115613-amo9rn6",
 									"Type": "NodeListItem",
+									"Data": "*",
 									"ListData": {
+										"Tight": true,
 										"BulletChar": 42,
-										"Marker": "Kg=="
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
 									},
 									"Properties": {
-										"id": "20220222115613-amo9rn6"
+										"id": "20220222115613-amo9rn6",
+										"updated": "20220222115613"
 									},
 									"Children": [
 										{
 											"ID": "20220222115613-b3c8f1a",
 											"Type": "NodeParagraph",
 											"Properties": {
-												"id": "20220222115613-b3c8f1a"
+												"id": "20220222115613-b3c8f1a",
+												"updated": "20220222115613"
 											},
 											"Children": [
 												{
 													"Type": "NodeText",
-													"Data": "好处：如果一个事务想要对整个表加X锁，就需要先检测是否有其它事务对该表或者该表中的某一行加了锁，这种检测非常耗时。有了意向锁之后，只需要检测整个表是否存在IX/IS/X/S锁就行了"
+													"Data": "好处：如果一个事务想要对整个表加 X 锁，就需要先检测是否有其它事务对该表或者该表中的某一行加了锁，这种检测非常耗时。有了意向锁之后，只需要检测整个表是否存在 IX/IS/X/S 锁就行了",
+													"Properties": {
+														"id": ""
+													}
 												}
 											]
 										}
@@ -2782,15 +3504,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "锁粒度"
+					"Data": "锁粒度",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222115651-giukhk2",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222115651-giukhk2",
 				"updated": "20220222115652"
@@ -2799,12 +3537,17 @@
 				{
 					"ID": "20220222115652-83xawtx",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222115652-83xawtx"
+						"id": "20220222115652-83xawtx",
+						"updated": "20220222115652"
 					},
 					"Children": [
 						{
@@ -2817,7 +3560,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "行级锁"
+									"Data": "行级锁",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2826,12 +3572,17 @@
 				{
 					"ID": "20220222115655-hcjqvze",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222115655-hcjqvze"
+						"id": "20220222115655-hcjqvze",
+						"updated": "20220222115655"
 					},
 					"Children": [
 						{
@@ -2844,7 +3595,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "表级锁"
+									"Data": "表级锁",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -2862,7 +3616,10 @@
 			"Children": [
 				{
 					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e"
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"ID": "20220222115735-rq2a18t",
@@ -2874,14 +3631,23 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "粒度小: "
+							"Data": "粒度小:",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"ID": "20220222115744-jeqed15",
 					"Type": "NodeList",
-					"ListData": {},
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
 					"Properties": {
 						"id": "20220222115744-jeqed15",
 						"updated": "20220222115745"
@@ -2890,12 +3656,17 @@
 						{
 							"ID": "20220222115745-myhbv8o",
 							"Type": "NodeListItem",
+							"Data": "*",
 							"ListData": {
+								"Tight": true,
 								"BulletChar": 42,
-								"Marker": "Kg=="
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
 							},
 							"Properties": {
-								"id": "20220222115745-myhbv8o"
+								"id": "20220222115745-myhbv8o",
+								"updated": "20220222115745"
 							},
 							"Children": [
 								{
@@ -2908,7 +3679,10 @@
 									"Children": [
 										{
 											"Type": "NodeText",
-											"Data": "好处: 锁竞争小, 并发程度高"
+											"Data": "好处: 锁竞争小, 并发程度高",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								}
@@ -2917,12 +3691,17 @@
 						{
 							"ID": "20220222115757-2pc6ngx",
 							"Type": "NodeListItem",
+							"Data": "*",
 							"ListData": {
+								"Tight": true,
 								"BulletChar": 42,
-								"Marker": "Kg=="
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
 							},
 							"Properties": {
-								"id": "20220222115757-2pc6ngx"
+								"id": "20220222115757-2pc6ngx",
+								"updated": "20220222115757"
 							},
 							"Children": [
 								{
@@ -2935,7 +3714,10 @@
 									"Children": [
 										{
 											"Type": "NodeText",
-											"Data": "坏处: 锁使用消耗系统资源"
+											"Data": "坏处: 锁使用消耗系统资源",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								}
@@ -2955,7 +3737,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "select默认不加锁, 其他可能更改数据的操作MySQL自动加X锁, 可以自己手动加锁, 解决幻读问题"
+					"Data": "select 默认不加锁, 其他可能更改数据的操作 MySQL 自动加 X 锁, 可以自己手动加锁, 解决幻读问题",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -2963,6 +3748,11 @@
 			"ID": "20220222115828-jnevqj0",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "c3Fs",
+			"CodeBlockCloseFence": "YGBg",
 			"Properties": {
 				"id": "20220222115828-jnevqj0",
 				"updated": "20220222120013"
@@ -2970,19 +3760,33 @@
 			"Children": [
 				{
 					"Type": "NodeCodeBlockFenceOpenMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceInfoMarker",
-					"CodeBlockInfo": "c3Fs"
+					"CodeBlockInfo": "c3Fs",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "SELECT ... LOCK In SHARE MODE; -- S锁\nSELECT ... FOR UPDATE;         -- X锁\n"
+					"Data": "SELECT ... LOCK In SHARE MODE; -- S锁\nSELECT ... FOR UPDATE;         -- X锁\n",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
-					"Data": "```"
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -2996,15 +3800,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "三级封锁协议"
+					"Data": "三级封锁协议",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222120021-rd0min0",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222120021-rd0min0",
 				"updated": "20220222120023"
@@ -3013,12 +3833,17 @@
 				{
 					"ID": "20220222120023-a8too8o",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222120023-a8too8o"
+						"id": "20220222120023-a8too8o",
+						"updated": "20220222120023"
 					},
 					"Children": [
 						{
@@ -3031,7 +3856,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "一级封锁协议: 事务在修改数据之前必须加X锁, 事务结束才释放, 解决丢失修改问题"
+									"Data": "一级封锁协议: 事务在修改数据之前必须加 X 锁, 事务结束才释放, 解决丢失修改问题",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3040,12 +3868,17 @@
 				{
 					"ID": "20220222120102-4hrfmiq",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222120102-4hrfmiq"
+						"id": "20220222120102-4hrfmiq",
+						"updated": "20220222120102"
 					},
 					"Children": [
 						{
@@ -3058,7 +3891,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "二级封锁协议: 事务读取数据之前加S锁, 读完之后释放, 解决脏读问题"
+									"Data": "二级封锁协议: 事务读取数据之前加 S 锁, 读完之后释放, 解决脏读问题",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3067,12 +3903,17 @@
 				{
 					"ID": "20220222120153-tqm94hs",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222120153-tqm94hs"
+						"id": "20220222120153-tqm94hs",
+						"updated": "20220222120153"
 					},
 					"Children": [
 						{
@@ -3085,7 +3926,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "三级封锁协议: S锁在事务结束之后释放, 解决不可重复读问题"
+									"Data": "三级封锁协议: S 锁在事务结束之后释放, 解决不可重复读问题",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3103,8 +3947,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "MVCC版本控制"
+					"Data": "MVCC 版本控制",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3118,51 +3972,82 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "多版本并发控制（Multi-Version Concurrency Control, MVCC)，MVCC在每行记录后面都保存有两个隐藏的列，用来存储"
+					"Data": "多版本并发控制（Multi-Version Concurrency Control, MVCC)，MVCC 在每行记录后面都保存有两个隐藏的列，用来存储",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeText",
-							"Data": "创建版本号"
+							"Data": "创建版本号",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "和 "
+					"Data": "和 ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeText",
-							"Data": "删除版本号"
+							"Data": "删除版本号",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": " 。"
+					"Data": " 。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3176,7 +4061,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "可以实现已提交读和可重复读"
+					"Data": "可以实现已提交读和可重复读",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3190,7 +4078,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "读取的是快照中的数据, 读取最新需要加锁"
+					"Data": "读取的是快照中的数据, 读取最新需要加锁",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3205,11 +4096,17 @@
 			"Children": [
 				{
 					"Type": "NodeHeadingC8hMarker",
-					"Data": "# "
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeText",
-					"Data": "Innodb"
+					"Data": "Innodb",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3223,8 +4120,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "索引"
+					"Data": "索引",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3238,7 +4145,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Innodb的索引使用B+树实现"
+					"Data": "Innodb 的索引使用 B+ 树实现",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3252,15 +4162,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "B+树与B树区别"
+					"Data": "B+ 树与 B 树区别",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222165626-qb30jz8",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222165626-qb30jz8",
 				"updated": "20220222165626"
@@ -3269,12 +4195,17 @@
 				{
 					"ID": "20220222165626-j00uu7l",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222165626-j00uu7l"
+						"id": "20220222165626-j00uu7l",
+						"updated": "20220222165626"
 					},
 					"Children": [
 						{
@@ -3287,7 +4218,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "IO次数少: B+树中间节点只保存索引, 数据都存在叶子节点, 3-4层就可以存千万级别的数据"
+									"Data": "IO 次数少: B+ 树中间节点只保存索引, 数据都存在叶子节点, 3-4 层就可以存千万级别的数据",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3296,12 +4230,17 @@
 				{
 					"ID": "20220222165710-q6mdohx",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222165710-q6mdohx"
+						"id": "20220222165710-q6mdohx",
+						"updated": "20220222165710"
 					},
 					"Children": [
 						{
@@ -3314,7 +4253,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "便于范围查询, 叶子结点从左到右搜索"
+									"Data": "便于范围查询, 叶子结点从左到右搜索",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3323,12 +4265,17 @@
 				{
 					"ID": "20220222165735-qb4jsed",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222165735-qb4jsed"
+						"id": "20220222165735-qb4jsed",
+						"updated": "20220222165735"
 					},
 					"Children": [
 						{
@@ -3341,7 +4288,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "查询效率稳定"
+									"Data": "查询效率稳定",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3359,7 +4309,10 @@
 			"Children": [
 				{
 					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e"
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"ID": "20220222165745-ktyiovi",
@@ -3371,7 +4324,10 @@
 					"Children": [
 						{
 							"Type": "NodeText",
-							"Data": "哈希索引只能支持精确查找, 无法部分查找和范围查找"
+							"Data": "哈希索引只能支持精确查找, 无法部分查找和范围查找",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				}
@@ -3387,15 +4343,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "索引失效"
+					"Data": "索引失效",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222170810-ul3dtnd",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222170810-ul3dtnd",
 				"updated": "20220222170816"
@@ -3404,12 +4376,17 @@
 				{
 					"ID": "20220222170816-n0fnnh9",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222170816-n0fnnh9"
+						"id": "20220222170816-n0fnnh9",
+						"updated": "20220222170816"
 					},
 					"Children": [
 						{
@@ -3422,27 +4399,47 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "用"
+									"Data": "用 ",
+									"Properties": {
+										"id": ""
+									}
 								},
 								{
 									"Type": "NodeCodeSpan",
-									"Data": "code",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker"
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "LIKE"
+											"Data": "LIKE",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker"
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "开头的LIKE语句"
+									"Data": " 开头的 LIKE 语句",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3451,12 +4448,17 @@
 				{
 					"ID": "20220222170832-w64ksve",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222170832-w64ksve"
+						"id": "20220222170832-w64ksve",
+						"updated": "20220222170832"
 					},
 					"Children": [
 						{
@@ -3469,23 +4471,40 @@
 							"Children": [
 								{
 									"Type": "NodeCodeSpan",
-									"Data": "code",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
 									"Children": [
 										{
-											"Type": "NodeCodeSpanOpenMarker"
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
 											"Type": "NodeCodeSpanContent",
-											"Data": "OR"
+											"Data": "OR",
+											"Properties": {
+												"id": ""
+											}
 										},
 										{
-											"Type": "NodeCodeSpanCloseMarker"
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
 										}
 									]
 								},
 								{
 									"Type": "NodeText",
-									"Data": "语句前后没有同时使用索引"
+									"Data": " 语句前后没有同时使用索引",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3494,12 +4513,17 @@
 				{
 					"ID": "20220222170846-a18rxk6",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222170846-a18rxk6"
+						"id": "20220222170846-a18rxk6",
+						"updated": "20220222170846"
 					},
 					"Children": [
 						{
@@ -3512,7 +4536,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "数据类型出现隐式转换"
+									"Data": "数据类型出现隐式转换",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3521,12 +4548,17 @@
 				{
 					"ID": "20220222170906-k3ip8bl",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222170906-k3ip8bl"
+						"id": "20220222170906-k3ip8bl",
+						"updated": "20220222170906"
 					},
 					"Children": [
 						{
@@ -3539,7 +4571,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "多列索引没有符合最左前缀原则"
+									"Data": "多列索引没有符合最左前缀原则",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3557,15 +4592,31 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "索引分类"
+					"Data": "索引分类",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
 		{
 			"ID": "20220222171242-k9rm6ng",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220222171242-k9rm6ng",
 				"updated": "20220222171243"
@@ -3574,12 +4625,17 @@
 				{
 					"ID": "20220222171243-4q7edui",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222171243-4q7edui"
+						"id": "20220222171243-4q7edui",
+						"updated": "20220222171243"
 					},
 					"Children": [
 						{
@@ -3592,7 +4648,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "普通索引"
+									"Data": "普通索引",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3601,12 +4660,17 @@
 				{
 					"ID": "20220222171247-oa2499g",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222171247-oa2499g"
+						"id": "20220222171247-oa2499g",
+						"updated": "20220222171247"
 					},
 					"Children": [
 						{
@@ -3619,7 +4683,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "唯一索引"
+									"Data": "唯一索引",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3628,12 +4695,17 @@
 				{
 					"ID": "20220222171250-n1xh8po",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222171250-n1xh8po"
+						"id": "20220222171250-n1xh8po",
+						"updated": "20220222171250"
 					},
 					"Children": [
 						{
@@ -3646,7 +4718,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "主键索引 (默认是聚集索引)"
+									"Data": "主键索引 (默认是聚集索引)",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3655,12 +4730,17 @@
 				{
 					"ID": "20220222171304-iu8kyzw",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222171304-iu8kyzw"
+						"id": "20220222171304-iu8kyzw",
+						"updated": "20220222171304"
 					},
 					"Children": [
 						{
@@ -3673,7 +4753,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "多列复合索引"
+									"Data": "多列复合索引",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3682,12 +4765,17 @@
 				{
 					"ID": "20220222171316-5e8d83q",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222171316-5e8d83q"
+						"id": "20220222171316-5e8d83q",
+						"updated": "20220222171316"
 					},
 					"Children": [
 						{
@@ -3700,7 +4788,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "覆盖索引"
+									"Data": "覆盖索引",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3709,12 +4800,17 @@
 				{
 					"ID": "20220222171321-slgcr04",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
-						"id": "20220222171321-slgcr04"
+						"id": "20220222171321-slgcr04",
+						"updated": "20220222171321"
 					},
 					"Children": [
 						{
@@ -3727,7 +4823,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "聚集/非聚集索引"
+									"Data": "聚集/非聚集索引",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -3745,8 +4844,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "索引下推"
+					"Data": "索引下推",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3760,7 +4869,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "当 sql满足最左前缀原则的时候，最左前缀可以用于在索引中定位记录，而索引下推就是用来优化那些不符合最左前缀的部分"
+					"Data": "当 sql 满足最左前缀原则的时候，最左前缀可以用于在索引中定位记录，而索引下推就是用来优化那些不符合最左前缀的部分",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3774,7 +4886,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "在Mysql 5.6 版本引入了索引下推这个优化，在索引遍历过程中，对索引中包含的字段先做判断，直接过滤掉不满足条件的记录，减少回表次数"
+					"Data": "在 Mysql 5.6 版本引入了索引下推这个优化，在索引遍历过程中，对索引中包含的字段先做判断，直接过滤掉不满足条件的记录，减少回表次数",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3788,8 +4903,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "日志"
+					"Data": "日志",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3803,8 +4928,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "Redo Log"
+					"Data": "Redo Log",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3813,7 +4948,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220617125521-0zhuc6n",
-				"updated": "20220617125738"
+				"updated": "20220623160609"
 			},
 			"Children": [
 				{
@@ -3826,7 +4961,7 @@
 						},
 						{
 							"Type": "NodeText",
-							"Data": "​​redo log​​是InnoDB存储引擎层的日志，又称重做日志文件，是物理日志"
+							"Data": "redo log 是 InnoDB 存储引擎层的日志，又称重做日志文件，是物理日志"
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
@@ -3836,7 +4971,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "。​​redo log​​记录数据修改后新数据的备份、冗杂的​​undo log​​​、未提交的事务和回滚的事务，数据缓存到内存中，只是在事务提交前将​​redo log​​持久化到磁盘"
+					"Data": "。redo log记录数据修改后新数据的备份、冗杂的undo log、未提交的事务和回滚的事务，数据缓存到内存中，只是在事务提交前将redo log持久化到磁盘"
 				}
 			]
 		},
@@ -3850,7 +4985,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "​​redo log​​ 可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，保证了事务的持久性。"
+					"Data": "​​redo log​​ 可以保证即使数据库发生异常重启，之前提交的记录都不会丢失，保证了事务的持久性。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3864,7 +5002,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "当有一条记录需要更新的时候，InnoDB引擎就会先把记录写到​​redo log​​中，并更新内存。之后，InnoDB引擎会在适当的时候，将这个操作更新到磁盘中，这个更新是在系统比较空闲的时候做，他的关键点是先写日志，再写磁盘。"
+					"Data": "当有一条记录需要更新的时候，InnoDB 引擎就会先把记录写到​​redo log​​中，并更新内存。之后，InnoDB 引擎会在适当的时候，将这个操作更新到磁盘中，这个更新是在系统比较空闲的时候做，他的关键点是先写日志，再写磁盘。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3878,7 +5019,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "​​redo log​​日志大小是固定的，若空间满了以后会回到头部停止更新，先加载一些数据到磁盘让出文件空间，之后继续写入"
+					"Data": "​​redo log​​日志大小是固定的，若空间满了以后会回到头部停止更新，先加载一些数据到磁盘让出文件空间，之后继续写入",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3892,7 +5036,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "为了保证Redo Log能够有比较好的IO性能，InnoDB 的 Redo Log的设计有以下几个特点："
+					"Data": "为了保证 Redo Log 能够有比较好的 IO 性能，InnoDB 的 Redo Log 的设计有以下几个特点：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3906,7 +5053,52 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "尽量保持​​Redo Log​​存储在一段连续的空间上。因此在系统第一次启动时就会将日志文件的空间完全分配。以顺序追加的方式记录Redo Log,通过顺序IO来改善性能。\nredo log包括两部分：一是内存中的日志缓冲(redo log buffer)，该部分日志是易失性的；二是磁盘上的重做日志文件(redo log file)，该部分日志是持久的。日志并不是直接写入文件的，而是先写入日志缓冲，当需要将日志刷新到磁盘时(如事务提交),将许多日志一起写入磁盘.\n并发的事务共享​​Redo Log​​的存储空间，它们的​​Redo Log​​按语句的执行顺序，依次交替的记录在一起，以减少日志占用的空间。所以，当一个事务将Redo Log写入磁盘时，也会将其他未提交**的事务的日志写入磁盘。\n​​Redo Log​​上只进行顺序追加的操作，当一个事务需要回滚时，它的​​Redo Log​​记录也不会从​​Redo Log​​中删除掉。"
+					"Data": "尽量保持​​Redo Log​​存储在一段连续的空间上。因此在系统第一次启动时就会将日志文件的空间完全分配。以顺序追加的方式记录 Redo Log,通过顺序 IO 来改善性能。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "redo log 包括两部分：一是内存中的日志缓冲(redo log buffer)，该部分日志是易失性的；二是磁盘上的重做日志文件(redo log file)，该部分日志是持久的。日志并不是直接写入文件的，而是先写入日志缓冲，当需要将日志刷新到磁盘时(如事务提交),将许多日志一起写入磁盘.",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "并发的事务共享​​Redo Log​​的存储空间，它们的​​Redo Log​​按语句的执行顺序，依次交替的记录在一起，以减少日志占用的空间。所以，当一个事务将 Redo Log 写入磁盘时，也会将其他未提交**的事务的日志写入磁盘。",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​Redo Log​​上只进行顺序追加的操作，当一个事务需要回滚时，它的​​Redo Log​​记录也不会从​​Redo Log​​中删除掉。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3920,7 +5112,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "一般在事务提交之前会将redo log持久化到磁盘中，以此来保证持久性"
+					"Data": "一般在事务提交之前会将 redo log 持久化到磁盘中，以此来保证持久性",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3934,8 +5129,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "Bin Log"
+					"Data": "Bin Log",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3949,29 +5154,46 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "​​binlog​​​是"
+					"Data": "​​binlog​​​是",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeText",
-							"Data": "属于MySQL Server层面的，又称为归档日志，属于逻辑日志"
+							"Data": "属于 MySQL Server 层面的，又称为归档日志，属于逻辑日志",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "，是以二进制的形式记录的是这个语句的原始逻辑，依靠​​binlog​​​是没有​​CrashSafe​​能力的"
+					"Data": "，是以二进制的形式记录的是这个语句的原始逻辑，依靠​​binlog​​​是没有​​CrashSafe​​能力的",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3985,7 +5207,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "逻辑日志：可以简单理解为记录的就是sql语句。"
+					"Data": "逻辑日志：可以简单理解为记录的就是 sql 语句。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -3999,7 +5224,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "​​binlog​​​主要使用场景：​​主从复制​​​，​​数据恢复​​"
+					"Data": "​​binlog​​​主要使用场景：​​主从复制​​​，​​数据恢复​​",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4013,40 +5241,69 @@
 			"Children": [
 				{
 					"Type": "NodeImage",
-					"Data": "span",
 					"Properties": {
+						"id": "",
 						"parent-style": "display: block; max-width: 446px;",
 						"style": "width: 436px;"
 					},
 					"Children": [
 						{
-							"Type": "NodeBang"
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenBracket"
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkText",
-							"Data": "image.png"
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseBracket"
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeOpenParen"
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeLinkDest",
-							"Data": "assets/image-20220617125506-o2ngj0y.png"
+							"Data": "assets/image-20220617125506-o2ngj0y.png",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
-							"Type": "NodeCloseParen"
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 436px;\" parent-style=\"display: block; max-width: 446px;\"}"
+					"Data": "{: style=\"width: 436px;\" parent-style=\"display: block; max-width: 446px;\"}",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4060,7 +5317,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "为什么update语句 要有两阶段提交？"
+					"Data": "为什么 update 语句 要有两阶段提交？",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4074,7 +5334,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "这是为了让两份日志之间的逻辑一致。"
+					"Data": "这是为了让两份日志之间的逻辑一致。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4088,7 +5351,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "当执行update语句时，数据修改完更新到内存，先写​​redo log​​​ 并设置​​redo log​​​为准备阶段，再写​​binlog​​​，写完​​binlog​​​设置为​​redo log​​​为结束阶段。两个中间有一个写入差错，那么该操作都是失败，即​​redo log​​发现只有准备阶段没有结束，那么会将该条事务进行回滚。"
+					"Data": "当执行 update 语句时，数据修改完更新到内存，先写​​redo log​​​ 并设置​​redo log​​​为准备阶段，再写​​binlog​​​，写完​​binlog​​​设置为​​redo log​​​为结束阶段。两个中间有一个写入差错，那么该操作都是失败，即​​redo log​​发现只有准备阶段没有结束，那么会将该条事务进行回滚。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4102,8 +5368,18 @@
 			},
 			"Children": [
 				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
 					"Type": "NodeText",
-					"Data": "Undo Log"
+					"Data": "Undo Log",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4117,29 +5393,46 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Undo Log 是为了实现事务的原子性，事务中执行失败，进行"
+					"Data": "Undo Log 是为了实现事务的原子性，事务中执行失败，进行",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeText",
-							"Data": "回滚"
+							"Data": "回滚",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "，在MySQL数据库 InnoDB 存储引擎中，还用Undo Log来实现多版本并发控制(简称：MVCC)。由引擎层的InnoDB引擎实现,是逻辑日志,记录数据修改被修改前的值。"
+					"Data": "，在 MySQL 数据库 InnoDB 存储引擎中，还用 Undo Log 来实现多版本并发控制(简称：MVCC)。由引擎层的 InnoDB 引擎实现,是逻辑日志,记录数据修改被修改前的值。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4153,7 +5446,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "原理:"
+					"Data": "原理:",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4167,29 +5463,46 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Undo Log的原理很简单，为了"
+					"Data": "Undo Log 的原理很简单，为了",
+					"Properties": {
+						"id": ""
+					}
 				},
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeText",
-							"Data": "满足事务的原子性"
+							"Data": "满足事务的原子性",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "，在操作任何数据之前，首先将数据备份到Undo Log。然后进行数据的修改。如果出现了错误或者用户执行了ROLLBACK语句，系统可以利用Undo Log中的备份将数据恢复到事务开始之前的状态。"
+					"Data": "，在操作任何数据之前，首先将数据备份到 Undo Log。然后进行数据的修改。如果出现了错误或者用户执行了 ROLLBACK 语句，系统可以利用 Undo Log 中的备份将数据恢复到事务开始之前的状态。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4197,7 +5510,8 @@
 			"ID": "20220617125806-zqqn0am",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220617125806-zqqn0am"
+				"id": "20220617125806-zqqn0am",
+				"updated": "20220617125806"
 			}
 		},
 		{
@@ -4210,7 +5524,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "当事务成功提交，并且其他事务没有用MVCC查看这个版本时，就可以删除"
+					"Data": "当事务成功提交，并且其他事务没有用 MVCC 查看这个版本时，就可以删除",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4218,7 +5535,8 @@
 			"ID": "20220617125921-bh3ndd4",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220617125921-bh3ndd4"
+				"id": "20220617125921-bh3ndd4",
+				"updated": "20220617125921"
 			}
 		},
 		{
@@ -4231,7 +5549,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "除了可以保证事务的原子性，Undo Log也可以用来辅助完成事务的持久化,如数据库异常之后的恢复机制。"
+					"Data": "除了可以保证事务的原子性，Undo Log 也可以用来辅助完成事务的持久化,如数据库异常之后的恢复机制。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4245,7 +5566,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "因为未提交的事务和回滚了的事务也会记录在​​Redo Log​​，因此在进行恢复时,这些事务要进行特殊的的处理。有2种不同的恢复策略："
+					"Data": "因为未提交的事务和回滚了的事务也会记录在​​Redo Log​​，因此在进行恢复时,这些事务要进行特殊的的处理。有 2 种不同的恢复策略：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4259,7 +5583,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "A. 进行恢复时，只重做已经提交了的事务。"
+					"Data": "A. 进行恢复时，只重做已经提交了的事务。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4273,7 +5600,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "B. 进行恢复时，重做所有事务包括未提交的事务和回滚了的事务。然后通过Undo Log回滚那些未提交的事务。"
+					"Data": "B. 进行恢复时，重做所有事务包括未提交的事务和回滚了的事务。然后通过 Undo Log 回滚那些未提交的事务。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4287,7 +5617,10 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "MySQL数据库InnoDB存储引擎使用了B策略,​​InnoDB​​存储引擎中的恢复机制有几个特点："
+					"Data": "MySQL 数据库 InnoDB 存储引擎使用了 B 策略,​​InnoDB​​存储引擎中的恢复机制有几个特点：",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4301,7 +5634,24 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Undo Log回滚那些未提交的事务，被回滚了的事务在恢复时先redo再undo，也不会破坏数据的一致性\n 必须要在写Redo Log之前将对应的Undo Log写入磁盘。为了降低复杂度，InnoDB将Undo Log看作数据，因此记录Undo Log的操作也会记录到redo log中。这样undo log就可以像数据一样缓存起来，而不用在redo log之前写入磁盘了。"
+					"Data": "Undo Log 回滚那些未提交的事务，被回滚了的事务在恢复时先 redo 再 undo，也不会破坏数据的一致性",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 必须要在写 Redo Log 之前将对应的 Undo Log 写入磁盘。为了降低复杂度，InnoDB 将 Undo Log 看作数据，因此记录 Undo Log 的操作也会记录到 redo log 中。这样 undo log 就可以像数据一样缓存起来，而不用在 redo log 之前写入磁盘了。",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -4309,14 +5659,16 @@
 			"ID": "20220617130014-rbbqzbc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220617130014-rbbqzbc"
+				"id": "20220617130014-rbbqzbc",
+				"updated": "20220617130014"
 			}
 		},
 		{
 			"ID": "20220617130224-0yexnzv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220617130224-0yexnzv"
+				"id": "20220617130224-0yexnzv",
+				"updated": "20220617130224"
 			}
 		}
 	]

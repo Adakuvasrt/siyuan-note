@@ -5,9 +5,2028 @@
 		"icon": "1f551",
 		"id": "20220613093233-rchjcae",
 		"title": "分布式算法",
-		"updated": "20220619152015"
+		"updated": "20220623131157"
 	},
 	"Children": [
+		{
+			"ID": "20220623104915-7yua1u3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220623104915-7yua1u3",
+				"updated": "20220623104946"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "共识、线性一致性与顺序一致性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623105656-o2077dt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220623105656-o2077dt",
+				"updated": "20220623105703"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "缓存一致性 Coherence",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623105705-1looura",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623105705-1looura",
+				"updated": "20220623131157"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Coherence 只出现在Cache Coherence 一词中，称为”缓存一致性”，研究多核场景，即怎么保证多个核上的CPU 缓存数据是一致的，一般是单机维度的，不算分布式领域，可以参考"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "这篇文章"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://link.segmentfault.com/?enc=AaRbmuCLohIhWkj9cbkeuw%3D%3D.pQInxZjYAYnrmo1aRXER52sx5KwdLqeEEX9zPWLPDNYq2gsBsYG1XzfHCPw26iQiztx13QqQ08Bv%2B2JvKcGP8w%3D%3D"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623105628-fmomcnt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220623105628-fmomcnt",
+				"updated": "20220623105654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "共识 consensus"
+				}
+			]
+		},
+		{
+			"ID": "20220623125912-du0bwv7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623125912-du0bwv7",
+				"updated": "20220623125912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "consensus准确的翻译是共识，即多个提议者达成共识的过程，例如Paxos，Raft 就是共识算法，paxos 是一种共识理论，分布式系统是他的场景，一致性是他的目标。"
+				}
+			]
+		},
+		{
+			"ID": "20220623125912-5d8xwnj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623125912-5d8xwnj",
+				"updated": "20220623125912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一些常见的误解：使用了 Raft或者 paxos 的系统都是线性一致的（Linearizability 即强一致），其实不然，共识算法只能提供基础，要实现线性一致还需要在算法之上做出更多的努力。"
+				}
+			]
+		},
+		{
+			"ID": "20220623125912-ed6aao8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623125912-ed6aao8",
+				"updated": "20220623125912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为分布式系统引入了多个节点，节点规模越大，宕机、网络时延、网络分区就会成为常态，任何一个问题都可能导致节点之间的数据不一致，因此Paxos 和 Raft 准确来讲是用来解决一致性问题的共识算法，用于分布式场景，而非”缓存一致性“这种单机场景。所以很多文章也就简称”Paxos是分布式系统中的一致性算法“，"
+				}
+			]
+		},
+		{
+			"ID": "20220623125912-97ven0v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623125912-97ven0v",
+				"updated": "20220623125912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一致性（Consistency）的含义比共识（consensus）要宽泛，一致性指的是多个副本对外呈现的状态。包括顺序一致性、线性一致性、最终一致性等。而共识特指达成一致的过程，但注意，共识并不意味着实现了一致性，一些情况下他是做不到的。"
+				}
+			]
+		},
+		{
+			"ID": "20220623105631-79dbwbx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220623105631-79dbwbx",
+				"updated": "20220623105633"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "一致性 consistency",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623105036-8kikrmu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623105036-8kikrmu",
+				"updated": "20220623105400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "强一致性和弱一致性只是一种统称，按照从强到弱，可以划分为",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623105405-4c2rcwm",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220623105405-4c2rcwm",
+				"updated": "20220623111233"
+			},
+			"Children": [
+				{
+					"ID": "20220623105414-q8sqmk3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623105414-q8sqmk3",
+						"updated": "20220623111233"
+					},
+					"Children": [
+						{
+							"ID": "20220623105414-s2m1r9d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623105414-s2m1r9d",
+								"updated": "20220623111233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线性一致性 Linearizability consistency ，也叫原子性",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623105419-mxuqe68",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623105419-mxuqe68",
+						"updated": "20220623105419"
+					},
+					"Children": [
+						{
+							"ID": "20220623105419-teytoww",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623105419-teytoww",
+								"updated": "20220623105419"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "顺序一致性 Sequential consistency",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623105423-bxx81gk",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623105423-bxx81gk",
+						"updated": "20220623105423"
+					},
+					"Children": [
+						{
+							"ID": "20220623105423-ss935in",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623105423-ss935in",
+								"updated": "20220623105423"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因果一致性 Causal consistency",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623105427-x01r811",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623105427-x01r811",
+						"updated": "20220623105427"
+					},
+					"Children": [
+						{
+							"ID": "20220623105427-3qjx6ud",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623105427-3qjx6ud",
+								"updated": "20220623105427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最终一致性 Eventual consistency",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623105851-q6aqvpf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623105851-q6aqvpf",
+				"updated": "20220623105851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "强一致性集群中，对任何一个节点发起请求都会得到相同的回复，但将产生相对高的延迟。而弱一致性具有更低的响应延迟，但可能会回复过期的数据，最终一致性即是经过一段时间后终会到达一致的弱一致性。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623110047-1mnizit",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623110047-1mnizit",
+				"updated": "20220623110048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决分布式系统领域很多问题的核心秘诀：把不同时空发生的多个事件进行全局唯一排序，而且这个顺序还得是大家都认可的，排了序，一个一个处理就行了，和单机没有任何区别",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623110313-6id7p45",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220623110313-6id7p45",
+				"updated": "20220623112903"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "顺序一致性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623112813-hjfylhe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623112813-hjfylhe",
+				"updated": "20220623112813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要保证每个进程如果读同一个数据，所有程序读到同一个值时间序列的变化都是一致的，但不保证都是按全局顺序来看是正确的",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623110855-od3cqlc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YXNjaWlkb2M=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220623110855-od3cqlc",
+				"updated": "20220623110910"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YXNjaWlkb2M=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "A: --W(x,1)----------------------\nB:  --W(x,2)----------------------\nC:                      -R(x,2)-   --R(x,1)-\nD:                 -R(x,2)-      --R(x,1)--\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623111351-31k5fmd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623111351-31k5fmd",
+				"updated": "20220623111425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Zookper 写是线性一致性，读是顺序一致性，etcd 读写都做了线性一致",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623110852-yizwe2s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220623110852-yizwe2s",
+				"updated": "20220623112902"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "线性一致性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623112810-77fhsan",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623112810-77fhsan",
+				"updated": "20220623112810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "又被称为强一致性、严格一致性、原子一致性。是程序能实现的最高的一致性模型，也是分布式系统用户最期望的一致性。CAP 中的 C 一般就指它。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623111313-0xyx91d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623111313-0xyx91d",
+				"updated": "20220623111313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "顺序一致性中进程只关心大家认同的顺序一样就行，不需要与全局时钟一致，线性就更严格，从这种偏序（partial order）要达到全序（total order）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623111313-mlf722r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623111313-mlf722r",
+				"updated": "20220623111313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要求是：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623111313-q2zlyqv",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220623111313-q2zlyqv",
+				"updated": "20220623111313"
+			},
+			"Children": [
+				{
+					"ID": "20220623111313-uxj4zo4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623111313-uxj4zo4",
+						"updated": "20220623111313"
+					},
+					"Children": [
+						{
+							"ID": "20220623111313-exdqcqz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623111313-exdqcqz",
+								"updated": "20220623111313"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1.任何一次读都能读到某个数据的最近一次写的数据。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623111313-3zl98s9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623111313-3zl98s9",
+						"updated": "20220623111313"
+					},
+					"Children": [
+						{
+							"ID": "20220623111313-mxc7gjk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623111313-mxc7gjk",
+								"updated": "20220623111313"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2.系统中的所有进程，看到的操作顺序，都与全局时钟下的顺序一致。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623111605-lio3oow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623111605-lio3oow",
+				"updated": "20220623111606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "raft 中对于一致性读给出了两种方案，来保证处理这次读请求的一定是 Leader：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623111607-3ojootv",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220623111607-3ojootv",
+				"updated": "20220623111608"
+			},
+			"Children": [
+				{
+					"ID": "20220623111608-gg1y90j",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623111608-gg1y90j",
+						"updated": "20220623111608"
+					},
+					"Children": [
+						{
+							"ID": "20220623111608-ai1he6m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623111608-ai1he6m",
+								"updated": "20220623112310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ReadIndex  记录 commited Index，保证只有 Leader 处理读请求",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623111615-9s3trpq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623111615-9s3trpq",
+						"updated": "20220623111615"
+					},
+					"Children": [
+						{
+							"ID": "20220623111615-eocvgva",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623111615-eocvgva",
+								"updated": "20220623111735"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "LeaseRead",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623112311-h321eao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623112311-h321eao",
+				"updated": "20220623112450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "leader 会发起一次广播请求，如果还能收到大多数节点的应答，则说明此时 leader 还是 leader。这样一来，Raft 算法就可以保障 CAP 中的 C 和 P，但无法保障 A：网络分区时并不是所有节点都可响应请求，少数节点的分区将无法进行服务，从而不符合 Availability。因此，Raft 算法是 CP 类型的一致性算法。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623112450-crr3yab",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20220623112450-crr3yab",
+				"updated": "20220623112504"
+			},
+			"Children": [
+				{
+					"ID": "20220623112504-y0kbacw",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220623112504-y0kbacw",
+						"updated": "20220623112504"
+					},
+					"Children": [
+						{
+							"ID": "20220623112504-2ktqfgl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623112504-2ktqfgl",
+								"updated": "20220623112507"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Leader 把每次读请求作为一条日志记录，以日志复制的形式提交，并应用到状态机后，读取状态机中的数据返回。（一次 RTT、一次磁盘写）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623112512-kgtlnac",
+					"Type": "NodeListItem",
+					"Data": "2",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 2,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mg==",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220623112512-kgtlnac",
+						"updated": "20220623112512"
+					},
+					"Children": [
+						{
+							"ID": "20220623112512-kq5u7ix",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623112512-kq5u7ix",
+								"updated": "20220623112512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 Leader Lease，保证整个集群只有一个 Leader，Leader 接收到都请求后，记录下当前的 commitIndex 为 readIndex，当 applyIndex 大于等于 readIndex 后，则可以读取状态机中的数据返回。（0 次 RTT、0 次磁盘写）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623112516-1f29ta3",
+					"Type": "NodeListItem",
+					"Data": "3",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 3,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "Mw==",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220623112516-1f29ta3",
+						"updated": "20220623112516"
+					},
+					"Children": [
+						{
+							"ID": "20220623112516-41k52wd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623112516-41k52wd",
+								"updated": "20220623112535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不使用 Leader Lease，而是当 Leader 通过以下两点来保证整个集群中只有其一个正常工作的 Leader：（1）在每个 Term 开始时，由于新选出的 Leader 可能不知道上一个 Term 的 commitIndex，所以需要先",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "在当前新的 Term 提交一条空操作的日志",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "；（2）Leader 每次接到读请求后，向多数节点发送心跳确认自己的 Leader 身份。之后的读流程与 Leader Lease 的做法相同。（一次 RTT、0 次磁盘写）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623112526-f5njkiz",
+					"Type": "NodeListItem",
+					"Data": "4",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 4,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "NA==",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220623112526-f5njkiz",
+						"updated": "20220623112526"
+					},
+					"Children": [
+						{
+							"ID": "20220623112526-jjxfy46",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623112526-jjxfy46",
+								"updated": "20220623112527"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 Follower 节点读：Follower 先向 Leader 询问 readIndex，Leader 收到 Follower 的请求后依然要通过 2 或 3 中的方法确认自己 Leader 的身份，然后返回当前的 commitIndex 作为 readIndex，Follower 拿到 readIndex 后，等待本地的 applyIndex 大于等于 readIndex 后，即可读取状态机中的数据返回。（2 次或 1 次 RTT、0 次磁盘写）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623112850-jar9cw6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220623112850-jar9cw6",
+				"updated": "20220623112850"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "#### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Linearizability 和 Serializability",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623112922-ab2g2bf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623112922-ab2g2bf",
+				"updated": "20220623112922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Serializability 是数据库领域的概念，而 Linearizability 是分布式系统、并发编程领域的东西，在这个分布式 SQL 时代，自然 Linearizability 和 Serializability 会经常一起出现。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623112922-fbch2nd",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220623112922-fbch2nd",
+				"updated": "20220623112946"
+			},
+			"Children": [
+				{
+					"ID": "20220623112922-nvswt2v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623112922-nvswt2v",
+						"updated": "20220623112922"
+					},
+					"Children": [
+						{
+							"ID": "20220623112922-vi83tpr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623112922-vi83tpr",
+								"updated": "20220623112922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Serializability: 数据库领域的 ACID 中的 I。 数据库的四种隔离级别，由弱到强分别是 Read Uncommitted,Read Committed(RC),Repeatable Read(RR)和 Serializable。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623112937-qf29ktk",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623112937-qf29ktk",
+						"updated": "20220623112946"
+					},
+					"Children": [
+						{
+							"ID": "20220623112937-up9js0n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623112937-up9js0n",
+								"updated": "20220623112946"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linearizability: 针对单个操作，单个数据对象而说的。属于 CAP 中 C 这个范畴。一个数据被更新后，能够立马被后续的读操作读到。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623112824-t63x4w6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220623112824-t63x4w6",
+				"updated": "20220623112830"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "因果一致性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113134-zyn6dn0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113134-zyn6dn0",
+				"updated": "20220623113134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因果一致性，属于弱一致性，因为在 Causal consistency 中，只对有因果关系的事件有顺序要求。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113159-n7js0bk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113159-n7js0bk",
+				"updated": "20220623113210"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220623113206-5aex19z.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: parent-style=\"display: block;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623112830-owpsi1o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220623112830-owpsi1o",
+				"updated": "20220623112836"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "最终一致性",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113243-eutxfd6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113243-eutxfd6",
+				"updated": "20220623113244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "理念：不保证在任意时刻任意节点上的同一份数据都是相同的，但是随着时间的迁移，不同节点上的同一份数据总是在向趋同的方向变化。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113333-avk97pg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113333-avk97pg",
+				"updated": "20220623113333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单说，就是在一段时间后，节点间的数据会最终达到一致状态。不过最终一致性的要求非常低，除了像 gossip 这样明确以最终一致性为卖点的协议外，包括 redis 主备、mongoDB、乃至 mysql 热备都可以算是最终一致性，甚至如果我记录操作日志，然后在副本故障了 100 天之后手动在副本上执行日志以达成一致，也算是符合最终一致性的定义。有人说最终一致性就是没有一致性，因为没人可以知道什么时候算是最终。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113333-txpstcp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113333-txpstcp",
+				"updated": "20220623113333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上边提到的因果一致性可以理解为是最终一致性的变种, 如果进程 A 通知进程 B 它已经更新了一个数据项，那么进程 B 的后续访问将返回更新后的值，并且写操作将被保证取代前一次写入。和进程 A 没有因果关系的 C 的访问将遵循正常的最终一致性规则。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113333-8imxmxu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113333-8imxmxu",
+				"updated": "20220623113333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最终一致其实分支很多，以下都是他的变种：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113341-30ady2s",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220623113341-30ady2s",
+				"updated": "20220623113341"
+			},
+			"Children": [
+				{
+					"ID": "20220623113341-7z38tbn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623113341-7z38tbn",
+						"updated": "20220623113341"
+					},
+					"Children": [
+						{
+							"ID": "20220623113341-60qolq1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623113341-60qolq1",
+								"updated": "20220623113341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Causal consistency（因果一致性）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623113341-lo47qwi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623113341-lo47qwi",
+						"updated": "20220623113341"
+					},
+					"Children": [
+						{
+							"ID": "20220623113341-kdl44bj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623113341-kdl44bj",
+								"updated": "20220623113341"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Read-your-writes consistency （读己所写一致性）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623113351-ienyp84",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623113351-ienyp84",
+						"updated": "20220623113351"
+					},
+					"Children": [
+						{
+							"ID": "20220623113351-u5onuzo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623113351-u5onuzo",
+								"updated": "20220623113351"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Monotonic read consistency （单调读一致性）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623113351-bfc2ld9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623113351-bfc2ld9",
+						"updated": "20220623113351"
+					},
+					"Children": [
+						{
+							"ID": "20220623113351-6ty93dt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623113351-6ty93dt",
+								"updated": "20220623113351"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Monotonic write consistency （单调写一致性）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220623113351-3x10ivu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220623113351-3x10ivu",
+						"updated": "20220623113351"
+					},
+					"Children": [
+						{
+							"ID": "20220623113351-copoows",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220623113351-copoows",
+								"updated": "20220623113351"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Session consistency （会话一致性）",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220623113408-ak6gf65",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220623113408-ak6gf65",
+				"updated": "20220623113423"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "ACID",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113517-1o1qfx6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113517-1o1qfx6",
+				"updated": "20220623113530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACID 是处理事务的原则，一般特指数据库的一致性约束，ACID 一致性完全与数据库规则相关，包括约束，级联，触发器等。在事务开始之前和事务结束以后，都必须遵守这些不变量，保证数据库的完整性不被破坏，因此 ACID 中的 C 表示数据库执行事务前后状态的一致性，防止非法事务导致数据库被破坏。比如银行系统 A 和 B 两个账户的余额总和为 100，那么无论 A, B 之间怎么转换，这个余额和是不变，前后一致的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113517-ncztsou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113517-ncztsou",
+				"updated": "20220623113550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里的 C 代表的一致性：",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "事务必须遵循数据库的已定义规则和约束",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，例如约束，级联和触发器。因此，任何写入数据库的数据都必须有效，并且完成的任何事务都会改变数据库的状态。没有事务可以创建无效的数据状态。注意，这与 CAP 定理中定义的“一致性”是不同的。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113517-kv782u2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113517-kv782u2",
+				"updated": "20220623113802"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACID 可以翻译为酸，相对应的是碱，也就是 BASE，不过提 BASE 之前要先说下 CAP，毕竟 BASE 是基于 CAP 提出的折中理论。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113424-op53zpr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220623113424-op53zpr",
+				"updated": "20220623113427"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "CAP",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113603-rnqpvpi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113603-rnqpvpi",
+				"updated": "20220623113603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CAP 理论中的 C 也就是我们常说的分布式系统中的一致性，更确切地说，指的是分布式一致性中的一种: 也就是前面讲的线性一致性(Linearizability)，也叫做原子一致性(Atomic consistency)。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113603-p71jxxd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113603-p71jxxd",
+				"updated": "20220623113603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CAP 理论也是个被滥用的词汇，关于 CAP 的正确定义可参考 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeLink",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "cap faq",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://link.segmentfault.com/?enc=tb81eAaHCMaFcruSEkZydw%3D%3D.ZQ1%2F7DzfQFIqDFWL%2FXjNUOh3afXGdzU%2BQp%2B9%2BKPvV5cvD8bV7V9Z9r8iDQKiBosZ",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。很多时候我们会用 CAP 模型去评估一个分布式系统，但这篇文章会告诉你 CAP 理论的局限性，因为按照 CAP 理论，很多系统包括 MongoDB，ZooKeeper 既不满足一致性(线性一致性)，也不满足可用性(任意一个工作中的节点都要可以处理请求)，但这并不意味着它们不是优秀的系统，而是 CAP 定理本身的局限性(没有考虑处理延迟，容错等)。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113811-l7p4amj",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220623113811-l7p4amj",
+				"updated": "20220623113811"
+			}
+		},
+		{
+			"ID": "20220623113800-dem673t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113800-dem673t",
+				"updated": "20220623113800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACID 一致性是有关数据库规则，如果数据表结构定义一个字段值是唯一的，那么一致性系统将解决所有操作中导致这个字段值非唯一性的情况，如果带有一个外键的一行记录被删除，那么其外键相关记录也应该被删除，这就是 ACID 一致性的意思。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113800-6dykyd5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113800-6dykyd5",
+				"updated": "20220623113800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CAP 理论的一致性是保证同样一个数据在所有不同服务器上的拷贝都是相同的，这是一种逻辑保证，而不是物理，因为光速限制，在不同服务器上这种复制是需要时间的，集群通过阻止客户端查看不同节点上还未同步的数据维持逻辑视图。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113800-2dsem9o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113800-2dsem9o",
+				"updated": "20220623113800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当跨分布式系统提供 ACID 时，这两个概念会混淆在一起，Google’s Spanner system 能够提供分布式系统的 ACID，其包含 ACID+CAP 设计，也就是两阶段提交 2PC+ 多副本同步机制（如 Paxos）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113800-x3p42as",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113800-x3p42as",
+				"updated": "20220623113825"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": "",
+						"parent-style": "display: block;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://segmentfault.com/img/remote/1460000022248127",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkSpace",
+							"Data": " ",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkTitle",
+							"Data": "image",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": "){: parent-style=\"display: block;\"}",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: parent-style=\"display: block;\"}",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113938-lw34shz",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220623113938-lw34shz",
+				"updated": "20220623113938"
+			}
+		},
+		{
+			"ID": "20220623113926-0rknkju",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220623113926-0rknkju",
+				"updated": "20220623113926"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "ACID/2PC/3PC/TCC/Paxos 关系",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113926-e2ktexe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113926-e2ktexe",
+				"updated": "20220623113926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACID 是处理事务的原则，限定了原子性、一致性、隔离性、持久性。ACID、CAP、BASE 这些都只是理论，只是在实现时的目标或者折中，ACID 专注于分布式事务，CAP 和 BASE 是分布式通用理论。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113926-8xuowm9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113926-8xuowm9",
+				"updated": "20220623113926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决分布式事务时有 2pc、3pc、tcc 等方式，通过增加协调者来进行协商，里面也有最终一致的思想。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113926-5py1sp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113926-5py1sp5",
+				"updated": "20220623113926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "而 Paxos 协议与分布式事务并不是同一层面的东西，Paxos 用于解决多个副本之间的一致性问题。比如日志同步，保证各个节点的日志一致性，选主的唯一性。简而言之，2PC 用于保证多个数据分片上事务的原子性，Paxos 协议用于保证同一个数据分片在多个副本的一致性，所以两者可以是互补的关系，不是替代关系。对于 2PC 协调者单点问题，可以利用 Paxos 协议解决，当协调者出问题时，选一个新的协调者继续提供服务。原理上 Paxos 和 2PC 相似，但目的上是不同的。etcd 中也有事务的操作，比如迷你事务",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113430-72x8vgp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220623113430-72x8vgp",
+				"updated": "20220623113435"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "BASE",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220623113647-chuuk90",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220623113647-chuuk90",
+				"updated": "20220623113656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "正因为 CAP 中的一致性和可用性是强一致性和高可用，后来又有人基于 CAP 理论 提出了 BASE 理论，即基本可用(Basically Available）、软状态(Soft State)、最终一致性(Eventual Consistency)。BASE 的核心思想是即使无法做到强一致性，但每个应用都可以根据自身的业务特点，采用适当的方法来使系统达到最终一致性。显然，最终一致性弱于 CAP 中的 线性一致性。很多分布式系统都是基于 BASE 中的”基本可用”和”最终一致性”来实现的，比如 MySQL/PostgreSQL Replication 异步复制",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
 		{
 			"ID": "20220613093233-ilzlqzj",
 			"Type": "NodeHeading",
@@ -295,7 +2314,13 @@
 		{
 			"ID": "20220619151514-f5z2qhx",
 			"Type": "NodeList",
-			"ListData": {},
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
 			"Properties": {
 				"id": "20220619151514-f5z2qhx",
 				"updated": "20220619152015"
@@ -304,9 +2329,13 @@
 				{
 					"ID": "20220619151515-unvseh1",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220619151515-unvseh1",
@@ -323,7 +2352,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "any: 任意一个节点写入成功或者写入本地缓存队列"
+									"Data": "any: 任意一个节点写入成功或者写入本地缓存队列",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -332,9 +2364,13 @@
 				{
 					"ID": "20220619151519-t19k9oj",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220619151519-t19k9oj",
@@ -351,7 +2387,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "one: 任意一个节点写入成功"
+									"Data": "one: 任意一个节点写入成功",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -360,9 +2399,13 @@
 				{
 					"ID": "20220619151521-ingf2ou",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220619151521-ingf2ou",
@@ -379,7 +2422,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "quorum: 大多数节点写入成功"
+									"Data": "quorum: 大多数节点写入成功",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -388,9 +2434,13 @@
 				{
 					"ID": "20220619151527-nn8puc2",
 					"Type": "NodeListItem",
+					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
-						"Marker": "Kg=="
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
 					},
 					"Properties": {
 						"id": "20220619151527-nn8puc2",
@@ -407,7 +2457,10 @@
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "all: 所有节点写入成功"
+									"Data": "all: 所有节点写入成功",
+									"Properties": {
+										"id": ""
+									}
 								}
 							]
 						}
@@ -428,14 +2481,6 @@
 					"Data": "W=N 的时候读性能比较好,R=N 写性能比较好,W=(N+1)/2、R=(N+1)/2 容错能力比较好"
 				}
 			]
-		},
-		{
-			"ID": "20220619151909-dflb0vr",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220619151909-dflb0vr",
-				"updated": "20220619151909"
-			}
 		},
 		{
 			"ID": "20220619151909-kaetdz4",
