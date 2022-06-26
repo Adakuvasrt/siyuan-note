@@ -5,7 +5,7 @@
 		"icon": "1f42a",
 		"id": "20220220195125-rpsf24e",
 		"title": "数据库",
-		"updated": "20220623160609"
+		"updated": "20220623162438"
 	},
 	"Children": [
 		{
@@ -3149,6 +3149,7 @@
 			"ID": "20220222114529-8yjzdg0",
 			"Type": "NodeList",
 			"ListData": {
+				"Tight": true,
 				"BulletChar": 42,
 				"Padding": 2,
 				"Marker": "Kg==",
@@ -3164,6 +3165,7 @@
 					"Type": "NodeListItem",
 					"Data": "*",
 					"ListData": {
+						"Tight": true,
 						"BulletChar": 42,
 						"Padding": 2,
 						"Marker": "Kg==",
@@ -4953,25 +4955,39 @@
 			"Children": [
 				{
 					"Type": "NodeStrong",
-					"Data": "strong",
+					"Properties": {
+						"id": ""
+					},
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeText",
-							"Data": "redo log 是 InnoDB 存储引擎层的日志，又称重做日志文件，是物理日志"
+							"Data": "redo log 是 InnoDB 存储引擎层的日志，又称重做日志文件，是物理日志",
+							"Properties": {
+								"id": ""
+							}
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "。redo log记录数据修改后新数据的备份、冗杂的undo log、未提交的事务和回滚的事务，数据缓存到内存中，只是在事务提交前将redo log持久化到磁盘"
+					"Data": "。redo log 记录数据修改后新数据的备份、冗杂的 undo log、未提交的事务和回滚的事务，数据缓存到内存中，只是在事务提交前将 redo log 持久化到磁盘",
+					"Properties": {
+						"id": ""
+					}
 				}
 			]
 		},
@@ -5048,12 +5064,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220617125533-70up3ds",
-				"updated": "20220617125533"
+				"updated": "20220623161421"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "尽量保持​​Redo Log​​存储在一段连续的空间上。因此在系统第一次启动时就会将日志文件的空间完全分配。以顺序追加的方式记录 Redo Log,通过顺序 IO 来改善性能。",
+					"Data": "尽量保持 Redo Log 存储在一段连续的空间上。因此在系统第一次启动时就会将日志文件的空间完全分配。以顺序追加的方式记录 Redo Log,通过顺序 IO 来改善性能。",
 					"Properties": {
 						"id": ""
 					}
@@ -5081,7 +5097,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "并发的事务共享​​Redo Log​​的存储空间，它们的​​Redo Log​​按语句的执行顺序，依次交替的记录在一起，以减少日志占用的空间。所以，当一个事务将 Redo Log 写入磁盘时，也会将其他未提交**的事务的日志写入磁盘。",
+					"Data": "并发的事务共享 Redo Log 的存储空间，它们的 Redo Log 按语句的执行顺序，依次交替的记录在一起，以减少日志占用的空间。所以，当一个事务将 Redo Log 写入磁盘时，也会将其他未提交的事务的日志写入磁盘。",
 					"Properties": {
 						"id": ""
 					}
@@ -5095,7 +5111,7 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "​​Redo Log​​上只进行顺序追加的操作，当一个事务需要回滚时，它的​​Redo Log​​记录也不会从​​Redo Log​​中删除掉。",
+					"Data": "Redo Log 上只进行顺序追加的操作，当一个事务需要回滚时，它的 Redo Log 记录也不会从 Redo Log 中删除掉。",
 					"Properties": {
 						"id": ""
 					}
@@ -5463,56 +5479,31 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Undo Log 的原理很简单，为了",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "Undo Log 的原理很简单，为了"
 				},
 				{
 					"Type": "NodeStrong",
-					"Properties": {
-						"id": ""
-					},
+					"Data": "strong",
 					"Children": [
 						{
 							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "**"
 						},
 						{
 							"Type": "NodeText",
-							"Data": "满足事务的原子性",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "满足事务的原子性"
 						},
 						{
 							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
+							"Data": "**"
 						}
 					]
 				},
 				{
 					"Type": "NodeText",
-					"Data": "，在操作任何数据之前，首先将数据备份到 Undo Log。然后进行数据的修改。如果出现了错误或者用户执行了 ROLLBACK 语句，系统可以利用 Undo Log 中的备份将数据恢复到事务开始之前的状态。",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "，在操作任何数据之前，首先将数据备份到 Undo Log。然后进行数据的修改。如果出现了错误或者用户执行了 ROLLBACK 语句，系统可以利用 Undo Log 中的备份将数据恢复到事务开始之前的状态。"
 				}
 			]
-		},
-		{
-			"ID": "20220617125806-zqqn0am",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220617125806-zqqn0am",
-				"updated": "20220617125806"
-			}
 		},
 		{
 			"ID": "20220617125809-muvmsn3",
@@ -5524,20 +5515,9 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "当事务成功提交，并且其他事务没有用 MVCC 查看这个版本时，就可以删除",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "当事务成功提交，并且其他事务没有用 MVCC 查看这个版本时，就可以删除"
 				}
 			]
-		},
-		{
-			"ID": "20220617125921-bh3ndd4",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220617125921-bh3ndd4",
-				"updated": "20220617125921"
-			}
 		},
 		{
 			"ID": "20220617125919-lb2678r",
@@ -5629,29 +5609,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220617125919-tkjrsgj",
-				"updated": "20220617130018"
+				"updated": "20220623162438"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "Undo Log 回滚那些未提交的事务，被回滚了的事务在恢复时先 redo 再 undo，也不会破坏数据的一致性",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
-					"Type": "NodeSoftBreak",
-					"Data": "\n",
-					"Properties": {
-						"id": ""
-					}
-				},
-				{
-					"Type": "NodeText",
-					"Data": " 必须要在写 Redo Log 之前将对应的 Undo Log 写入磁盘。为了降低复杂度，InnoDB 将 Undo Log 看作数据，因此记录 Undo Log 的操作也会记录到 redo log 中。这样 undo log 就可以像数据一样缓存起来，而不用在 redo log 之前写入磁盘了。",
-					"Properties": {
-						"id": ""
-					}
+					"Data": "Undo Log 回滚那些未提交的事务，被回滚了的事务恢复时先 redo 再 undo，也不会破坏数据的一致性\n必须要在写 Redo Log 之前将对应的 Undo Log 写入磁盘。为了降低复杂度，InnoDB 将 Undo Log 看作数据，因此记录 Undo Log 的操作也会记录到 redo log 中。这样 undo log 就可以像数据一样缓存起来，而不用在 redo log 之前写入磁盘了。"
 				}
 			]
 		},
